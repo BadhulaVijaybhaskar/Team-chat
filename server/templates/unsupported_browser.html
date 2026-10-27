@@ -2,7 +2,7 @@
 {{define "unsupported_browser-browser"}}
     <div 
         class='browser-container' 
-        data-mattermost-hover='browser'
+        data-astra-hover='browser'
     >
         <div class='browser'>
             <img 
@@ -14,7 +14,7 @@
         </div>
         <div 
             class='browser browser-hover hidden' 
-            data-mattermost-click='{{.Src}}'
+            data-astra-click='{{.Src}}'
         >
             <img 
                 class='browser-image' 
@@ -27,7 +27,7 @@
 {{define "unsupported_browser-system_browser"}}
     <div 
         class='browser-container' 
-        data-mattermost-hover='browser'
+        data-astra-hover='browser'
     >
         <div class='browser'>
             <img 
@@ -44,14 +44,14 @@
             />
             <div 
                 class='browser-top-text pointer' 
-                data-mattermost-click='{{.LinkOpen}}'
+                data-astra-click='{{.LinkOpen}}'
             >
                 <p>{{.LabelOpen}}</p>
             </div>
             <div class='browser-bottom-text'>{{.OrString}}</div>
             <div 
                 class='browser-top-text pointer' 
-                data-mattermost-click='{{.LinkMakeDefault}}'
+                data-astra-click='{{.LinkMakeDefault}}'
             >
                 <p>{{.MakeDefaultString}}</p>
             </div>
@@ -60,29 +60,29 @@
 {{end}}
 {{define "unsupported_browser-app"}}
     <div 
-        class='mattermost-app-container' 
-        data-mattermost-hover='mattermost-app'
+        class='astra-app-container' 
+        data-astra-hover='astra-app'
     >
-        <div class='mattermost-app'>
+        <div class='astra-app'>
             <img 
-                class='mattermost-app-image' 
+                class='astra-app-image' 
                 src='static/images/browser-icons/{{.LogoSrc}}'
             />
             <div class='browser-top-text'>{{.Title}}</div>
             <div class='browser-bottom-text'>{{.SupportedVersionString}}</div>
         </div>
-        <div class='mattermost-app mattermost-app-hover hidden'>
+        <div class='astra-app astra-app-hover hidden'>
             <img 
-                class='mattermost-app-image' 
+                class='astra-app-image' 
                 src='static/images/browser-icons/{{.LogoSrc}}'
             />
             <button 
-                class='mattermost-app-button' 
-                data-mattermost-click='{{.Link}}'
+                class='astra-app-button' 
+                data-astra-click='{{.Link}}'
             >
                 {{.Label}}
             </button>
-            <div class='mattermost-app-hover-alt'>
+            <div class='astra-app-hover-alt'>
                 <a href='{{.InstallGuideLink}}' target='_blank'>{{.InstallGuide}}</a>
             </div>
         </div>
@@ -161,12 +161,12 @@
                     position: relative;
                     top: 24px;
                 }
-                .mattermost-app {	
+                .astra-app {	
                     height: 148px;	
                     width: 188px;
                     padding: 32px 30px;
                 }
-                .mattermost-app-container {	
+                .astra-app-container {	
                     height: 212px;	
                     width: 248px;
                     display: inline-block;
@@ -189,7 +189,7 @@
                     height: 80px;
                     padding: 32px 42px 24px 42px;
                 }
-                .mattermost-app-image {
+                .astra-app-image {
                     height: 80px;
                     padding: 0px 54px 24px 54px;
                 }
@@ -227,7 +227,7 @@
                     width: 128px;
                     padding: 0 18px;
                 }
-                .mattermost-app-button {
+                .astra-app-button {
                     height: 36px;	
                     width: 156px;	
                     border: 0;
@@ -240,7 +240,7 @@
                     line-height: 20px;
                     cursor: pointer;
                 }
-                .mattermost-app.mattermost-app-hover {
+                .astra-app.astra-app-hover {
                     padding-bottom: 0;
                 }
                 .no-pointer {
@@ -249,7 +249,7 @@
                 .pointer {
                     cursor: pointer;
                 }
-                .mattermost-app-hover-alt {
+                .astra-app-hover-alt {
                     height: 18px;
                     font-family: "Open Sans";	
                     font-size: 12px;	
@@ -257,11 +257,11 @@
                     text-align: center;
                     padding-top: 10px;
                 }
-                .mattermost-app-hover-alt a {
+                .astra-app-hover-alt a {
                     text-decoration: none;
                     color: #145DBF;	
                 }
-                .mattermost-app-hover-alt a:hover {
+                .astra-app-hover-alt a:hover {
                     text-decoration: underline;
                 }
             </style>
