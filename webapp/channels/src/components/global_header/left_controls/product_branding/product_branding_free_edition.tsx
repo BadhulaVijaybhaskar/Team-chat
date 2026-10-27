@@ -3,12 +3,12 @@
 
 import React, {type JSX} from 'react';
 
-import MattermostLogo from 'components/common/svg_images_components/logo_dark_blue_svg';
+import LogoWhite from 'components/common/svg_images_components/logo_white_svg';
 
 const ProductBrandingFreeEdition = (): JSX.Element => {
     return (
         <span className='globalHeader-leftControls-productBranding-freeEdition'>
-            <MattermostLogo
+            <LogoWhite
                 className='globalHeader-leftControls-productBranding-freeEdition-logo'
                 width={116}
                 height={20}

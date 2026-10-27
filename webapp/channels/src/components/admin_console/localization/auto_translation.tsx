@@ -213,7 +213,7 @@ export default function AutoTranslation(props: SystemConsoleCustomSettingsCompon
                                 disabled={props.disabled || props.setByEnv}
                             >
                                 <option value='libretranslate'>{'LibreTranslate'}</option>
-                                <option value='agents'>{'Mattermost Agents'}</option>
+                                <option value='agents'>{'Astra Loop Agents'}</option>
                             </select>
                             {showAgentsError && (
                                 <div className='auto-translation-provider-error-message'>

@@ -217,3 +217,7 @@ server/docs/*.pdf
 server/docs/*.md
 server/data_dest/
 server/import/
+
+# Astra Loop local packaging artifacts
+astra-loop/mattermost-team-linux-amd64.tar.gz
+astra-loop/*.tar.gz
