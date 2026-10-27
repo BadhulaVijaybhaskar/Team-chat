@@ -18116,7 +18116,7 @@
     "description": "Announcement banner shown to all users when the license expired past its grace period; {licenseSku} is the license edition name."
   },
   "announcement_bar.error.preview_mode": {
-    "defaultMessage": "Preview Mode: Email notifications have not been configured.",
+    "defaultMessage": "Preview Mode: Email notifications have not been configured for Astra Loop.",
     "description": "Announcement banner shown when the server runs in preview mode without SMTP/email notifications configured."
   },
   "announcement_bar.error.purchase_a_license_now": {

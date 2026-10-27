@@ -926,7 +926,7 @@ defineMessages({
     },
     previewMode: {
         id: 'announcement_bar.error.preview_mode',
-        defaultMessage: 'Preview Mode: Email notifications have not been configured.',
+        defaultMessage: 'Preview Mode: Email notifications have not been configured for Astra Loop.',
     },
     socketError: {
         id: 'channel_loader.socketError',

@@ -28,14 +28,27 @@
         padding: 0;
         border: 0;
         border-radius: var(--radius-m, 12px);
+        background-color: var(--center-channel-bg);
         box-shadow: none;
         color: var(--center-channel-color);
         font-size: 14px;
         line-height: 20px;
         outline: 0;
+        -webkit-text-fill-color: var(--center-channel-color);
+        caret-color: var(--center-channel-color);
 
         &::placeholder {
             color: rgba(var(--center-channel-color-rgb), 0.75);
+            -webkit-text-fill-color: rgba(var(--center-channel-color-rgb), 0.75);
+        }
+
+        &:-webkit-autofill,
+        &:-webkit-autofill:hover,
+        &:-webkit-autofill:focus {
+            -webkit-text-fill-color: var(--center-channel-color);
+            caret-color: var(--center-channel-color);
+            box-shadow: 0 0 0 1000px var(--center-channel-bg) inset;
+            transition: background-color 99999s ease-out;
         }
 
         &.Input__focus {
@@ -144,6 +157,7 @@
         padding: 0 1px;
         border: 1px solid rgba(var(--center-channel-color-rgb), 0.16);
         border-radius: var(--radius-m, 12px);
+        background-color: var(--center-channel-bg);
         color: rgba(var(--secondary-blue-rgb), 0.4);
 
         &:hover {

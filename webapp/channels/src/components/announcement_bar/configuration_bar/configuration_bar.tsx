@@ -224,7 +224,7 @@ const ConfigurationAnnouncementBar = (props: Props) => {
     ) {
         const emailMessage = formatMessage({
             id: 'announcement_bar.error.preview_mode',
-            defaultMessage: 'Preview Mode: Email notifications have not been configured.',
+            defaultMessage: 'Preview Mode: Email notifications have not been configured for Astra Loop.',
         });
 
         return (

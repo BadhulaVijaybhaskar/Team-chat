@@ -45,7 +45,8 @@
 
             .login-body-message-title {
                 padding-right: 24px;
-                color: var(--title-color-indigo-500);
+                // Follow the active theme (Astra Light/Dark) so dark login stays readable.
+                color: var(--center-channel-color, var(--title-color-indigo-500));
                 font-family: 'Plus Jakarta Sans', Metropolis, sans-serif;
                 font-size: 80px;
                 font-weight: 600;
@@ -364,20 +365,82 @@
     }
 }
 
-// Dark OS preference: keep login card on Astra dark surface even before theme JS runs.
+// Dark OS preference / Astra Dark theme: readable headline, dark inputs, no white autofill.
 @media (prefers-color-scheme: dark) {
     .login-body {
-        .login-body-content .login-body-card {
-            background-color: var(--astra-surface-dark, #0f1626);
-            border-color: rgba(232, 237, 245, 0.08);
+        .login-body-content {
+            .login-body-message-title {
+                color: var(--astra-ink-inverse, #e8edf5);
+            }
 
-            .login-body-card-content {
-                .login-body-card-title {
-                    color: var(--astra-ink-inverse, #e8edf5);
-                }
+            .login-body-message-subtitle {
+                color: rgba(232, 237, 245, 0.75);
+            }
 
-                .login-body-card-form-divider-label {
-                    background-color: var(--astra-surface-dark, #0f1626);
+            .login-body-card {
+                background-color: var(--astra-surface-dark, #0f1626);
+                border-color: var(--astra-border-dark, #232f47);
+
+                .login-body-card-content {
+                    .login-body-card-title {
+                        color: var(--astra-ink-inverse, #e8edf5);
+                    }
+
+                    .login-body-card-form-divider-label {
+                        background-color: var(--astra-surface-dark, #0f1626);
+                        color: rgba(232, 237, 245, 0.75);
+                    }
+
+                    .login-body-card-form {
+                        .login-body-card-form-input,
+                        .login-body-card-form-password-input {
+                            .Input_fieldset,
+                            .Input_wrapper,
+                            .Input,
+                            input,
+                            .form-control {
+                                background-color: var(--astra-page-bg-dark, #070b14) !important;
+                                color: var(--astra-ink-inverse, #e8edf5) !important;
+                                border-color: var(--astra-border-dark, #232f47);
+                                -webkit-text-fill-color: var(--astra-ink-inverse, #e8edf5);
+                                caret-color: var(--astra-ink-inverse, #e8edf5);
+                            }
+
+                            .Input_fieldset {
+                                border: 1px solid var(--astra-border-dark, #232f47);
+                                box-shadow: none;
+                            }
+
+                            .Input_legend {
+                                background-color: var(--astra-surface-dark, #0f1626) !important;
+                                color: rgba(232, 237, 245, 0.75);
+                            }
+
+                            .password-input-toggle {
+                                background-color: var(--astra-page-bg-dark, #070b14);
+                                color: rgba(232, 237, 245, 0.75);
+                            }
+
+                            input:-webkit-autofill,
+                            input:-webkit-autofill:hover,
+                            input:-webkit-autofill:focus,
+                            .form-control:-webkit-autofill,
+                            .form-control:-webkit-autofill:hover,
+                            .form-control:-webkit-autofill:focus {
+                                border-color: var(--astra-border-dark, #232f47);
+                                -webkit-text-fill-color: var(--astra-ink-inverse, #e8edf5);
+                                caret-color: var(--astra-ink-inverse, #e8edf5);
+                                box-shadow: 0 0 0 1000px var(--astra-page-bg-dark, #070b14) inset;
+                                transition: background-color 99999s ease-out;
+                            }
+
+                            input::placeholder,
+                            .form-control::placeholder {
+                                color: rgba(232, 237, 245, 0.55);
+                                -webkit-text-fill-color: rgba(232, 237, 245, 0.55);
+                            }
+                        }
+                    }
                 }
             }
         }
