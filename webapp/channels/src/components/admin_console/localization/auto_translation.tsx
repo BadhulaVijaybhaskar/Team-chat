@@ -220,7 +220,7 @@ export default function AutoTranslation(props: SystemConsoleCustomSettingsCompon
                                     <i className='icon icon-alert-outline'/>
                                     <FormattedMessage
                                         id={agentsBridgeUnavailableReason || 'admin.site.localization.autoTranslationAgentsError'}
-                                        defaultMessage={agentsBridgeUnavailableReason ? 'Mattermost AI plugin is unavailable.' : 'Mattermost Agents plugin is either disabled or not configured properly.'}
+                                        defaultMessage={agentsBridgeUnavailableReason ? 'Astra Loop AI plugin is unavailable.' : 'Astra Loop Agents plugin is either disabled or not configured properly.'}
                                     />
                                 </div>
                             )}

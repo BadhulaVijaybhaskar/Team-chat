@@ -240,11 +240,11 @@ const TrialBanner = ({
             <>
                 <FormattedMessage
                     id='admin.license.trial-request.title'
-                    defaultMessage='Experience all that Mattermost Enterprise Advanced has to offer with a free trial for the next 30 days. No obligation to buy and no credit card required. '
+                    defaultMessage='Experience all that Astra Loop Enterprise Advanced has to offer with a free trial for the next 30 days. No obligation to buy and no credit card required. '
                 />
                 <FormattedMessage
                     id='admin.license.trial-request.accept-terms'
-                    defaultMessage='By clicking <strong>Start trial</strong>, I agree to the <linkEvaluation>Mattermost Software and Services License Agreement</linkEvaluation>, <linkPrivacy>Privacy Policy</linkPrivacy>, and receiving product emails.'
+                    defaultMessage='By clicking <strong>Start trial</strong>, I agree to the <linkEvaluation>Astra Loop Software and Services License Agreement</linkEvaluation>, <linkPrivacy>Privacy Policy</linkPrivacy>, and receiving product emails.'
                     values={{
                         strong: (msg: React.ReactNode) => <strong>{msg}</strong>,
                         linkEvaluation: (msg: React.ReactNode) => (
@@ -273,7 +273,7 @@ const TrialBanner = ({
             <>
                 <FormattedMessage
                     id='admin.license.upgrade-and-trial-request.title'
-                    defaultMessage='Upgrade to the Enterprise Edition to unlock a free 30-day trial of Mattermost Enterprise Advanced—our most powerful plan. No credit card required, no obligation to buy. '
+                    defaultMessage='Upgrade to the Enterprise Edition to unlock a free 30-day trial of Astra Loop Enterprise Advanced—our most powerful plan. No credit card required, no obligation to buy. '
                 />
             </>
         );
@@ -333,7 +333,7 @@ const TrialBanner = ({
             <>
                 <FormattedMessage
                     id='admin.license.upgrade-and-trial-request.title'
-                    defaultMessage='Upgrade to the Enterprise Edition to unlock a free 30-day trial of Mattermost Enterprise Advanced—our most powerful plan. No credit card required, no obligation to buy. '
+                    defaultMessage='Upgrade to the Enterprise Edition to unlock a free 30-day trial of Astra Loop Enterprise Advanced—our most powerful plan. No credit card required, no obligation to buy. '
                 />
             </>
         );
@@ -343,7 +343,7 @@ const TrialBanner = ({
                 <p className='upgrade-legal-terms'>
                     <FormattedMessage
                         id='admin.license.upgrade-and-trial-request.accept-terms-initial-part'
-                        defaultMessage='By selecting <strong>Upgrade Server And Start trial</strong>, I agree to the <linkEvaluation>Mattermost Software Evaluation Agreement</linkEvaluation>, <linkPrivacy>Privacy Policy</linkPrivacy>, and receiving product emails. '
+                        defaultMessage='By selecting <strong>Upgrade Server And Start trial</strong>, I agree to the <linkEvaluation>Astra Loop Software Evaluation Agreement</linkEvaluation>, <linkPrivacy>Privacy Policy</linkPrivacy>, and receiving product emails. '
                         values={{
                             strong: (msg: React.ReactNode) => <strong>{msg}</strong>,
                             linkEvaluation: (msg: React.ReactNode) => (
@@ -366,7 +366,7 @@ const TrialBanner = ({
                     />
                     <FormattedMessage
                         id='admin.license.upgrade-and-trial-request.accept-terms-final-part'
-                        defaultMessage='Also, I agree to the terms of the Mattermost {eeModalTerms}. Upgrading will download the binary and update your Team Edition instance.'
+                        defaultMessage='Also, I agree to the terms of the Astra Loop {eeModalTerms}. Upgrading will download the binary and update your Team Edition instance.'
                         values={{eeModalTerms}}
                     />
                 </p>
@@ -400,7 +400,7 @@ const TrialBanner = ({
             title={
                 <FormattedMessage
                     id='licensingPage.infoBanner.startTrialTitle'
-                    defaultMessage='Start a free 30-day trial of Mattermost Enterprise Advanced'
+                    defaultMessage='Start a free 30-day trial of Astra Loop Enterprise Advanced'
                 />
             }
             message={

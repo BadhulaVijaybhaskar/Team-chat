@@ -150,7 +150,7 @@ function makeGetPluginSchema() {
                 const addOnBanner = {
                     key: 'admin.plugin.addOn.notLicensedWarning',
                     type: Constants.SettingsTypes.TYPE_BANNER,
-                    label: defineMessage({id: 'admin.plugin.addOn.notLicensedWarning', defaultMessage: 'This plugin is a licensed add-on. Your license does not include it, so it cannot be enabled. Contact your Mattermost account team to purchase it.'}),
+                    label: defineMessage({id: 'admin.plugin.addOn.notLicensedWarning', defaultMessage: 'This plugin is a licensed add-on. Your license does not include it, so it cannot be enabled. Contact your Astra Loop account team to purchase it.'}),
                     banner_type: 'warning' as const,
                 };
 

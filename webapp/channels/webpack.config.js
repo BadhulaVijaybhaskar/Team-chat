@@ -186,6 +186,7 @@ var config = {
                 {from: 'src/images/c_socket.png', to: 'images'},
                 {from: 'src/images/admin-onboarding-background.jpg', to: 'images'},
                 {from: 'src/images/logo.svg', to: 'images'},
+                {from: 'src/oss', to: 'oss'},
                 {from: 'src/images/alert.svg', to: 'images'},
                 {from: 'src/images/cloud-laptop.png', to: 'images'},
                 {from: 'src/images/cloud-laptop-error.png', to: 'images'},
@@ -205,10 +206,10 @@ var config = {
         // Generate manifest.json, honouring any configured publicPath. This also handles injecting
         // <link rel="apple-touch-icon" ... /> and <meta name="apple-*" ... /> tags into root.html.
         new WebpackPwaManifest({
-            name: 'Mattermost',
-            short_name: 'Mattermost',
+            name: 'Astra Loop',
+            short_name: 'Astra Loop',
             start_url: '..',
-            description: 'Mattermost is an open source, self-hosted Slack-alternative',
+            description: 'Astra Loop is an open source, self-hosted team messaging platform',
             background_color: '#ffffff',
             inject: true,
             ios: true,

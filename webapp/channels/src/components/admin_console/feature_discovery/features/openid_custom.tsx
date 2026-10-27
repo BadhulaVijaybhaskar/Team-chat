@@ -17,7 +17,7 @@ const OpenIDCustomFeatureDiscovery: React.FC = () => {
             minimumSKURequiredForFeature={LicenseSkus.Professional}
             title={defineMessage({
                 id: 'admin.openid_custom_feature_discovery.title',
-                defaultMessage: 'Integrate OpenID Connect with Mattermost Professional',
+                defaultMessage: 'Integrate OpenID Connect with Astra Loop Professional',
             })}
             copy={defineMessage({
                 id: 'admin.openid_custom_feature_discovery.copy',

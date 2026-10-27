@@ -17,7 +17,7 @@ const SessionAttributesFeatureDiscovery: React.FC = () => {
             minimumSKURequiredForFeature={LicenseSkus.EnterpriseAdvanced}
             title={defineMessage({
                 id: 'admin.session_attributes_feature_discovery.title',
-                defaultMessage: 'Evaluate per-session context in access policies with Mattermost Enterprise Advanced',
+                defaultMessage: 'Evaluate per-session context in access policies with Astra Loop Enterprise Advanced',
             })}
             copy={defineMessage({
                 id: 'admin.session_attributes_feature_discovery.desc',

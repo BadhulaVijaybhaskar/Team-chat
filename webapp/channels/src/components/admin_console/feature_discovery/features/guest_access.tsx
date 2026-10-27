@@ -17,7 +17,7 @@ const GuestAccessFeatureDiscovery: React.FC = () => {
             minimumSKURequiredForFeature={LicenseSkus.Professional}
             title={defineMessage({
                 id: 'admin.guest_access_feature_discovery.title',
-                defaultMessage: 'Enable guest accounts with Mattermost Professional',
+                defaultMessage: 'Enable guest accounts with Astra Loop Professional',
             })}
             copy={defineMessage({
                 id: 'admin.guest_access_feature_discovery.copy',

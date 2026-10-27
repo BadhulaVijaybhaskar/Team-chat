@@ -73,7 +73,7 @@ export default function AboutBuildModalCloud(props: Props) {
                 >
                     <FormattedMessage
                         id='about.title'
-                        values={{appTitle: config.SiteName || 'Mattermost'}}
+                        values={{appTitle: config.SiteName || 'Astra Loop'}}
                         defaultMessage='About {appTitle}'
                     />
                 </Modal.Title>
@@ -85,14 +85,14 @@ export default function AboutBuildModalCloud(props: Props) {
                     </div>
                     <div>
                         <h3 className='about-modal__title'>
-                            <strong>{'Mattermost'} {title}</strong>
+                            <strong>{'Astra Loop'} {title}</strong>
                         </h3>
                         <p className='subtitle'>{subTitle}</p>
                         <div className='description'>
                             <div data-testid='aboutModalVersion'>
                                 <FormattedMessage
                                     id='about.version'
-                                    defaultMessage='Mattermost Version:'
+                                    defaultMessage='Astra Loop Version:'
                                 />
                                 <span id='versionString'>{'\u00a0' + config.Version}</span>
                             </div>
@@ -101,27 +101,11 @@ export default function AboutBuildModalCloud(props: Props) {
                         <div className='about-footer'>
                             <FormattedMessage
                                 id='about.notice'
-                                defaultMessage='Mattermost is made possible by the open source software used in our <linkServer>server</linkServer>, <linkDesktop>desktop</linkDesktop> and <linkMobile>mobile</linkMobile> apps.'
+                                defaultMessage='Astra Loop includes open-source software. See <linkOss>open-source licences</linkOss>.'
                                 values={{
-                                    linkServer: (msg: React.ReactNode) => (
+                                    linkOss: (msg: React.ReactNode) => (
                                         <ExternalLink
-                                            href='https://github.com/mattermost/mattermost-server/blob/master/NOTICE.txt'
-                                            location='about_build_modal_cloud'
-                                        >
-                                            {msg}
-                                        </ExternalLink>
-                                    ),
-                                    linkDesktop: (msg: React.ReactNode) => (
-                                        <ExternalLink
-                                            href='https://github.com/mattermost/desktop/blob/master/NOTICE.txt'
-                                            location='about_build_modal_cloud'
-                                        >
-                                            {msg}
-                                        </ExternalLink>
-                                    ),
-                                    linkMobile: (msg: React.ReactNode) => (
-                                        <ExternalLink
-                                            href='https://github.com/mattermost/mattermost-mobile/blob/master/NOTICE.txt'
+                                            href='/static/oss/oss.html'
                                             location='about_build_modal_cloud'
                                         >
                                             {msg}
@@ -132,7 +116,7 @@ export default function AboutBuildModalCloud(props: Props) {
                             <div className='copy-right'>
                                 <FormattedMessage
                                     id='about.copyright'
-                                    defaultMessage='Copyright 2015 - {currentYear} Mattermost, Inc. All rights reserved'
+                                    defaultMessage='Copyright {currentYear} Astra Loop. All rights reserved'
                                     values={{
                                         currentYear: new Date().getFullYear(),
                                     }}

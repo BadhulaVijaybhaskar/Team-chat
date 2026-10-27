@@ -17,7 +17,7 @@ const UserAttributesFeatureDiscovery: React.FC = () => {
             minimumSKURequiredForFeature={LicenseSkus.Enterprise}
             title={defineMessage({
                 id: 'admin.user_attributes_feature_discovery.title',
-                defaultMessage: 'Add critical metadata to user profiles using custom user attributes with Mattermost Enterprise',
+                defaultMessage: 'Add critical metadata to user profiles using custom user attributes with Astra Loop Enterprise',
             })}
             copy={defineMessage({
                 id: 'admin.user_attributes_feature_discovery.desc',

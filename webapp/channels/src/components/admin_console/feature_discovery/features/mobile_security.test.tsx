@@ -48,7 +48,7 @@ describe('components/admin_console/feature_discovery/features/MobileSecurityFeat
         expect(screen.getByTestId('minimum-sku')).toHaveTextContent(LicenseSkus.Enterprise);
 
         // Verify title
-        expect(screen.getByTestId('title')).toHaveTextContent('Enhance mobile app security with Mattermost Enterprise');
+        expect(screen.getByTestId('title')).toHaveTextContent('Enhance mobile app security with Astra Loop Enterprise');
 
         // Verify copy text
         expect(screen.getByTestId('copy')).toHaveTextContent(

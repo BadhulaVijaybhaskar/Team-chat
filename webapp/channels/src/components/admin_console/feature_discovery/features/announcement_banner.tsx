@@ -17,7 +17,7 @@ const AnnouncementBannerFeatureDiscovery: React.FC = () => {
             minimumSKURequiredForFeature={LicenseSkus.Professional}
             title={defineMessage({
                 id: 'admin.announcement_banner_feature_discovery.title',
-                defaultMessage: 'Create custom announcement banners with Mattermost Professional',
+                defaultMessage: 'Create custom announcement banners with Astra Loop Professional',
             })}
             copy={defineMessage({
                 id: 'admin.announcement_banner_feature_discovery.copy',

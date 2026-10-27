@@ -133,7 +133,7 @@ const ConfigurationAnnouncementBar = (props: Props) => {
                     defaultMessage: 'This is the last day of your free trial.'},
                 ) : formatMessage({
                     id: 'announcement_bar.error.trial_license_expiring_last_day',
-                    defaultMessage: 'This is the last day of your free trial. Purchase a license now to continue using Mattermost Professional and Enterprise features.',
+                    defaultMessage: 'This is the last day of your free trial. Purchase a license now to continue using Astra Loop Professional and Enterprise features.',
                 });
                 message = (
                     <>
@@ -257,7 +257,7 @@ const ConfigurationAnnouncementBar = (props: Props) => {
         if (props.config?.EnableSignUpWithGitLab === 'true') {
             siteURLMessage = formatMessage({
                 id: 'announcement_bar.error.site_url_gitlab.full',
-                defaultMessage: 'Please configure your <linkSite>site URL</linkSite> either on the <linkConsole>System Console</linkConsole> or, if you\'re using GitLab Mattermost, in gitlab.rb.',
+                defaultMessage: 'Please configure your <linkSite>site URL</linkSite> either on the <linkConsole>System Console</linkConsole> or, if you\'re using GitLab Astra Loop, in gitlab.rb.',
             }, values);
         } else {
             siteURLMessage = formatMessage({

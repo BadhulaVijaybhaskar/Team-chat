@@ -20,21 +20,22 @@ export type HeaderProps = {
     onBackButtonClick?: React.EventHandler<React.MouseEvent>;
 };
 
+const DEFAULT_SITE_NAMES = new Set(['Mattermost', 'Astra Loop']);
+
 const Header = ({alternateLink, backButtonURL, onBackButtonClick}: HeaderProps) => {
     const {SiteName} = useSelector(getConfig);
     const license = useSelector(getLicense);
 
-    const ariaLabel = SiteName || 'Mattermost';
+    const ariaLabel = SiteName || 'Astra Loop';
 
+    // Free/entry installs show the logo only — no TEAM/ENTRY EDITION badges.
     let freeBanner = null;
-    if (license.IsLicensed === 'false') {
-        freeBanner = <><Logo/><span className='freeBadge'>{'TEAM EDITION'}</span></>;
-    } else if (license.SkuShortName === LicenseSkus.Entry) {
-        freeBanner = <><Logo/><span className='freeBadge'>{'ENTRY EDITION'}</span></>;
+    if (license.IsLicensed === 'false' || license.SkuShortName === LicenseSkus.Entry) {
+        freeBanner = <Logo/>;
     }
 
     let title: React.ReactNode = SiteName;
-    if (title === 'Mattermost') {
+    if (typeof title === 'string' && DEFAULT_SITE_NAMES.has(title)) {
         if (freeBanner) {
             title = '';
         } else {

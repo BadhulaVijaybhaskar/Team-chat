@@ -81,7 +81,7 @@ const CallOptionsMenu = ({
                         <span>
                             <FormattedMessage
                                 id='call_options.audio_sub'
-                                defaultMessage='Mattermost Call'
+                                defaultMessage='Astra Loop Call'
                                 description='Secondary line under the call options menu item that starts an audio call, naming it as a call made within Mattermost rather than a phone call.'
                             />
                         </span>

@@ -168,7 +168,7 @@ export default class FeatureDiscovery extends React.PureComponent<Props, State> 
                     <p className='trial-legal-terms'>
                         <FormattedMessage
                             id='admin.feature_discovery.trial-request.accept-terms'
-                            defaultMessage='By clicking <highlight>Start trial</highlight>, I agree to the <linkEvaluation>Mattermost Software Evaluation Agreement</linkEvaluation>, <linkPrivacy>Privacy Policy</linkPrivacy> and receiving product emails.'
+                            defaultMessage='By clicking <highlight>Start trial</highlight>, I agree to the <linkEvaluation>Astra Loop Software Evaluation Agreement</linkEvaluation>, <linkPrivacy>Privacy Policy</linkPrivacy> and receiving product emails.'
                             values={{
                                 highlight: (msg: React.ReactNode) => (
                                     <strong key='trial-terms-highlight'>{msg}</strong>

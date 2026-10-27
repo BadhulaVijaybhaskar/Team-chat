@@ -123,7 +123,7 @@ const Plugins = (props: Props) => {
                                     checked: props.options.jira,
                                     tooltip: formatMessage({
                                         id: 'onboarding_wizard.plugins.jira.tooltip',
-                                        defaultMessage: 'Create Jira tickets from messages in Mattermost, get notified of important updates in Jira',
+                                        defaultMessage: 'Create Jira tickets from messages in Astra Loop, get notified of important updates in Jira',
                                     }),
                                 },
                                 {
@@ -137,7 +137,7 @@ const Plugins = (props: Props) => {
                                     checked: props.options.zoom,
                                     tooltip: formatMessage({
                                         id: 'onboarding_wizard.plugins.zoom.tooltip',
-                                        defaultMessage: 'Start Zoom audio and video conferencing calls in Mattermost with a single click',
+                                        defaultMessage: 'Start Zoom audio and video conferencing calls in Astra Loop with a single click',
                                     }),
                                 },
                             ]}

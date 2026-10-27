@@ -17,7 +17,7 @@ const DataRetentionFeatureDiscovery: React.FC = () => {
             minimumSKURequiredForFeature={LicenseSkus.Enterprise}
             title={defineMessage({
                 id: 'admin.data_retention_feature_discovery.title',
-                defaultMessage: 'Create data retention schedules with Mattermost Enterprise',
+                defaultMessage: 'Create data retention schedules with Astra Loop Enterprise',
             })}
             copy={defineMessage({
                 id: 'admin.data_retention_feature_discovery.copy',

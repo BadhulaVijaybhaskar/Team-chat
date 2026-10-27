@@ -86,7 +86,7 @@ const ConfirmIntegration = ({team, location, commands, oauthApps, incomingHooks,
             <p>
                 <FormattedMessage
                     id='add_command.doneHelp'
-                    defaultMessage='Your slash command is set up. The following token will be sent in the outgoing payload. Please use it to verify the request came from your Mattermost team (details at <link>Slash Commands</link>).'
+                    defaultMessage='Your slash command is set up. The following token will be sent in the outgoing payload. Please use it to verify the request came from your Astra Loop team (details at <link>Slash Commands</link>).'
                     values={{
                         link: (msg) => (
                             <ExternalLink
@@ -172,7 +172,7 @@ const ConfirmIntegration = ({team, location, commands, oauthApps, incomingHooks,
             <p>
                 <FormattedMessage
                     id='add_outgoing_webhook.doneHelp'
-                    defaultMessage='Your outgoing webhook is set up. The following token will be sent in the outgoing payload. Please use it to verify that the request came from your Mattermost team (details at <link>Outgoing Webhooks</link>).'
+                    defaultMessage='Your outgoing webhook is set up. The following token will be sent in the outgoing payload. Please use it to verify that the request came from your Astra Loop team (details at <link>Outgoing Webhooks</link>).'
                     values={{
                         link: (msg) => (
                             <ExternalLink

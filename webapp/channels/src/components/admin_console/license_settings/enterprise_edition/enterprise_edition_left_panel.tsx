@@ -48,8 +48,8 @@ export interface EnterpriseEditionProps {
 }
 
 export const messages = defineMessages({
-    keyRemove: {id: 'admin.license.keyRemove', defaultMessage: 'Remove license and downgrade to Mattermost Free'},
-    keyRemoveEntry: {id: 'admin.license.keyRemoveEntry', defaultMessage: 'Remove license and downgrade to Mattermost Entry'},
+    keyRemove: {id: 'admin.license.keyRemove', defaultMessage: 'Remove license and downgrade to Astra Loop Free'},
+    keyRemoveEntry: {id: 'admin.license.keyRemoveEntry', defaultMessage: 'Remove license and downgrade to Astra Loop Entry'},
 });
 
 const EnterpriseEditionLeftPanel = ({

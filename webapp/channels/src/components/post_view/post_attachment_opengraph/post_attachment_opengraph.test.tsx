@@ -32,7 +32,7 @@ const openGraphData = {
         url: '',
         width: 2400}],
     site_name: 'Mattermost.com',
-    title: 'Mattermost | Open Source Collaboration for Developers',
+    title: 'Astra Loop | Open Source Collaboration for Developers',
     type: 'website',
     url: 'https://www.mattermost.com',
 };

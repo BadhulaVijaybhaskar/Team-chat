@@ -206,7 +206,7 @@ export class PushSettings extends OLDAdminSettings<Props, State> {
             pushServerHelpText = (
                 <FormattedMessage
                     id='admin.email.mhpnsHelp'
-                    defaultMessage='Download <linkIOS>Mattermost iOS app</linkIOS> from iTunes. Download <linkAndroid>Mattermost Android app</linkAndroid> from Google Play. Learn more about the <linkHPNS>Mattermost Hosted Push Notification Service</linkHPNS>.'
+                    defaultMessage='Download <linkIOS>Astra Loop iOS app</linkIOS> from iTunes. Download <linkAndroid>Astra Loop Android app</linkAndroid> from Google Play. Learn more about the <linkHPNS>Astra Loop Hosted Push Notification Service</linkHPNS>.'
                     values={{
                         linkIOS: (msg) => (
                             <ExternalLink
@@ -239,7 +239,7 @@ export class PushSettings extends OLDAdminSettings<Props, State> {
             pushServerHelpText = (
                 <FormattedMessage
                     id='admin.email.mtpnsHelp'
-                    defaultMessage='Download <linkIOS>Mattermost iOS app</linkIOS> from iTunes. Download <linkAndroid>Mattermost Android app</linkAndroid> from Google Play. Learn more about the <linkTPNS>Mattermost Test Push Notification Service</linkTPNS>.'
+                    defaultMessage='Download <linkIOS>Astra Loop iOS app</linkIOS> from iTunes. Download <linkAndroid>Astra Loop Android app</linkAndroid> from Google Play. Learn more about the <linkTPNS>Astra Loop Test Push Notification Service</linkTPNS>.'
                     values={{
                         linkIOS: (msg) => (
                             <ExternalLink
@@ -301,7 +301,7 @@ export class PushSettings extends OLDAdminSettings<Props, State> {
                         />
                         <FormattedMessage
                             id='admin.email.agreeHPNS'
-                            defaultMessage=' I understand and accept the Mattermost Hosted Push Notification Service <linkTerms>Terms of Service</linkTerms> and <linkPrivacy>Privacy Policy</linkPrivacy>.'
+                            defaultMessage=' I understand and accept the Astra Loop Hosted Push Notification Service <linkTerms>Terms of Service</linkTerms> and <linkPrivacy>Privacy Policy</linkPrivacy>.'
                             values={{
                                 linkTerms: (msg) => (
                                     <ExternalLink

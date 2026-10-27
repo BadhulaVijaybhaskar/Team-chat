@@ -102,13 +102,16 @@ export default function AboutBuildModal(props: Props) {
         <div>
             <FormattedMessage
                 id='about.teamEditionLearn'
-                defaultMessage='Join the Mattermost community at '
+                defaultMessage='Astra Loop includes open-source software. '
             />
             <ExternalLink
                 location='about_build_modal'
-                href='https://mattermost.com/community/'
+                href='/static/oss/oss.html'
             >
-                {'mattermost.com/community/'}
+                <FormattedMessage
+                    id='about.openSourceLicences'
+                    defaultMessage='Open-source licences'
+                />
             </ExternalLink>
         </div>
     );
@@ -137,17 +140,9 @@ export default function AboutBuildModal(props: Props) {
                 <div>
                     <FormattedMessage
                         id='about.planNameLearn'
-                        defaultMessage='Learn more about Mattermost {planName} at {link}'
+                        defaultMessage='Astra Loop {planName}'
                         values={{
                             planName: skuName,
-                            link: (
-                                <ExternalLink
-                                    location='about_build_modal'
-                                    href='https://mattermost.com/'
-                                >
-                                    {'mattermost.com'}
-                                </ExternalLink>
-                            ),
                         }}
                     />
                 </div>
@@ -166,24 +161,14 @@ export default function AboutBuildModal(props: Props) {
                 <div>
                     <FormattedMessage
                         id='about.enterpriseEditionLearn'
-                        defaultMessage='Learn more about Enterprise Edition at {link}'
-                        values={{
-                            link: (
-                                <ExternalLink
-                                    location='about_build_modal'
-                                    href='https://mattermost.com/'
-                                >
-                                    {'mattermost.com'}
-                                </ExternalLink>
-                            ),
-                        }}
+                        defaultMessage='Astra Loop Enterprise Edition'
                     />
                 </div>
             );
         }
     }
 
-    const termsOfService = (
+    const termsOfService = AboutLinks.TERMS_OF_SERVICE ? (
         <ExternalLink
             location='about_build_modal'
             id='tosLink'
@@ -194,9 +179,9 @@ export default function AboutBuildModal(props: Props) {
                 defaultMessage='Terms of Use'
             />
         </ExternalLink>
-    );
+    ) : null;
 
-    const privacyPolicy = (
+    const privacyPolicy = AboutLinks.PRIVACY_POLICY ? (
         <ExternalLink
             id='privacyLink'
             location='about_build_modal'
@@ -205,6 +190,19 @@ export default function AboutBuildModal(props: Props) {
             <FormattedMessage
                 id='about.privacy'
                 defaultMessage='Privacy Policy'
+            />
+        </ExternalLink>
+    ) : null;
+
+    const ossLicences = (
+        <ExternalLink
+            id='ossLicencesLink'
+            location='about_build_modal'
+            href='/static/oss/oss.html'
+        >
+            <FormattedMessage
+                id='about.openSourceLicences'
+                defaultMessage='Open-source licences'
             />
         </ExternalLink>
     );
@@ -318,7 +316,7 @@ export default function AboutBuildModal(props: Props) {
                     <FormattedMessage
                         id='about.title'
                         values={{
-                            appTitle: config.SiteName || 'Mattermost',
+                            appTitle: config.SiteName || 'Astra Loop',
                         }}
                         defaultMessage='About {appTitle}'
                     />
@@ -332,7 +330,7 @@ export default function AboutBuildModal(props: Props) {
                     <div>
                         <h3 className='about-modal__title'>
                             <strong>
-                                {'Mattermost'} {title}
+                                {'Astra Loop'} {title}
                             </strong>
                         </h3>
                         <p className='about-modal__subtitle pb-2'>
@@ -374,16 +372,16 @@ export default function AboutBuildModal(props: Props) {
                         <div className='about-modal__copyright'>
                             <FormattedMessage
                                 id='about.copyright'
-                                defaultMessage='Copyright 2015 - {currentYear} Mattermost, Inc. All rights reserved'
+                                defaultMessage='Copyright {currentYear} Astra Loop. All rights reserved'
                                 values={{
                                     currentYear: new Date().getFullYear(),
                                 }}
                             />
                         </div>
                         <div className='about-modal__links'>
-                            {termsOfService}
-                            {' - '}
-                            {privacyPolicy}
+                            {ossLicences}
+                            {termsOfService && <>{' - '}{termsOfService}</>}
+                            {privacyPolicy && <>{' - '}{privacyPolicy}</>}
                         </div>
                     </div>
                 </div>
@@ -391,28 +389,12 @@ export default function AboutBuildModal(props: Props) {
                     <p>
                         <FormattedMessage
                             id='about.notice'
-                            defaultMessage='Mattermost is made possible by the open source software used in our <linkServer>server</linkServer>, <linkDesktop>desktop</linkDesktop> and <linkMobile>mobile</linkMobile> apps.'
+                            defaultMessage='Astra Loop includes open-source software. See <linkOss>open-source licences</linkOss>.'
                             values={{
-                                linkServer: (msg: React.ReactNode) => (
+                                linkOss: (msg: React.ReactNode) => (
                                     <ExternalLink
                                         location='about_build_modal'
-                                        href='https://github.com/mattermost/mattermost-server/blob/master/NOTICE.txt'
-                                    >
-                                        {msg}
-                                    </ExternalLink>
-                                ),
-                                linkDesktop: (msg: React.ReactNode) => (
-                                    <ExternalLink
-                                        location='about_build_modal'
-                                        href='https://github.com/mattermost/desktop/blob/master/NOTICE.txt'
-                                    >
-                                        {msg}
-                                    </ExternalLink>
-                                ),
-                                linkMobile: (msg: React.ReactNode) => (
-                                    <ExternalLink
-                                        location='about_build_modal'
-                                        href='https://github.com/mattermost/mattermost-mobile/blob/master/NOTICE.txt'
+                                        href='/static/oss/oss.html'
                                     >
                                         {msg}
                                     </ExternalLink>

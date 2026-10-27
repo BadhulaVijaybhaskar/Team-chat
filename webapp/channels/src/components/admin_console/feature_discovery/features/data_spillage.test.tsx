@@ -38,7 +38,7 @@ describe('components/admin_console/feature_discovery/features/DataSpillageFeatur
     it('renders the Data Spillage discovery card', () => {
         renderWithContext(<DataSpillageFeatureDiscovery/>);
 
-        expect(screen.getByText('Handle data spillage with Mattermost Enterprise Advanced')).toBeInTheDocument();
+        expect(screen.getByText('Handle data spillage with Astra Loop Enterprise Advanced')).toBeInTheDocument();
         expect(screen.getByText(
             'Set up the ability for users to quarantine messages so designated Content Reviewers can decide whether to keep or remove them.',
         )).toBeInTheDocument();

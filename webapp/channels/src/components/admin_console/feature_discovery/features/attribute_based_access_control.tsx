@@ -17,11 +17,11 @@ const AttributeBasedAccessControlFeatureDiscovery: React.FC = () => {
             minimumSKURequiredForFeature={LicenseSkus.EnterpriseAdvanced}
             title={defineMessage({
                 id: 'admin.attribute_based_access_control_feature_discovery.title',
-                defaultMessage: 'Use attribute based access policies to control channel access with Mattermost Enterprise Advanced',
+                defaultMessage: 'Use attribute based access policies to control channel access with Astra Loop Enterprise Advanced',
             })}
             copy={defineMessage({
                 id: 'admin.attribute_based_access_control_feature_discovery.desc',
-                defaultMessage: 'Create policies containing access rules based on user attributes and apply them to channels and other resources within Mattermost.',
+                defaultMessage: 'Create policies containing access rules based on user attributes and apply them to channels and other resources within Astra Loop.',
             })}
             learnMoreURL='https://docs.mattermost.com/administration-guide/manage/admin/attribute-based-access-control.html'
             featureDiscoveryImage={

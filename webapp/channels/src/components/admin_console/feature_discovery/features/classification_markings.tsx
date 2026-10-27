@@ -17,7 +17,7 @@ const ClassificationMarkingsFeatureDiscovery: React.FC = () => {
             minimumSKURequiredForFeature={LicenseSkus.EnterpriseAdvanced}
             title={defineMessage({
                 id: 'admin.classification_markings_feature_discovery.title',
-                defaultMessage: 'Apply classification markings with Mattermost Enterprise Advanced',
+                defaultMessage: 'Apply classification markings with Astra Loop Enterprise Advanced',
             })}
             copy={defineMessage({
                 id: 'admin.classification_markings_feature_discovery.desc',

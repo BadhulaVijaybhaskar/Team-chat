@@ -25,7 +25,7 @@ const ErrorMessage: React.FC<Props> = ({type, message, service, isGuest}: Props)
                 <div>
                     <FormattedMessage
                         id='error.local_storage.message'
-                        defaultMessage='Mattermost was unable to load because a setting in your browser prevents the use of its local storage features. To allow Mattermost to load, try the following actions:'
+                        defaultMessage='Astra Loop was unable to load because a setting in your browser prevents the use of its local storage features. To allow Astra Loop to load, try the following actions:'
                     />
                     <ul>
                         <li>
@@ -137,7 +137,7 @@ const ErrorMessage: React.FC<Props> = ({type, message, service, isGuest}: Props)
                     <p>
                         <FormattedMessage
                             id='error.oauth_missing_code.office365'
-                            defaultMessage='For {link} make sure the administrator of your Microsoft organization has enabled the Mattermost app.'
+                            defaultMessage='For {link} make sure the administrator of your Microsoft organization has enabled the Astra Loop app.'
                             values={{
                                 link: (
                                     <ErrorLink
@@ -193,7 +193,7 @@ const ErrorMessage: React.FC<Props> = ({type, message, service, isGuest}: Props)
                 <p>
                     <FormattedMessage
                         id='error.oauth_access_denied'
-                        defaultMessage='You must authorize Mattermost to log in with {service}.'
+                        defaultMessage='You must authorize Astra Loop to log in with {service}.'
                         values={{
                             service,
                         }}
