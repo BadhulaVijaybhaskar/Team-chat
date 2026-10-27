@@ -18,10 +18,8 @@ docker compose -f astra-loop/docker-compose.yml up -d
 
 Open http://localhost:8065 — drop-in replacement for `mattermost-team-edition` + Postgres.
 
-## Open-source licences
+## Legal notices
 
-User-facing attribution lives only at `/static/oss/oss.html` (“Astra Loop includes open-source software”), linking to `LICENSE.txt` and `NOTICE.txt`.
+After sign-in, Help → **Legal notices** (or the About dialog) opens `/static/oss/oss.html`. That page holds the Apache NOTICE, AGPLv3 notice, and AGPL §13 corresponding-source offer. Pre-sign-in surfaces (login, signup, footer, error pages, emails) do not show licence or upstream project names.
 
-## Licensing
-
-See [`LICENSE_NOTES.md`](../LICENSE_NOTES.md). In-app attribution: `/static/oss/oss.html`.
+See [`LICENSE_NOTES.md`](../LICENSE_NOTES.md).

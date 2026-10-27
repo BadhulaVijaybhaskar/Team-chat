@@ -52,12 +52,7 @@ const EELicenseModal: React.FC<Props> = (props: Props): JSX.Element | null => {
                 </div>
                 <div className='enterprise-license-text'>
                     <div>
-                        <p>{'Astra Loop includes open-source software. See Open-source licences for Apache 2.0 and AGPLv3 notices, LICENSE.txt, and NOTICE.txt.'}</p>
-                        <p>
-                            <a href='/static/oss/oss.html'>
-                                {'Open-source licences'}
-                            </a>
-                        </p>
+                        <p>{'Astra Loop includes third-party software. After sign-in, open Legal notices from Help or About.'}</p>
                         <p>{'Commercial enterprise features, when enabled under a separate subscription, are subject to the applicable commercial license terms for those features.'}</p>
                     </div>
                 </div>

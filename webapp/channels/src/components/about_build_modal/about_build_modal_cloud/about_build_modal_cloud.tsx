@@ -101,9 +101,9 @@ export default function AboutBuildModalCloud(props: Props) {
                         <div className='about-footer'>
                             <FormattedMessage
                                 id='about.notice'
-                                defaultMessage='Astra Loop includes open-source software. See <linkOss>open-source licences</linkOss>.'
+                                defaultMessage='Astra Loop includes third-party software; see <linkLegal>Legal notices</linkLegal>.'
                                 values={{
-                                    linkOss: (msg: React.ReactNode) => (
+                                    linkLegal: (msg: React.ReactNode) => (
                                         <ExternalLink
                                             href='/static/oss/oss.html'
                                             location='about_build_modal_cloud'

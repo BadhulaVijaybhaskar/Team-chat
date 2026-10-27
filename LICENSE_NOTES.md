@@ -17,17 +17,23 @@ Compiled binaries produced from this tree also follow the upstream compiled-lice
 ## What we must do
 
 1. **Keep `LICENSE.txt` and `NOTICE.txt`** in the repository and in shipped images/packages.
-2. **Keep the in-app “Open-source licences” page** (`/static/oss/oss.html`), worded *“Astra Loop includes open-source software”*, linking to those files. That page is the only intentional place upstream licence attribution appears in the product UI.
-3. **AGPL §13 (remote network interaction).** Because users interact with a modified AGPL server over a network, we must offer them the **corresponding source** of our server changes. Practical options:
-   - a prominent link on the Open-source licences page to the public source repository (or a release tag / tarball that matches the running build); and/or
-   - a written offer to provide that source on a durable medium, as AGPL §13 allows.
-   The running build’s `BuildHash` / git SHA should be reconcilable with the published source.
-4. **Do not use Mattermost trademarks.** Astra Loop is intentionally rebranded so the Mattermost name, logo, and wordmark do not appear in user-facing product surfaces. Trademark use remains subject to Mattermost, Inc.’s trademark policy; this fork avoids that use by shipping only Astra Loop branding.
+2. **Keep `LICENSE_NOTES.md`** (this file) in the repository for operators and contributors.
+3. **Ship a single post-sign-in “Legal notices” page** at `/static/oss/oss.html` (title: *Legal notices*). That page holds:
+   - the Apache License 2.0 notice and a link to `NOTICE.txt`;
+   - the AGPLv3 notice and a link to `LICENSE.txt`;
+   - the **AGPL §13 corresponding-source offer** (public repository link and/or written offer), because section 13 requires offering source to network users, not only on request.
+4. **Do not show licence or upstream project names before sign-in.** Login, signup, footers, error pages, and email templates must not mention open-source licences, project names from the upstream stack, or link to Legal notices. The only product entry points to Legal notices are after sign-in:
+   - Help menu → **Legal notices**
+   - About dialog → *Astra Loop includes third-party software; see **Legal notices***
+5. **Do not use Mattermost trademarks** in user-facing product surfaces. Astra Loop is intentionally rebranded so the Mattermost name, logo, and wordmark do not appear there.
 
 ## Where attribution appears in the product
 
-- Help / About → **Open-source licences**
-- Login footer → **Open-source licences**
-- Static page: `/static/oss/oss.html` → `LICENSE.txt`, `NOTICE.txt`, and the public source offer
+| Surface | Content |
+|---------|---------|
+| Help menu (signed-in) | One link: **Legal notices** |
+| About dialog (signed-in) | “Astra Loop includes third-party software; see Legal notices.” |
+| `/static/oss/oss.html` | Legal notices page (Apache NOTICE, AGPLv3, AGPL §13 source offer, links to `LICENSE.txt` / `NOTICE.txt`) |
+| Login / signup / pre-auth footer / emails / error pages | No licence links and no upstream project names |
 
-No other product chrome should carry Mattermost branding or trademarked wordmarks.
+The running build’s `BuildHash` / git SHA should remain reconcilable with the published corresponding source.

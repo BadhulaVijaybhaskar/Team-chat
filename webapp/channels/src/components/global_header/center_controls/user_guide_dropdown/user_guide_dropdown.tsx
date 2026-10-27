@@ -120,6 +120,12 @@ class UserGuideDropdown extends React.PureComponent<Props, State> {
                     onClick={this.openKeyboardShortcutsModal}
                     text={intl.formatMessage({id: 'userGuideHelp.keyboardShortcuts', defaultMessage: 'Keyboard shortcuts'})}
                 />
+                <Menu.ItemExternalLink
+                    id='legalNoticesLink'
+                    iconClassName='icon-scale-balance'
+                    url='/static/oss/oss.html'
+                    text={intl.formatMessage({id: 'userGuideHelp.legalNotices', defaultMessage: 'Legal notices'})}
+                />
                 {pluginItems}
             </Menu.Group>
         );

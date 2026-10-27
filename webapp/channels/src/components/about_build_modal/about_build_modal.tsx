@@ -102,17 +102,8 @@ export default function AboutBuildModal(props: Props) {
         <div>
             <FormattedMessage
                 id='about.teamEditionLearn'
-                defaultMessage='Astra Loop includes open-source software. '
+                defaultMessage='Team chat for your organisation.'
             />
-            <ExternalLink
-                location='about_build_modal'
-                href='/static/oss/oss.html'
-            >
-                <FormattedMessage
-                    id='about.openSourceLicences'
-                    defaultMessage='Open-source licences'
-                />
-            </ExternalLink>
         </div>
     );
 
@@ -376,9 +367,9 @@ export default function AboutBuildModal(props: Props) {
                     <p>
                         <FormattedMessage
                             id='about.notice'
-                            defaultMessage='Astra Loop includes open-source software. See <linkOss>open-source licences</linkOss>.'
+                            defaultMessage='Astra Loop includes third-party software; see <linkLegal>Legal notices</linkLegal>.'
                             values={{
-                                linkOss: (msg: React.ReactNode) => (
+                                linkLegal: (msg: React.ReactNode) => (
                                     <ExternalLink
                                         location='about_build_modal'
                                         href='/static/oss/oss.html'

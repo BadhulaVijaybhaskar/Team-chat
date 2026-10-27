@@ -56,8 +56,8 @@
     "description": "Field label in the About Astra Loop dialog; the license load metric value follows the colon."
   },
   "about.notice": {
-    "defaultMessage": "Astra Loop includes open-source software. See <linkOss>open-source licences</linkOss>.",
-    "description": "Open-source notice in the About Astra Loop dialog; the <linkServer>, <linkDesktop> and <linkMobile> tags wrap the words that become links to each project's license page."
+    "defaultMessage": "Astra Loop includes third-party software; see <linkLegal>Legal notices</linkLegal>.",
+    "description": "Notice in the About Astra Loop dialog; <linkLegal> wraps the Legal notices link text."
   },
   "about.planNameLearn": {
     "defaultMessage": "Astra Loop {planName}",
@@ -84,7 +84,7 @@
     "description": "Field label in the About Astra Loop dialog; the server version follows the colon."
   },
   "about.teamEditionLearn": {
-    "defaultMessage": "Astra Loop includes open-source software. ",
+    "defaultMessage": "Team chat for your organisation.",
     "description": "Sentence in the About Astra Loop dialog for Team Edition; a community URL is appended directly after it, so the trailing space matters."
   },
   "about.teamEditionSt": {
@@ -34944,11 +34944,15 @@
     "description": "Alt text for the thumbnail image of an embedded YouTube video; {videoTitle} is the video's title."
   },
   "about.openSourceLicences": {
-    "defaultMessage": "Open-source licences",
-    "description": ""
+    "defaultMessage": "Legal notices",
+    "description": "Deprecated id retained for compatibility; link text for Legal notices."
   },
   "web.footer.oss": {
-    "defaultMessage": "Open-source licences",
-    "description": ""
+    "defaultMessage": "Legal notices",
+    "description": "Deprecated; Legal notices must not appear in the pre-auth footer."
+  },
+  "userGuideHelp.legalNotices": {
+    "defaultMessage": "Legal notices",
+    "description": "Help menu item (signed-in only) that opens the Legal notices page."
   }
 }

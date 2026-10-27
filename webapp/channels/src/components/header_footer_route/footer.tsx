@@ -32,14 +32,6 @@ const Footer = () => {
             >
                 {`© ${new Date().getFullYear()} Astra Loop`}
             </span>
-            <ExternalLink
-                key='footer-link-oss'
-                className='footer-link'
-                href='/static/oss/oss.html'
-                location='footer'
-            >
-                {formatMessage({id: 'web.footer.oss', defaultMessage: 'Open-source licences'})}
-            </ExternalLink>
             {AboutLink && (
                 <ExternalLink
                     key='footer-link-about'
