@@ -3,64 +3,64 @@
     // these are define to prevent flashes of unstyled content
     --icon-opacity: 0.64;
     --icon-opacity-hover: 0.8;
-    --away-indicator: #ffbc42;
-    --away-indicator-dark: #c79e3f;
-    --button-bg: #166de0;
+    --away-indicator: #b45309;
+    --away-indicator-dark: #b45309;
+    --button-bg: #145cf6;
     --button-color: #fff;
     --center-channel-bg: #fff;
-    --center-channel-color: #3d3c40;
-    --dnd-indicator: #d24b4e;
-    --error-text: #d24b4e;
-    --warning-text: #cc8f00;
-    --link-color: #2389d7;
-    --mention-bg: #fff;
-    --mention-color: #145dbf;
-    --mention-highlight-bg: #ffe577;
-    --mention-highlight-link: #166de0;
-    --new-message-separator: #f80;
-    --online-indicator: #06d6a0;
-    --sidebar-bg: #145dbf;
-    --sidebar-header-bg: #1153ab;
-    --sidebar-header-text-color: #fff;
-    --sidebar-text: #fff;
-    --sidebar-text-active-border: #579eff;
-    --sidebar-text-active-color: #fff;
-    --sidebar-text-hover-bg: #4578bf;
-    --sidebar-unread-text: #fff;
-    --sidebar-team-background: #0b428c;
-    --secondary-blue: #22406d;
-    --denim-button-bg: #1c58d9;
-    --title-color-indigo-500: #1e325c;
+    --center-channel-color: #0b1324;
+    --dnd-indicator: #dc2626;
+    --error-text: #dc2626;
+    --warning-text: #b45309;
+    --link-color: #145cf6;
+    --mention-bg: #145cf6;
+    --mention-color: #fff;
+    --mention-highlight-bg: #d6e4ff;
+    --mention-highlight-link: #0b1324;
+    --new-message-separator: #09b5a4;
+    --online-indicator: #059669;
+    --sidebar-bg: #0a1426;
+    --sidebar-header-bg: #0c1729;
+    --sidebar-header-text-color: #e8edf5;
+    --sidebar-text: #e8edf5;
+    --sidebar-text-active-border: #145cf6;
+    --sidebar-text-active-color: #e8edf5;
+    --sidebar-text-hover-bg: #162033;
+    --sidebar-unread-text: #e8edf5;
+    --sidebar-team-background: #08101f;
+    --secondary-blue: #162033;
+    --denim-button-bg: #145cf6;
+    --title-color-indigo-500: #0b1324;
 
     // Default RGB values to be replaced by applyTheme() (do not add opacity mutations here)
     // these are define to prevent flashes of unstyled content
-    --away-indicator-rgb: 255, 188, 66;
-    --button-bg-rgb: 22, 109, 224;
+    --away-indicator-rgb: 180, 83, 9;
+    --button-bg-rgb: 20, 92, 246;
     --button-color-rgb: 255, 255, 255;
     --center-channel-bg-rgb: 255, 255, 255;
-    --center-channel-color-rgb: 61, 60, 64;
-    --dnd-indicator-rgb: 247, 67, 67;
-    --error-text-color-rgb: 253, 89, 96;
-    --link-color-rgb: 35, 137, 215;
-    --mention-bg-rgb: 255, 255, 255;
-    --mention-color-rgb: 20, 93, 191;
-    --mention-highlight-bg-rgb: 255, 229, 119;
-    --mention-highlight-link-rgb: 22, 109, 224;
-    --new-message-separator-rgb: 255, 136, 0;
-    --online-indicator-rgb: 6, 214, 160;
-    --sidebar-bg-rgb: 20, 93, 191;
-    --sidebar-header-bg-rgb: 17, 83, 171;
-    --sidebar-header-text-color-rgb: 255, 255, 255;
-    --sidebar-text-rgb: 255, 255, 255;
-    --sidebar-text-active-border-rgb: 87, 158, 255;
-    --sidebar-text-active-color-rgb: 255, 255, 255;
-    --sidebar-text-hover-bg-rgb: 69, 120, 191;
-    --sidebar-unread-text-rgb: 255, 255, 255;
+    --center-channel-color-rgb: 11, 19, 36;
+    --dnd-indicator-rgb: 220, 38, 38;
+    --error-text-color-rgb: 220, 38, 38;
+    --link-color-rgb: 20, 92, 246;
+    --mention-bg-rgb: 20, 92, 246;
+    --mention-color-rgb: 255, 255, 255;
+    --mention-highlight-bg-rgb: 214, 228, 255;
+    --mention-highlight-link-rgb: 11, 19, 36;
+    --new-message-separator-rgb: 9, 181, 164;
+    --online-indicator-rgb: 5, 150, 105;
+    --sidebar-bg-rgb: 10, 20, 38;
+    --sidebar-header-bg-rgb: 12, 23, 41;
+    --sidebar-header-text-color-rgb: 232, 237, 245;
+    --sidebar-text-rgb: 232, 237, 245;
+    --sidebar-text-active-border-rgb: 20, 92, 246;
+    --sidebar-text-active-color-rgb: 232, 237, 245;
+    --sidebar-text-hover-bg-rgb: 22, 32, 51;
+    --sidebar-unread-text-rgb: 232, 237, 245;
     --error-box-background: 197, 67, 72;
-    --sidebar-team-background-rgb: 11, 66, 140;
-    --secondary-blue-rgb: 34, 64, 109;
-    --denim-button-bg-rgb: 28, 88, 217;
-    --title-color-indigo-500-rgb: 30, 50, 92;
+    --sidebar-team-background-rgb: 8, 16, 31;
+    --secondary-blue-rgb: 22, 32, 51;
+    --denim-button-bg-rgb: 20, 92, 246;
+    --title-color-indigo-500-rgb: 11, 19, 36;
 
     // offline indicator color stays the same in all themes, that's why it is separated from the other variables
     // the color specified here is the new hard-coded color from the compass design system
@@ -75,13 +75,14 @@
     --elevation-5: 0 12px 32px 0 rgba(0, 0, 0, 0.12);
     --elevation-6: 0 20px 32px 0 rgba(0, 0, 0, 0.12);
 
-    // Corner Radius variables
-    --radius-xs: 2px;
-    --radius-s: 4px;
-    --radius-m: 8px;
+    // Corner Radius variables (Astra overrides also in sass/astra/_tokens.scss)
+    --radius-xs: 4px;
+    --radius-s: 8px;
+    --radius-m: 12px;
     --radius-l: 12px;
-    --radius-xl: 16px;
-    --radius-full: 50%;
+    --radius-xl: 20px;
+    --radius-pill: 999px;
+    --radius-full: 999px;
 
     // Border variables
     --border-default: solid 1px rgba(var(--center-channel-color-rgb), 0.12);

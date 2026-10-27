@@ -7,6 +7,7 @@
 // styles.scss
 @include meta.load-css('utils/module');
 @include meta.load-css('base/module');
+@include meta.load-css('astra/module');
 @include meta.load-css('routes/module');
 @include meta.load-css('layout/module');
 @include meta.load-css('components/module');

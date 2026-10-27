@@ -13,18 +13,42 @@ import type {GlobalState} from 'types/store';
 
 import {ThemeContext} from './theme_context';
 
+function usePrefersDarkScheme(): boolean {
+    const [prefersDark, setPrefersDark] = useState(() => {
+        if (typeof window === 'undefined' || typeof window.matchMedia !== 'function') {
+            return false;
+        }
+        return window.matchMedia('(prefers-color-scheme: dark)').matches;
+    });
+
+    useEffect(() => {
+        if (typeof window === 'undefined' || typeof window.matchMedia !== 'function') {
+            return undefined;
+        }
+        const media = window.matchMedia('(prefers-color-scheme: dark)');
+        const onChange = (event: MediaQueryListEvent) => setPrefersDark(event.matches);
+        media.addEventListener('change', onChange);
+        setPrefersDark(media.matches);
+        return () => media.removeEventListener('change', onChange);
+    }, []);
+
+    return prefersDark;
+}
+
 export default function ThemeProvider({children}: {children: React.ReactNode}) {
     // This keeps track of if we're in a themed part of the app. Realistically, it should only ever be 0 (unthemed) or
     // 1 (themed), but using a counter lets us handle cases where the start/stop functions are called multiple times or
     // in the wrong order.
     const [usingUserTheme, setUsingUserTheme] = useState(0);
+    const prefersDark = usePrefersDarkScheme();
 
     const theme = useSelector((state: GlobalState) => {
         if (usingUserTheme > 0) {
             return getTheme(state);
         }
 
-        return Preferences.THEMES.denim;
+        // Unthemed routes (login/signup): Astra Light (denim) or Astra Dark (indigo) from OS preference.
+        return prefersDark ? Preferences.THEMES.indigo : Preferences.THEMES.denim;
     });
 
     useEffect(() => {

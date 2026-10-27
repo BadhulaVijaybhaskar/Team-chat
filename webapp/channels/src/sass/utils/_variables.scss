@@ -1,17 +1,17 @@
 @use 'sass:color';
 
-// Color Variables
-$primary-color: #166de0;
+// Color Variables (Astra Loop defaults)
+$primary-color: #145cf6;
 $primary-color--hover: color.adjust($primary-color, $lightness: -10%);
-$bg--gray: rgb(244, 244, 246);
+$bg--gray: rgb(243, 246, 250);
 $white: rgb(255, 255, 255);
 $black: rgb(0, 0, 0);
-$red: rgb(214, 73, 70);
+$red: rgb(220, 38, 38);
 $yellow: rgb(255, 255, 0);
 $light-gray: rgba(63, 67, 80, 0.12);
 $gray: rgba(0, 0, 0, 0.3);
 $dark-gray: rgba(0, 0, 0, 0.5);
-$link-color: rgb(35, 137, 215);
+$link-color: rgb(20, 92, 246);
 $transparent: rgba(0, 0, 0, 0);
 $highlight-color: #fcea8d;
 

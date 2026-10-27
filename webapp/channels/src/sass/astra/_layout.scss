@@ -1,0 +1,37 @@
+// Fixed left nav: LHS fills the viewport column; only center/content scrolls.
+body.app__body #root {
+    height: 100%;
+    max-height: 100dvh;
+    overflow: hidden;
+}
+
+body.app__body .main-wrapper {
+    min-height: 0;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+body.app__body #SidebarContainer {
+    height: 100%;
+    max-height: 100%;
+    min-height: 0;
+    overflow: hidden;
+    align-self: stretch;
+}
+
+body.app__body #SidebarContainer .SidebarNavContainer {
+    min-height: 0;
+    flex: 1 1 auto;
+    overflow: hidden;
+}
+
+body.app__body #channel_view,
+body.app__body .product-wrapper,
+body.app__body .GlobalThreads {
+    min-height: 0;
+    overflow: auto;
+}
+
+body.app__body #channel_view.channel-view {
+    overflow: hidden;
+}

@@ -31,13 +31,13 @@ a {
 body {
     @include mixins.font-smoothing;
 
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Plus Jakarta Sans', 'Open Sans', sans-serif;
 }
 
 h1,
 h2,
 h3 {
-    font-family: Metropolis, sans-serif;
+    font-family: 'Plus Jakarta Sans', Metropolis, sans-serif;
 }
 
 h1 {
@@ -105,7 +105,40 @@ ol {
     cursor: pointer;
 }
 
-// Metropolis font definitions
+// Plus Jakarta Sans (Astra Loop). Font files are added under src/fonts/.
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/PlusJakartaSans-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('../fonts/PlusJakartaSans-Medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('../fonts/PlusJakartaSans-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../fonts/PlusJakartaSans-Bold.woff2') format('woff2');
+}
+
+// Metropolis font definitions (legacy headings fallback)
 @font-face {
     font-family: 'Metropolis';
     font-style: normal;
@@ -214,15 +247,16 @@ ol {
         url('../fonts/open-sans-v18-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-.app__body.font--open_sans {
-    font-family: 'Open Sans', sans-serif;
+.app__body.font--open_sans,
+.app__body.font--plus_jakarta_sans {
+    font-family: 'Plus Jakarta Sans', 'Open Sans', sans-serif;
 }
 
 .app__body {
     h1,
     h2,
     h3 {
-        font-family: Metropolis, sans-serif;
+        font-family: 'Plus Jakarta Sans', Metropolis, sans-serif;
     }
 }
 

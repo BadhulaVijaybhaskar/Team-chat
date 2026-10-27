@@ -1,0 +1,26 @@
+// Astra Loop design tokens. Overrides Compass/webapp CSS variables.
+:root {
+    // Page shell (login / light app chrome). Center channel surface stays theme --center-channel-bg.
+    --astra-page-bg: #f3f6fa;
+    --astra-page-bg-dark: #070b14;
+    --astra-surface-dark: #0f1626;
+    --astra-ink: #0b1324;
+    --astra-ink-inverse: #e8edf5;
+    --astra-accent: #145cf6;
+    --astra-sidebar: #0a1426;
+
+    // Radii: cards ~20px, inputs/nav ~12px, pills 999px
+    --radius-xs: 4px;
+    --radius-s: 8px;
+    --radius-m: 12px;
+    --radius-l: 12px;
+    --radius-xl: 20px;
+    --radius-pill: 999px;
+    --radius-full: 999px;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --astra-page-bg: var(--astra-page-bg-dark);
+    }
+}
