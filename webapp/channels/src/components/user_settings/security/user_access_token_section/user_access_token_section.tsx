@@ -789,7 +789,7 @@ class UserAccessTokenSection extends React.PureComponent<Props, State> {
                             ),
                             linkAPI: (msg: React.ReactNode) => (
                                 <ExternalLink
-                                    href='https://api.mattermost.com/#tag/authentication'
+                                    href=''
                                     location='user_access_token_section'
                                 >
                                     {msg}
@@ -816,7 +816,7 @@ class UserAccessTokenSection extends React.PureComponent<Props, State> {
                             ),
                             linkAPI: (msg: React.ReactNode) => (
                                 <ExternalLink
-                                    href='https://api.mattermost.com/#tag/authentication'
+                                    href=''
                                     location='user_access_token_section'
                                 >
                                     {msg}

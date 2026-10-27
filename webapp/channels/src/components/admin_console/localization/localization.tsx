@@ -147,7 +147,7 @@ export default function Localization(props: SystemConsoleCustomSettingsComponent
                                 link: (msg: React.ReactNode) => (
                                     <ExternalLink
                                         location='admin_console'
-                                        href='https://translate.mattermost.com/'
+                                        href=''
                                     >
                                         {msg}
                                     </ExternalLink>

@@ -68,8 +68,8 @@ const AdminNavbarDropdown = (firstItemFocusProps: Menu.FirstMenuItemProps) => {
     }, [dispatch]);
 
     const adminGuideLink = isCloud ?
-        'https://docs.mattermost.com/guides/administration.html#cloud-workspace-management' :
-        'https://docs.mattermost.com/guides/administration.html';
+        '' :
+        '';
 
     const commercialSupportLabels = (
         <FormattedMessage
@@ -139,7 +139,7 @@ const AdminNavbarDropdown = (firstItemFocusProps: Menu.FirstMenuItemProps) => {
             />
             <Menu.ItemExternalLink
                 id='adminConsoleTroubleshootingForum'
-                href='https://forum.mattermost.com/t/how-to-use-the-troubleshooting-forum/150'
+                href=''
                 location='admin_navbar_dropdown'
                 showOpenInNewIcon={true}
                 labels={
@@ -158,7 +158,7 @@ const AdminNavbarDropdown = (firstItemFocusProps: Menu.FirstMenuItemProps) => {
             ) : (
                 <Menu.ItemExternalLink
                     id='adminConsoleCommercialSupport'
-                    href='https://mattermost.com/support/'
+                    href=''
                     location='admin_navbar_dropdown'
                     showOpenInNewIcon={true}
                     labels={commercialSupportLabels}

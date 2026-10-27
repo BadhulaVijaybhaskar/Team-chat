@@ -284,8 +284,8 @@ const HelpFormatting = (): JSX.Element => {
                         </thead>
                         <tbody>
                             <tr>
-                                <td><code>{'[Check out Astra Loop!](https://mattermost.com/)'}</code></td>
-                                <td><a href='https://mattermost.com/'>{'Check out Astra Loop!'}</a></td>
+                                <td><code>{'[Check out Astra Loop!](#)'}</code></td>
+                                <td><a href=''>{'Check out Astra Loop!'}</a></td>
                             </tr>
                         </tbody>
                     </table>
@@ -306,7 +306,7 @@ const HelpFormatting = (): JSX.Element => {
                                 code: (chunks: React.ReactNode) => <code>{chunks}</code>,
                                 link: (chunks: React.ReactNode) => (
                                     <ExternalLink
-                                        href='https://docs.mattermost.com/end-user-guide/collaborate/format-messages.html'
+                                        href=''
                                         location='help_formatting'
                                     >
                                         {chunks}
@@ -368,7 +368,7 @@ const HelpFormatting = (): JSX.Element => {
                                 code: (chunks: React.ReactNode) => <code>{chunks}</code>,
                                 link: (chunks: React.ReactNode) => (
                                     <ExternalLink
-                                        href='https://docs.mattermost.com/end-user-guide/collaborate/react-with-emojis-gifs.html#upload-custom-emojis'
+                                        href=''
                                         location='help_formatting'
                                     >
                                         {chunks}

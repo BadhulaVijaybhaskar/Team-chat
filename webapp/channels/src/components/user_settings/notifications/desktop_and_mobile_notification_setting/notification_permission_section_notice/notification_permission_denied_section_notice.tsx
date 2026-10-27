@@ -10,7 +10,7 @@ export default function NotificationPermissionDeniedSectionNotice() {
     const intl = useIntl();
 
     const handleClick = useCallback(() => {
-        window.open('https://mattermost.com/pl/manage-notifications', '_blank', 'noopener,noreferrer');
+        window.open('', '_blank', 'noopener,noreferrer');
     }, []);
 
     return (

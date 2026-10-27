@@ -210,7 +210,7 @@ export class PushSettings extends OLDAdminSettings<Props, State> {
                     values={{
                         linkIOS: (msg) => (
                             <ExternalLink
-                                href='https://mattermost.com/pl/ios-app/'
+                                href=''
                                 location='push_settings'
                             >
                                 {msg}
@@ -218,7 +218,7 @@ export class PushSettings extends OLDAdminSettings<Props, State> {
                         ),
                         linkAndroid: (msg) => (
                             <ExternalLink
-                                href='https://mattermost.com/pl/android-app/'
+                                href=''
                                 location='push_settings'
                             >
                                 {msg}
@@ -243,7 +243,7 @@ export class PushSettings extends OLDAdminSettings<Props, State> {
                     values={{
                         linkIOS: (msg) => (
                             <ExternalLink
-                                href='https://mattermost.com/pl/ios-app/'
+                                href=''
                                 location='push_settings'
                             >
                                 {msg}
@@ -251,7 +251,7 @@ export class PushSettings extends OLDAdminSettings<Props, State> {
                         ),
                         linkAndroid: (msg) => (
                             <ExternalLink
-                                href='https://mattermost.com/pl/android-app/'
+                                href=''
                                 location='push_settings'
                             >
                                 {msg}
@@ -276,7 +276,7 @@ export class PushSettings extends OLDAdminSettings<Props, State> {
                     values={{
                         link: (msg) => (
                             <ExternalLink
-                                href='https://docs.mattermost.com/'
+                                href=''
                                 location='push_settings'
                             >
                                 {msg}
@@ -305,7 +305,7 @@ export class PushSettings extends OLDAdminSettings<Props, State> {
                             values={{
                                 linkTerms: (msg) => (
                                     <ExternalLink
-                                        href='https://mattermost.com/hpns-terms/'
+                                        href=''
                                         location='push_settings'
                                     >
                                         {msg}
@@ -313,7 +313,7 @@ export class PushSettings extends OLDAdminSettings<Props, State> {
                                 ),
                                 linkPrivacy: (msg) => (
                                     <ExternalLink
-                                        href='https://mattermost.com/data-processing-addendum/'
+                                        href=''
                                         location='push_settings'
                                     >
                                         {msg}
@@ -376,7 +376,7 @@ export class PushSettings extends OLDAdminSettings<Props, State> {
                 <TextSetting
                     id='pushNotificationServer'
                     label={<FormattedMessage {...messages.pushServerTitle}/>}
-                    placeholder={defineMessage({id: 'admin.email.pushServerEx', defaultMessage: 'E.g.: "https://push-test.mattermost.com"'})}
+                    placeholder={defineMessage({id: 'admin.email.pushServerEx', defaultMessage: 'E.g.: "https://push-test.example.com"'})}
                     helpText={pushServerHelpText}
                     value={this.state.pushNotificationServer}
                     onChange={this.handleChange}

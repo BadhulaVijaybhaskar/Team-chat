@@ -29,7 +29,7 @@ const AutoTranslationFeatureDiscovery: React.FC = () => {
                     br: <br key='auto-translation-br'/>,
                 },
             })}
-            learnMoreURL='https://docs.mattermost.com/administration-guide/manage/admin/autotranslation.html'
+            learnMoreURL=''
             featureDiscoveryImage={
                 <AutoTranslationSVG
                     width={158}

@@ -10,7 +10,7 @@ import {getConfig, isFreeEdition} from './general';
 import {getCurrentTeamId} from './teams';
 import {getCurrentUserId} from './users';
 
-const MATTERMOST_REPORT_PROBLEM_EMAIL = 'reportaproblem@mattermost.com';
+const MATTERMOST_REPORT_PROBLEM_EMAIL = '';
 
 export function getReportAProblemLink(state: GlobalState): string {
     const config = getConfig(state);
@@ -28,7 +28,7 @@ export function getReportAProblemLink(state: GlobalState): string {
         if (!isFreeEdition(state)) {
             return getDefaultReportAProblemMailtoLink(state);
         }
-        return 'https://mattermost.com/pl/report_a_problem_unlicensed';
+        return '';
     }
     }
     return '';
@@ -48,13 +48,13 @@ export const getDefaultReportAProblemMailtoLink = createSelector(
         let logsInstructions = '';
         if (isDesktopApp()) {
             appLine = `Desktop Version: ${getDesktopVersion()}`;
-            logsInstructions = 'desktop app logs (https://support.mattermost.com/hc/en-us/articles/37269786544916)';
+            logsInstructions = 'desktop app logs (#)';
         } else {
             appLine = `Browser: ${browser} ${browserVersion}`;
-            logsInstructions = 'browser console logs (https://support.mattermost.com/hc/en-us/articles/35971622382484)';
+            logsInstructions = 'browser console logs (#)';
         }
 
-        const subject = 'Problem with Mattermost app';
+        const subject = 'Problem with Astra Loop app';
         const body =
             `Please share a description of the problem with reproduction steps:
 
@@ -84,7 +84,7 @@ export const getSystemInfoMailtoLink = createSelector(
         const {browser, browserVersion} = getBrowserInfo();
         const platformName = getPlatformInfo();
 
-        const subject = `Problem with ${siteName || 'Mattermost'} app`;
+        const subject = `Problem with ${siteName || 'Astra Loop'} app`;
         const body = `
 System Information:
 - User ID: ${currentUserId}

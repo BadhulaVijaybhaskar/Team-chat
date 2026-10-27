@@ -95,7 +95,7 @@ const OpenIdConvert = ({
                     <ExternalLink
                         className='btn-secondary'
                         location='openid_convert'
-                        href='https://www.mattermost.com/default-openid-docs'
+                        href=''
                         data-testid='openIdLearnMore'
                     >
                         <FormattedMessage

@@ -321,7 +321,7 @@ function StartTrialFormModal(props: Props): JSX.Element | null {
                         values={{
                             agreement: (msg: React.ReactNode) => (
                                 <ExternalLink
-                                    href='https://mattermost.com/software-evaluation-agreement/'
+                                    href=''
                                     location='start_trial_form_modal'
                                 >
                                     {msg}

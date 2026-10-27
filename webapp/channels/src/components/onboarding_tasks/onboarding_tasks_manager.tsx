@@ -270,7 +270,7 @@ export const useHandleOnBoardingTaskTrigger = () => {
                 value: 'true',
             }];
             dispatch(savePreferences(currentUserId, preferences));
-            window.open('https://mattermost.com/download#desktop', '_blank', 'noopener,noreferrer');
+            window.open('', '_blank', 'noopener,noreferrer');
             break;
         }
         case OnboardingTasksName.START_TRIAL: {

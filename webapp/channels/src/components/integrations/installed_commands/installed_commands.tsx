@@ -133,7 +133,7 @@ export default class InstalledCommands extends React.PureComponent<Props> {
                             ),
                             appDirectory: (
                                 <ExternalLink
-                                    href='https://mattermost.com/marketplace'
+                                    href=''
                                     location='installed_commands'
                                 >
                                     <FormattedMessage

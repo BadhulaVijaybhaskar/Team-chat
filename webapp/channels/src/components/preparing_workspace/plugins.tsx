@@ -151,7 +151,7 @@ const Plugins = (props: Props) => {
                                         a: (chunks: React.ReactNode | readonly React.ReactNode[]) => (
                                             <strong>
                                                 <ExternalLink
-                                                    href='https://mattermost.com/marketplace/'
+                                                    href=''
                                                     location='preparing_workspace_plugins'
                                                     onClick={props.handleVisitMarketPlaceClick}
                                                 >

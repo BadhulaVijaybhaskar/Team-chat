@@ -127,8 +127,8 @@ const HelpMessaging = (): JSX.Element => {
                                 <td><code className='Help__inline-code'>{'In-line code'}</code></td>
                             </tr>
                             <tr>
-                                <td><code>{'[hyperlink](https://mattermost.com)'}</code></td>
-                                <td><a href='https://mattermost.com'>{'hyperlink'}</a></td>
+                                <td><code>{'[hyperlink](#)'}</code></td>
+                                <td><a href=''>{'hyperlink'}</a></td>
                             </tr>
                             <tr>
                                 <td><code>{'![embedded image](travis-ci.org/mattermost/platform.svg)'}</code></td>
@@ -160,7 +160,7 @@ const HelpMessaging = (): JSX.Element => {
                                 code: (chunks: React.ReactNode) => <code>{chunks}</code>,
                                 link: (chunks: React.ReactNode) => (
                                     <ExternalLink
-                                        href='https://docs.mattermost.com/end-user-guide/collaborate/react-with-emojis-gifs.html#upload-custom-emojis'
+                                        href=''
                                         location='help_messaging'
                                     >
                                         {chunks}

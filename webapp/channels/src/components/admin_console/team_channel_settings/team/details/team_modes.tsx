@@ -32,7 +32,7 @@ const SyncGroupsToggle = ({syncChecked, allAllowedChecked, allowedDomainsChecked
                 values={{
                     link: (msg) => (
                         <ExternalLink
-                            href='https://mattermost.com/pl/default-ldap-group-constrained-team-channel.html'
+                            href=''
                             location='team_modes'
                         >
                             {msg}
@@ -95,7 +95,7 @@ const AllowedDomainsToggle = ({syncChecked, allAllowedChecked, allowedDomainsChe
                     <input
                         type='text'
                         value={allowedDomains}
-                        placeholder='mattermost.com'
+                        placeholder='example.com'
                         className='form-control'
                         onChange={(e) => onToggle(syncChecked, allAllowedChecked, allowedDomainsChecked, e.currentTarget.value)}
                         disabled={isDisabled}

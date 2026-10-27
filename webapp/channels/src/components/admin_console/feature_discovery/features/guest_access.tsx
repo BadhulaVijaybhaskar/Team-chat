@@ -23,7 +23,7 @@ const GuestAccessFeatureDiscovery: React.FC = () => {
                 id: 'admin.guest_access_feature_discovery.copy',
                 defaultMessage: 'Collaborate with users outside of your organization while tightly controlling their access to channels and team members.',
             })}
-            learnMoreURL='https://docs.mattermost.com/deployment/guest-accounts.html'
+            learnMoreURL=''
             featureDiscoveryImage={<GuestAccessSVG/>}
         />
     );

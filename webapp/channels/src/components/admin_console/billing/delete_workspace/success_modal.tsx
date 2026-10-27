@@ -33,7 +33,7 @@ export default function DeleteWorkspaceSuccessModal() {
     const buttonText = (
         <FormattedMessage
             id='delete_success_modal.button_text'
-            defaultMessage={'Go to mattermost.com'}
+            defaultMessage={'Continue'}
         />
     );
 

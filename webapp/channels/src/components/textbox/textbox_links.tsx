@@ -117,7 +117,7 @@ function TextboxLinks({
             {previewLink}
             <ExternalLink
                 location='textbox_links'
-                href={'https://docs.mattermost.com/collaborate/format-messages.html'}
+                href={''}
                 className='textbox-help-link'
             >
                 <FormattedMessage

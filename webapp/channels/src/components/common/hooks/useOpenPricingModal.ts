@@ -13,7 +13,7 @@ export type UseOpenPricingModalReturn = {
 
 export default function useOpenPricingModal(): UseOpenPricingModalReturn {
     const cwsAvailability = useCWSAvailabilityCheck();
-    const [externalLink] = useExternalLink('https://mattermost.com/pricing');
+    const [externalLink] = useExternalLink('');
 
     const isAirGapped = cwsAvailability === CSWAvailabilityCheckTypes.Unavailable;
 

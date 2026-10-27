@@ -30,7 +30,7 @@ const EnableSectionContent: React.FC<Props> = ({filterToggle, setFilterToggle}) 
                             values={{
                                 learnmore: (msg) => (
                                     <ExternalLink
-                                        href='https://mattermost.com/pl/cloud-ip-filtering'
+                                        href=''
                                         location={'ip_filtering_enable_section'}
                                     >
                                         {msg}

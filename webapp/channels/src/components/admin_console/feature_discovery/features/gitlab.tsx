@@ -23,7 +23,7 @@ const GitLabFeatureDiscovery: React.FC = () => {
                 id: 'admin.gitlab_feature_discovery.copy',
                 defaultMessage: 'When you connect GitLab as your single sign-on provider, your team can access Astra Loop without having to re-enter their GitLab credentials. Available only on Astra Loop Professional and above.',
             })}
-            learnMoreURL='https://docs.mattermost.com/administration-guide/onboard/sso-gitlab.html'
+            learnMoreURL=''
             featureDiscoveryImage={
                 <GroupsSVG
                     width={276}

@@ -163,7 +163,7 @@ export default class InstalledOAuthApps extends React.PureComponent<Props, State
                             ),
                             appDirectory: (
                                 <ExternalLink
-                                    href='https://mattermost.com/marketplace/'
+                                    href=''
                                     location='installed_oauth_apps'
                                 >
                                     <FormattedMessage

@@ -186,7 +186,7 @@ export default class SystemAnalytics extends React.PureComponent<Props, State> {
                             values={{
                                 link: (msg: React.ReactNode) => (
                                     <ExternalLink
-                                        href='https://docs.mattermost.com/administration/statistics.html'
+                                        href=''
                                         location='system_analytics'
                                     >
                                         {msg}

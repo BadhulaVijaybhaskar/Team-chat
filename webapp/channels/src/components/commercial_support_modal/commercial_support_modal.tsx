@@ -128,9 +128,8 @@ export default class CommercialSupportModal extends React.PureComponent<Props, S
 
     render() {
         const {showBannerWarning} = this.state;
-        const {isCloud, currentUser} = this.props;
 
-        const supportLink = isCloud ? `https://customers.mattermost.com/cloud/contact-us?name=${currentUser.first_name} ${currentUser.last_name}&email=${currentUser.email}&inquiry=technical` : 'https://support.mattermost.com/hc/en-us/requests/new';
+        const supportLink = '';
         return (
             <Modal
                 id='commercialSupportModal'

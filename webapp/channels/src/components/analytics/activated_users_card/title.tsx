@@ -30,7 +30,7 @@ const Title = ({guestAccountsEnabled}: TitleProps) => {
             <span>
                 <ExternalLink
                     location='activated_users_card.title'
-                    href='https://mattermost.com/pl/site-statistics-definitions'
+                    href=''
                 >
                     {intl.formatMessage(messages.totalUsers)}
                     <InformationOutlineIcon size='16'/>

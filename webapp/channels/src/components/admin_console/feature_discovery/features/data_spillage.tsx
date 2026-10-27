@@ -23,7 +23,7 @@ const DataSpillageFeatureDiscovery: React.FC = () => {
                 id: 'admin.data_spillage_feature_discovery.desc',
                 defaultMessage: 'Set up the ability for users to quarantine messages so designated Content Reviewers can decide whether to keep or remove them.',
             })}
-            learnMoreURL='https://docs.mattermost.com/administration-guide/manage/admin/content-flagging.html'
+            learnMoreURL=''
             featureDiscoveryImage={
                 <DataSpillageSVG
                     width={294}

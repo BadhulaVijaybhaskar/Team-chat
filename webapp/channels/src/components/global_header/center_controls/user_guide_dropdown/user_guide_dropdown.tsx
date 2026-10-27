@@ -18,7 +18,7 @@ import type {PropsFromRedux} from './index';
 
 // Bundled docs live at /_documentation/ and only resolve when Mattermost is
 // installed at the root of the host. A SiteURL subpath falls back to the public site.
-export const MATTERMOST_DOCS_URL = 'https://docs.mattermost.com';
+export const MATTERMOST_DOCS_URL = '';
 
 export function getMattermostDocumentationURL(siteURL: string): string {
     try {
@@ -33,8 +33,8 @@ export function getMattermostDocumentationURL(siteURL: string): string {
     return MATTERMOST_DOCS_URL;
 }
 
-const trainingResourcesLink = 'https://academy.mattermost.com/';
-const askTheCommunityUrl = 'https://mattermost.com/pl/default-ask-mattermost-community/';
+const trainingResourcesLink = '';
+const askTheCommunityUrl = '';
 
 type Props = WrappedComponentProps & PropsFromRedux;
 

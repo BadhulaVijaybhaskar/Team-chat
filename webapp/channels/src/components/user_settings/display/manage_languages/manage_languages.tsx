@@ -254,7 +254,7 @@ export class ManageLanguage extends React.PureComponent<Props, State> {
                         values={{
                             link: (msg: React.ReactNode) => (
                                 <ExternalLink
-                                    href='http://translate.mattermost.com'
+                                    href=''
                                     location='manage_languages'
                                 >
                                     {msg}

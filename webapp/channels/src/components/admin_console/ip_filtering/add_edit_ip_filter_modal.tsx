@@ -112,7 +112,7 @@ export default function IPFilteringAddOrEditModal({onExited, onSave, existingRan
                                 values={{
                                     link: (msg) => (
                                         <ExternalLink
-                                            href='https://mattermost.com/pl/cloud-ip-filtering'
+                                            href=''
                                             location={'ip_filtering_add_edit_rule_modal'}
                                         >
                                             {msg}

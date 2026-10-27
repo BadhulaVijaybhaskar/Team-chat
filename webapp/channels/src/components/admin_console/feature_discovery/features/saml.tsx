@@ -23,7 +23,7 @@ const SAMLFeatureDiscovery: React.FC = () => {
                 id: 'admin.saml_feature_discovery.copy',
                 defaultMessage: 'When you connect Astra Loop with your organization\'s single sign-on provider, users can access Astra Loop without having to re-enter their credentials.',
             })}
-            learnMoreURL='https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=product-feature-discovery&utm_content=saml'
+            learnMoreURL=''
             featureDiscoveryImage={
                 <GroupsSVG
                     width={276}

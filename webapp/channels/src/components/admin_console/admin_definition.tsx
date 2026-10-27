@@ -1051,7 +1051,7 @@ const AdminDefinition: AdminDefinitionType = {
                             type: 'text',
                             key: 'ServiceSettings.SiteURL',
                             label: defineMessage({id: 'admin.service.siteURL', defaultMessage: 'Site URL:'}),
-                            help_text: defineMessage({id: 'admin.service.siteURLDescription', defaultMessage: 'The URL that users will use to access Astra Loop. Standard ports, such as 80 and 443, can be omitted, but non-standard ports are required. For example: http://example.com:8065. This setting is required.\n \nMattermost may be hosted at a subpath. For example: http://example.com:8065/company/mattermost. A restart is required before the server will work correctly.'}), // eslint-disable-line formatjs/no-multiple-whitespaces
+                            help_text: defineMessage({id: 'admin.service.siteURLDescription', defaultMessage: 'The URL that users will use to access Astra Loop. Standard ports, such as 80 and 443, can be omitted, but non-standard ports are required. For example: http://example.com:8065. This setting is required.\n \nAstra Loop may be hosted at a subpath. For example: http://example.com:8065/company/astra-loop. A restart is required before the server will work correctly.'}), // eslint-disable-line formatjs/no-multiple-whitespaces
                             help_text_markdown: true,
                             placeholder: defineMessage({id: 'admin.service.siteURLExample', defaultMessage: 'E.g.: "http://example.com:8065"'}),
                             isDisabled: it.not(it.userHasWritePermissionOnResource(RESOURCE_KEYS.ENVIRONMENT.WEB_SERVER)),
@@ -2380,7 +2380,7 @@ const AdminDefinition: AdminDefinitionType = {
                                 link: (msg: string) => (
                                     <ExternalLink
                                         location='admin_console'
-                                        href='https://mattermost.com/pl/default-allow-untrusted-internal-connections'
+                                        href=''
                                     >
                                         {msg}
                                     </ExternalLink>
@@ -2467,7 +2467,7 @@ const AdminDefinition: AdminDefinitionType = {
                                     featureName: 'intune_mam',
                                     title: defineMessage({id: 'admin.intune_feature_discovery.title', defaultMessage: 'Protect mobile data with Microsoft Intune App Protection Policies (MAM) and Entra ID authentication'}),
                                     description: defineMessage({id: 'admin.intune_feature_discovery.description', defaultMessage: 'With Astra Loop Enterprise Advanced, you can enable Microsoft Intune Mobile Application Management (MAM) to enforce App Protection Policies (APP) on Astra Loop Mobile. Users sign in with Microsoft Entra ID (Azure AD), and Intune MAM applies data protection, selective wipe, and compliance policies on supported iOS devices.'}),
-                                    learnMoreURL: 'https://docs.mattermost.com/deployment-guide/mobile/configure-microsoft-intune-mam.html',
+                                    learnMoreURL: '',
                                     svgImage: IntuneMAMSvg,
                                 },
                             },
@@ -2506,7 +2506,7 @@ const AdminDefinition: AdminDefinitionType = {
                                     type: 'text',
                                     key: 'IntuneSettings.TenantId',
                                     label: defineMessage({id: 'admin.intune.tenantIdTitle', defaultMessage: 'Tenant ID:'}),
-                                    help_text: defineMessage({id: 'admin.intune.tenantIdDescription', defaultMessage: 'The Microsoft Entra ID (Azure AD) Tenant ID (also called the Directory ID).\nThis is the globally unique identifier that represents your organization in Microsoft Entra ID.\nMattermost uses this ID to validate tokens issued for Intune MAM.'}),
+                                    help_text: defineMessage({id: 'admin.intune.tenantIdDescription', defaultMessage: 'The Microsoft Entra ID (Azure AD) Tenant ID (also called the Directory ID).\nThis is the globally unique identifier that represents your organization in Microsoft Entra ID.\nAstra Loop uses this ID to validate tokens issued for Intune MAM.'}),
                                     placeholder: defineMessage({id: 'admin.intune.tenantIdPlaceholder', defaultMessage: 'E.g.: "12345678-1234-1234-1234-123456789012"'}),
                                     isDisabled: it.stateIsFalse('IntuneSettings.Enable'),
                                     default: (value, config, state) => {
@@ -2548,7 +2548,7 @@ const AdminDefinition: AdminDefinitionType = {
                                     featureName: 'mobile_ephemeral_mode',
                                     title: defineMessage({id: 'admin.mobileSecurity.ephemeralMode_feature_discovery.title', defaultMessage: 'Control mobile data persistence with Mobile Ephemeral Mode'}),
                                     description: defineMessage({id: 'admin.mobileSecurity.ephemeralMode_feature_discovery.description', defaultMessage: 'With Astra Loop Enterprise Advanced, you can enable Mobile Ephemeral Mode to enforce data persistence policies on mobile devices. Configure disconnection timeouts, offline data retention, and automatic cache cleanup.'}),
-                                    learnMoreURL: 'https://docs.mattermost.com/configure/environment-configuration-settings.html#mobile-security',
+                                    learnMoreURL: '',
                                 },
                             },
                             isHidden: it.configIsFalse('FeatureFlags', 'MobileEphemeralMode'),
@@ -2834,7 +2834,7 @@ const AdminDefinition: AdminDefinitionType = {
                             type: 'dropdown',
                             key: 'SupportSettings.ReportAProblemType',
                             label: defineMessage({id: 'admin.support.reportAProblemTypeTitle', defaultMessage: 'Report a Problem:'}),
-                            help_text: defineMessage({id: 'admin.support.reportAProblemTypeDescriptionUnlicensed', defaultMessage: 'By default, selecting "Report a Problem" from the help menu opens the [Astra Loop troubleshooting forums](https://mattermost.com/pl/report_a_problem_unlicensed). You may provide a custom URL or email address for end user support by choosing "Custom link" or "Email address". "Hide link" removes the "Report a Problem" option from the app.'}),
+                            help_text: defineMessage({id: 'admin.support.reportAProblemTypeDescriptionUnlicensed', defaultMessage: 'By default, selecting "Report a Problem" from the help menu opens the [Astra Loop troubleshooting forums](#). You may provide a custom URL or email address for end user support by choosing "Custom link" or "Email address". "Hide link" removes the "Report a Problem" option from the app.'}),
                             help_text_markdown: true,
                             isDisabled: it.not(it.userHasWritePermissionOnResource(RESOURCE_KEYS.SITE.CUSTOMIZATION)),
                             isHidden: it.any(
@@ -3582,7 +3582,7 @@ const AdminDefinition: AdminDefinitionType = {
                                         linkKnownIssues: (msg: string) => (
                                             <ExternalLink
                                                 location='admin_console'
-                                                href='https://support.mattermost.com/hc/en-us/articles/4413183568276'
+                                                href=''
                                             >
                                                 {msg}
                                             </ExternalLink>
@@ -3590,7 +3590,7 @@ const AdminDefinition: AdminDefinitionType = {
                                         linkCommunityChannel: (msg: string) => (
                                             <ExternalLink
                                                 location='admin_console'
-                                                href='https://community-daily.mattermost.com/core/channels/folded-reply-threads'
+                                                href=''
                                             >
                                                 {msg}
                                             </ExternalLink>
@@ -3656,7 +3656,7 @@ const AdminDefinition: AdminDefinitionType = {
                                         link: (msg: string) => (
                                             <ExternalLink
                                                 location='admin_console'
-                                                href='https://mattermost.com/pl/message-priority/'
+                                                href=''
                                             >
                                                 {msg}
                                             </ExternalLink>
@@ -3674,7 +3674,7 @@ const AdminDefinition: AdminDefinitionType = {
                                         link: (msg: string) => (
                                             <ExternalLink
                                                 location='admin_console'
-                                                href='https://mattermost.com/pl/message-priority/'
+                                                href=''
                                             >
                                                 {msg}
                                             </ExternalLink>
@@ -3693,7 +3693,7 @@ const AdminDefinition: AdminDefinitionType = {
                                         link: (msg: string) => (
                                             <ExternalLink
                                                 location='admin_console'
-                                                href='https://mattermost.com/pl/message-priority/'
+                                                href=''
                                             >
                                                 {msg}
                                             </ExternalLink>
@@ -3715,7 +3715,7 @@ const AdminDefinition: AdminDefinitionType = {
                                         link: (msg: string) => (
                                             <ExternalLink
                                                 location='admin_console'
-                                                href='https://mattermost.com/pl/message-priority/'
+                                                href=''
                                             >
                                                 {msg}
                                             </ExternalLink>
@@ -3738,7 +3738,7 @@ const AdminDefinition: AdminDefinitionType = {
                                         link: (msg: string) => (
                                             <ExternalLink
                                                 location='admin_console'
-                                                href='https://mattermost.com/pl/message-priority/'
+                                                href=''
                                             >
                                                 {msg}
                                             </ExternalLink>
@@ -3760,7 +3760,7 @@ const AdminDefinition: AdminDefinitionType = {
                                         link: (msg: string) => (
                                             <ExternalLink
                                                 location='admin_console'
-                                                href='https://mattermost.com/pl/message-priority/'
+                                                href=''
                                             >
                                                 {msg}
                                             </ExternalLink>
@@ -3788,7 +3788,7 @@ const AdminDefinition: AdminDefinitionType = {
                                     featureName: 'burn_on_read',
                                     title: defineMessage({id: 'admin.burn_on_read_feature_discovery.title', defaultMessage: 'Send burn-on-read messages that are automatically deleted after being read'}),
                                     description: defineMessage({id: 'admin.burn_on_read_feature_discovery.description', defaultMessage: 'With Astra Loop Enterprise Advanced, users can send transient messages that are automatically deleted a fixed time after they are read by a recipient.'}),
-                                    learnMoreURL: 'https://docs.mattermost.com/end-user-guide/collaborate/send-messages.html#send-burn-on-read-messages',
+                                    learnMoreURL: '',
                                     svgImage: BurnOnReadSVG,
                                 },
                             },
@@ -4472,8 +4472,8 @@ const AdminDefinition: AdminDefinitionType = {
                             type: 'text',
                             key: 'TeamSettings.RestrictCreationToDomains',
                             label: defineMessage({id: 'admin.team.restrictTitle', defaultMessage: 'Restrict new system and team members to specified email domains:'}),
-                            help_text: defineMessage({id: 'admin.team.restrictGuestDescription', defaultMessage: 'New user accounts are restricted to the above specified email domain (e.g. "mattermost.com") or list of comma-separated domains (e.g. "corp.mattermost.com, mattermost.com"). New teams can only be created by users from the above domain(s). This setting affects email login for users. For Guest users, please add domains under Signup > Guest Access.'}),
-                            placeholder: defineMessage({id: 'admin.team.restrictExample', defaultMessage: 'E.g.: "corp.mattermost.com, mattermost.com"'}),
+                            help_text: defineMessage({id: 'admin.team.restrictGuestDescription', defaultMessage: 'New user accounts are restricted to the above specified email domain (e.g. "example.com") or list of comma-separated domains (e.g. "corp.example.com, example.com"). New teams can only be created by users from the above domain(s). This setting affects email login for users. For Guest users, please add domains under Signup > Guest Access.'}),
+                            placeholder: defineMessage({id: 'admin.team.restrictExample', defaultMessage: 'E.g.: "corp.example.com, example.com"'}),
                             isHidden: it.any(
                                 it.not(it.licensed),
                                 it.licensedForSku('starter'),
@@ -4668,7 +4668,7 @@ const AdminDefinition: AdminDefinitionType = {
                                 link: (msg: string) => (
                                     <ExternalLink
                                         location='admin_console'
-                                        href='http://docs.mattermost.com/deployment/sso-saml.html'
+                                        href=''
                                     >
                                         {msg}
                                     </ExternalLink>
@@ -6097,7 +6097,7 @@ const AdminDefinition: AdminDefinitionType = {
                             help_text: defineMessage({id: 'admin.service.outgoingOAuthConnectionsDesc', defaultMessage: 'When true, outgoing webhooks and slash commands will use the configured OAuth connections to authenticate with third party services. See <link>documentation</link> to learn more.'}), // eslint-disable-line formatjs/enforce-placeholders -- placeholders provided
                             help_text_values: {
                                 link: (text: string) => (
-                                    <a href='https://mattermost.com/pl/outgoing-oauth-connections'>{text}</a>
+                                    <a href=''>{text}</a>
                                 ),
                             },
                             help_text_markdown: false,
@@ -6287,7 +6287,7 @@ const AdminDefinition: AdminDefinitionType = {
                                 linkDocumentation: (msg: string) => (
                                     <ExternalLink
                                         location='admin_console'
-                                        href='https://mattermost.com/pl/default-bot-accounts'
+                                        href=''
                                     >
                                         {msg}
                                     </ExternalLink>

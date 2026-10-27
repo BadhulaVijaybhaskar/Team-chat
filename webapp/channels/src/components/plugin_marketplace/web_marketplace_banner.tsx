@@ -14,7 +14,7 @@ import webMarketplaceBannerBackground from 'images/marketplace-notice-background
 
 import ExternalLink from '../external_link';
 
-const WEB_MARKETPLACE_LINK = 'https://mattermost.com/marketplace';
+const WEB_MARKETPLACE_LINK = '';
 
 const WebMarketplaceBanner = () => {
     const {formatMessage} = useIntl();

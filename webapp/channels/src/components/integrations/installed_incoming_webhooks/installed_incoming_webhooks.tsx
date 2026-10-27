@@ -178,7 +178,7 @@ export default class InstalledIncomingWebhooks extends React.PureComponent<Props
                             ),
                             appDirectory: (
                                 <ExternalLink
-                                    href='https://mattermost.com/marketplace'
+                                    href=''
                                     location='installed_incoming_webhooks'
                                 >
                                     <FormattedMessage
