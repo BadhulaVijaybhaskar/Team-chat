@@ -1,0 +1,43 @@
+# Host-network variant for environments where Docker bridge TCP is blocked
+# (some nested Cloud Agent VMs). Prefer docker-compose.yml when bridge works.
+services:
+  postgres:
+    image: postgres:16
+    restart: unless-stopped
+    network_mode: host
+    environment:
+      POSTGRES_USER: mmuser
+      POSTGRES_PASSWORD: mostest
+      POSTGRES_DB: mattermost
+    volumes:
+      - astra_loop_pg:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U mmuser -d mattermost -h 127.0.0.1"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  astra-loop:
+    image: astra-loop:dev
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+    network_mode: host
+    environment:
+      MM_SQLSETTINGS_DRIVERNAME: postgres
+      MM_SQLSETTINGS_DATASOURCE: postgres://mmuser:mostest@127.0.0.1:5432/mattermost?sslmode=disable&connect_timeout=10
+      MM_TEAMSETTINGS_SITENAME: Astra Loop
+      MM_SERVICESETTINGS_SITEURL: http://localhost:8065
+      MM_SERVICESETTINGS_ENABLELOCALMODE: "true"
+      MM_LOGSETTINGS_CONSOLELEVEL: INFO
+    volumes:
+      - astra_loop_data:/mattermost/data
+      - astra_loop_config:/mattermost/config
+      - astra_loop_logs:/mattermost/logs
+
+volumes:
+  astra_loop_pg:
+  astra_loop_data:
+  astra_loop_config:
+  astra_loop_logs:

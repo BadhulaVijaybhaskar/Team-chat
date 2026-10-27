@@ -1,4 +1,5 @@
 # Drop-in stack for Astra Loop (Postgres) — equivalent to mattermost-team-edition + db.
+# If containers cannot reach each other on the Docker bridge, use docker-compose.host.yml.
 services:
   postgres:
     image: postgres:16
