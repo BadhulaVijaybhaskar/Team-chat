@@ -222,7 +222,7 @@
   {
     "id": "api.admin.saml.metadata.app_error",
     "translation": "An error occurred while building Service Provider Metadata.",
-    "description": "Admin console error when generating the Mattermost Service Provider metadata for SAML setup fails; 'Service Provider' is a SAML role term."
+    "description": "Admin console error when generating the Astra Loop Service Provider metadata for SAML setup fails; 'Service Provider' is a SAML role term."
   },
   {
     "id": "api.admin.saml.not_available.app_error",
@@ -256,7 +256,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "It appears your Mattermost email is setup correctly!",
+    "translation": "It appears your Astra Loop email is setup correctly!",
     "description": "Body text of the test email sent when an admin clicks Test Connection in the System Console SMTP settings."
   },
   {
@@ -271,7 +271,7 @@
   },
   {
     "id": "api.admin.test_email.subject",
-    "translation": "Mattermost - Testing Email Settings",
+    "translation": "Astra Loop - Testing Email Settings",
     "description": "Subject line of the test email sent when an admin clicks Test Connection in the System Console SMTP settings."
   },
   {
@@ -312,7 +312,7 @@
   {
     "id": "api.back_to_app",
     "translation": "Back to {{.SiteName}}",
-    "description": "Link label on the mobile login error page that returns the user to the app; {{.SiteName}} is the configured site name (e.g. 'Mattermost')."
+    "description": "Link label on the mobile login error page that returns the user to the app; {{.SiteName}} is the configured site name (e.g. 'Astra Loop')."
   },
   {
     "id": "api.bot.create_disabled",
@@ -321,8 +321,8 @@
   },
   {
     "id": "api.bot.teams_channels.add_message_mobile",
-    "translation": "Please add me to teams and channels you want me to interact in. To do this, use the browser or Mattermost Desktop App.",
-    "description": "Message a bot sends to a mobile user asking to be added to teams and channels; instructs them to use the browser or the Mattermost Desktop App because mobile cannot do it."
+    "translation": "Please add me to teams and channels you want me to interact in. To do this, use the browser or Astra Loop Desktop App.",
+    "description": "Message a bot sends to a mobile user asking to be added to teams and channels; instructs them to use the browser or the Astra Loop Desktop App because mobile cannot do it."
   },
   {
     "id": "api.channel.add_guest.added",
@@ -497,7 +497,7 @@
   {
     "id": "api.channel.create_channel.direct_channel.remote_restricted.app_error",
     "translation": "Cannot create a direct channel with a remote user",
-    "description": "API error when creating a direct message channel with a remote user (from another Mattermost server via shared channels) is not allowed."
+    "description": "API error when creating a direct message channel with a remote user (from another Astra Loop server via shared channels) is not allowed."
   },
   {
     "id": "api.channel.create_channel.direct_channel.team_restricted_error",
@@ -557,7 +557,7 @@
   {
     "id": "api.channel.create_group.remote_restricted.app_error",
     "translation": "Cannot create a group channel with remote users",
-    "description": "API error when creating a group message that includes remote users (from other Mattermost servers via shared channels) is not allowed."
+    "description": "API error when creating a group message that includes remote users (from other Astra Loop servers via shared channels) is not allowed."
   },
   {
     "id": "api.channel.delete_channel.archived",
@@ -957,7 +957,7 @@
   {
     "id": "api.channel.update_channel_member_roles.scheme_role.app_error",
     "translation": "The provided role is managed by a Scheme and therefore cannot be applied directly to a Channel Member.",
-    "description": "API error returned when trying to assign a scheme-managed role directly to a channel member; 'Scheme' is the Mattermost permissions scheme feature."
+    "description": "API error returned when trying to assign a scheme-managed role directly to a channel member; 'Scheme' is the Astra Loop permissions scheme feature."
   },
   {
     "id": "api.channel.update_channel_member_roles.unset_user_scheme.app_error",
@@ -997,12 +997,12 @@
   {
     "id": "api.cloud.app_error",
     "translation": "Internal error during cloud api request.",
-    "description": "Generic error for requests to the Mattermost Cloud billing/subscription API; admin audience."
+    "description": "Generic error for requests to the Astra Loop Cloud billing/subscription API; admin audience."
   },
   {
     "id": "api.cloud.cws_webhook_event_missing_error",
     "translation": "Webhook event was not handled. Either it is missing or it is not valid.",
-    "description": "Error when a webhook sent by the Mattermost customer portal (CWS) has an unknown or missing event type; admin/log audience."
+    "description": "Error when a webhook sent by the Astra Loop customer portal (CWS) has an unknown or missing event type; admin/log audience."
   },
   {
     "id": "api.cloud.license_error",
@@ -1017,17 +1017,17 @@
   {
     "id": "api.cloud.request_error",
     "translation": "Error processing request to CWS.",
-    "description": "Error when a request to CWS (the Mattermost customer web server / customer portal) fails; admin audience."
+    "description": "Error when a request to CWS (the Astra Loop customer web server / customer portal) fails; admin audience."
   },
   {
     "id": "api.cloud.teams_limit_reached.create",
     "translation": "Unable to create team because teams limit has been reached",
-    "description": "API error on Mattermost Cloud when creating a team would exceed the Cloud plan's team limit."
+    "description": "API error on Astra Loop Cloud when creating a team would exceed the Cloud plan's team limit."
   },
   {
     "id": "api.cloud.teams_limit_reached.restore",
     "translation": "Unable to restore team because teams limit has been reached",
-    "description": "API error on Mattermost Cloud when restoring an archived team would exceed the Cloud plan's team limit."
+    "description": "API error on Astra Loop Cloud when restoring an archived team would exceed the Cloud plan's team limit."
   },
   {
     "id": "api.command.admin_only.app_error",
@@ -1106,7 +1106,7 @@
   },
   {
     "id": "api.command.invite_people.desc",
-    "translation": "Send an email invite to your Mattermost team",
+    "translation": "Send an email invite to your Astra Loop team",
     "description": "Autocomplete description for the /invite_people slash command, which emails team invitations to the given addresses."
   },
   {
@@ -1564,7 +1564,7 @@
   },
   {
     "id": "api.command_help.desc",
-    "translation": "Show Mattermost help message",
+    "translation": "Show Astra Loop help message",
     "description": "Autocomplete description for the /help slash command, which posts a help message."
   },
   {
@@ -1574,8 +1574,8 @@
   },
   {
     "id": "api.command_help.success",
-    "translation": "Mattermost is an open source platform for secure communication, collaboration, and orchestration of work across tools and teams.\r\nMattermost contains two key tools:\r\n\r\n**Channels** - Stay connected with your team via 1:1 and group messaging.\r\n**[Playbooks](/playbooks)** - Build and configure repeatable processes to achieve specific and predictable outcomes.\r\n\r\n[View documentation and guides]({{.HelpLink}})",
-    "description": "Ephemeral Markdown message posted by the /help slash command describing Mattermost; {{.HelpLink}} is the documentation URL; keep the Markdown links and bold formatting."
+    "translation": "Astra Loop is an open source platform for secure communication, collaboration, and orchestration of work across tools and teams.\r\nAstra Loop contains two key tools:\r\n\r\n**Channels** - Stay connected with your team via 1:1 and group messaging.\r\n**[Playbooks](/playbooks)** - Build and configure repeatable processes to achieve specific and predictable outcomes.\r\n\r\n[View documentation and guides]({{.HelpLink}})",
+    "description": "Ephemeral Markdown message posted by the /help slash command describing Astra Loop; {{.HelpLink}} is the documentation URL; keep the Markdown links and bold formatting."
   },
   {
     "id": "api.command_invite.channel.app_error",
@@ -1584,7 +1584,7 @@
   },
   {
     "id": "api.command_invite.channel.error",
-    "translation": "Could not find the channel {{.Channel}}. Please use the [channel handle](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel) to identify channels.",
+    "translation": "Could not find the channel {{.Channel}}. Please use the [channel handle](#) to identify channels.",
     "description": "Ephemeral Markdown error for the /invite slash command; {{.Channel}} is the channel name the user typed; keep the Markdown documentation link."
   },
   {
@@ -1634,7 +1634,7 @@
   },
   {
     "id": "api.command_invite.private_channel.app_error",
-    "translation": "Could not find the channel {{.Channel}}. Please use the [channel handle](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel) to identify channels.",
+    "translation": "Could not find the channel {{.Channel}}. Please use the [channel handle](#) to identify channels.",
     "description": "Ephemeral Markdown error for the /invite slash command when the named private channel is not found; {{.Channel}} is the channel name typed; keep the Markdown documentation link."
   },
   {
@@ -1727,8 +1727,8 @@
   },
   {
     "id": "api.command_logout.desc",
-    "translation": "Logout of Mattermost",
-    "description": "Autocomplete description for the /logout slash command, which logs the user out of Mattermost."
+    "translation": "Logout of Astra Loop",
+    "description": "Autocomplete description for the /logout slash command, which logs the user out of Astra Loop."
   },
   {
     "id": "api.command_logout.name",
@@ -1867,7 +1867,7 @@
   },
   {
     "id": "api.command_mute.error",
-    "translation": "Could not find the channel {{.Channel}}. Please use the [channel handle](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel) to identify channels.",
+    "translation": "Could not find the channel {{.Channel}}. Please use the [channel handle](#) to identify channels.",
     "description": "Ephemeral Markdown error for the /mute slash command; {{.Channel}} is the channel name the user typed; keep the Markdown documentation link."
   },
   {
@@ -1882,7 +1882,7 @@
   },
   {
     "id": "api.command_mute.no_channel.error",
-    "translation": "Could not find the specified channel. Please use the [channel handle](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel) to identify channels.",
+    "translation": "Could not find the specified channel. Please use the [channel handle](#) to identify channels.",
     "description": "Ephemeral Markdown error for the /mute slash command when the given channel cannot be found; keep the Markdown documentation link."
   },
   {
@@ -1942,8 +1942,8 @@
   },
   {
     "id": "api.command_remote.accept.help",
-    "translation": "Accept an invitation from an external Mattermost instance",
-    "description": "Autocomplete help for the 'accept' subcommand of the /secure-connection slash command, used for connecting Mattermost instances (shared channels)."
+    "translation": "Accept an invitation from an external Astra Loop instance",
+    "description": "Autocomplete help for the 'accept' subcommand of the /secure-connection slash command, used for connecting Astra Loop instances (shared channels)."
   },
   {
     "id": "api.command_remote.accept_invitation",
@@ -1958,7 +1958,7 @@
   {
     "id": "api.command_remote.add_remote.error",
     "translation": "Could not add secure connection: {{.Error}}",
-    "description": "Ephemeral error from the /secure-connection slash command; {{.Error}} is the underlying error text; 'secure connection' is a connection between Mattermost instances."
+    "description": "Ephemeral error from the /secure-connection slash command; {{.Error}} is the underlying error text; 'secure connection' is a connection between Astra Loop instances."
   },
   {
     "id": "api.command_remote.cluster_removed",
@@ -1987,8 +1987,8 @@
   },
   {
     "id": "api.command_remote.desc",
-    "translation": "Invite secure connections for communication across Mattermost instances.",
-    "description": "Autocomplete description for the /secure-connection slash command, which manages connections between Mattermost instances for shared channels."
+    "translation": "Invite secure connections for communication across Astra Loop instances.",
+    "description": "Autocomplete description for the /secure-connection slash command, which manages connections between Astra Loop instances for shared channels."
   },
   {
     "id": "api.command_remote.displayname.help",
@@ -2018,7 +2018,7 @@
   {
     "id": "api.command_remote.invitation.help",
     "translation": "Invitation from secure connection",
-    "description": "Autocomplete help for the invitation argument of the /secure-connection accept subcommand; the invitation is an encrypted string received from another Mattermost instance."
+    "description": "Autocomplete help for the invitation argument of the /secure-connection accept subcommand; the invitation is an encrypted string received from another Astra Loop instance."
   },
   {
     "id": "api.command_remote.invitation.hint",
@@ -2033,7 +2033,7 @@
   {
     "id": "api.command_remote.invite.help",
     "translation": "Invite a secure connection",
-    "description": "Autocomplete help for the 'invite' subcommand of the /secure-connection slash command; 'invite' is a verb, the object is another Mattermost instance."
+    "description": "Autocomplete help for the 'invite' subcommand of the /secure-connection slash command; 'invite' is a verb, the object is another Astra Loop instance."
   },
   {
     "id": "api.command_remote.invite_password.help",
@@ -2047,7 +2047,7 @@
   },
   {
     "id": "api.command_remote.invite_summary",
-    "translation": "Send the following AES 256-bit encrypted invitation to the external Mattermost System Admin along with the password. They will use the `{{.Command}}` slash command to accept the invitation.\n\n```\n{{.Invitation}}\n```\n\n**Ensure the secure connection can access your Mattermost instance via** {{.SiteURL}}",
+    "translation": "Send the following AES 256-bit encrypted invitation to the external Astra Loop System Admin along with the password. They will use the `{{.Command}}` slash command to accept the invitation.\n\n```\n{{.Invitation}}\n```\n\n**Ensure the secure connection can access your Astra Loop instance via** {{.SiteURL}}",
     "description": "Ephemeral Markdown message shown after creating a secure connection invitation; {{.Command}} is a slash command name, {{.Invitation}} is the encrypted invitation string inside a code block, {{.SiteURL}} is this server's URL; keep the code fences and bold."
   },
   {
@@ -2068,7 +2068,7 @@
   {
     "id": "api.command_remote.name.help",
     "translation": "Secure connection name",
-    "description": "Help text for the 'name' argument in the /secure-connection slash command autocomplete; a 'secure connection' links two Mattermost servers for shared channels."
+    "description": "Help text for the 'name' argument in the /secure-connection slash command autocomplete; a 'secure connection' links two Astra Loop servers for shared channels."
   },
   {
     "id": "api.command_remote.name.hint",
@@ -2088,17 +2088,17 @@
   {
     "id": "api.command_remote.remote_table_header",
     "translation": "| Secure connection | Display name | Connection ID | Site URL | Default Team | Invite accepted | Online | Last ping | Deleted |",
-    "description": "Markdown table header row for the /secure-connection status output listing connections to other Mattermost instances; keep the pipe separators and column count."
+    "description": "Markdown table header row for the /secure-connection status output listing connections to other Astra Loop instances; keep the pipe separators and column count."
   },
   {
     "id": "api.command_remote.remotes_not_found",
     "translation": "No secure connections found.",
-    "description": "Ephemeral notice from the /secure-connection status subcommand when no connections to other Mattermost instances exist."
+    "description": "Ephemeral notice from the /secure-connection status subcommand when no connections to other Astra Loop instances exist."
   },
   {
     "id": "api.command_remote.remove.help",
     "translation": "Removes a secure connection",
-    "description": "Autocomplete help for the 'remove' subcommand of the /secure-connection slash command, which deletes a connection to another Mattermost instance."
+    "description": "Autocomplete help for the 'remove' subcommand of the /secure-connection slash command, which deletes a connection to another Astra Loop instance."
   },
   {
     "id": "api.command_remote.remove_remote.error",
@@ -2223,7 +2223,7 @@
   {
     "id": "api.command_share.channel_invite.error",
     "translation": "Error inviting `{{.Name}}` to this channel: {{.Error}}",
-    "description": "Ephemeral error when inviting a remote Mattermost instance to a shared channel fails; {{.Name}} is the connection's display name in backticks and {{.Error}} is the underlying error text."
+    "description": "Ephemeral error when inviting a remote Astra Loop instance to a shared channel fails; {{.Name}} is the connection's display name in backticks and {{.Error}} is the underlying error text."
   },
   {
     "id": "api.command_share.channel_invite_not_home.error",
@@ -2243,12 +2243,12 @@
   {
     "id": "api.command_share.channel_shared",
     "translation": "This channel is now shared.",
-    "description": "Ephemeral confirmation after the /share-channel slash command makes the current channel shared with other Mattermost instances."
+    "description": "Ephemeral confirmation after the /share-channel slash command makes the current channel shared with other Astra Loop instances."
   },
   {
     "id": "api.command_share.channel_status.help",
     "translation": "Displays status for this shared channel",
-    "description": "Autocomplete help for the 'status' subcommand of the /share-channel slash command; 'shared channel' is a channel shared across Mattermost instances."
+    "description": "Autocomplete help for the 'status' subcommand of the /share-channel slash command; 'shared channel' is a channel shared across Astra Loop instances."
   },
   {
     "id": "api.command_share.channel_status_id",
@@ -2267,13 +2267,13 @@
   },
   {
     "id": "api.command_share.desc",
-    "translation": "Shares the current channel with an external Mattermost instance.",
-    "description": "Autocomplete description for the /share-channel slash command; 'shares' is a verb, sharing the channel with another Mattermost instance."
+    "translation": "Shares the current channel with an external Astra Loop instance.",
+    "description": "Autocomplete description for the /share-channel slash command; 'shares' is a verb, sharing the channel with another Astra Loop instance."
   },
   {
     "id": "api.command_share.fetch_remote.error",
     "translation": "Error fetching secure connections: {{.Error}}",
-    "description": "Ephemeral error when the /share-channel slash command cannot fetch the list of secure connections (connected Mattermost instances); {{.Error}} is the underlying error text."
+    "description": "Ephemeral error when the /share-channel slash command cannot fetch the list of secure connections (connected Astra Loop instances); {{.Error}} is the underlying error text."
   },
   {
     "id": "api.command_share.fetch_remote_status.error",
@@ -2297,13 +2297,13 @@
   },
   {
     "id": "api.command_share.invite_remote.help",
-    "translation": "Invites an external Mattermost instance to the current shared channel",
-    "description": "Autocomplete help for the 'invite' subcommand of the /share-channel slash command; 'invites' is a verb, inviting another Mattermost instance to the shared channel."
+    "translation": "Invites an external Astra Loop instance to the current shared channel",
+    "description": "Autocomplete help for the 'invite' subcommand of the /share-channel slash command; 'invites' is a verb, inviting another Astra Loop instance to the shared channel."
   },
   {
     "id": "api.command_share.invite_remote_to_channel.error",
     "translation": "Cannot invite remote to channel: {{.Error}}",
-    "description": "Ephemeral error from the /share-channel invite subcommand; 'remote' is a connected Mattermost instance and {{.Error}} is the underlying error text."
+    "description": "Ephemeral error from the /share-channel invite subcommand; 'remote' is a connected Astra Loop instance and {{.Error}} is the underlying error text."
   },
   {
     "id": "api.command_share.missing_action",
@@ -2313,7 +2313,7 @@
   {
     "id": "api.command_share.must_specify_valid_remote",
     "translation": "Must specify a valid secure connection ID to invite.",
-    "description": "Ephemeral error when the /share-channel invite subcommand is given an invalid secure connection (remote Mattermost instance) ID."
+    "description": "Ephemeral error when the /share-channel invite subcommand is given an invalid secure connection (remote Astra Loop instance) ID."
   },
   {
     "id": "api.command_share.name",
@@ -2323,7 +2323,7 @@
   {
     "id": "api.command_share.no_remote_invited",
     "translation": "No secure connections have been invited to this channel.",
-    "description": "Ephemeral notice from the /share-channel status subcommand when no secure connections (remote Mattermost instances) have been invited to the channel."
+    "description": "Ephemeral notice from the /share-channel status subcommand when no secure connections (remote Astra Loop instances) have been invited to the channel."
   },
   {
     "id": "api.command_share.not_shared_channel_unshare",
@@ -2338,7 +2338,7 @@
   {
     "id": "api.command_share.remote_already_invited",
     "translation": "The secure connection has already been invited.",
-    "description": "Ephemeral notice when the /share-channel invite subcommand targets a secure connection (remote Mattermost instance) that was already invited to the channel."
+    "description": "Ephemeral notice when the /share-channel invite subcommand targets a secure connection (remote Astra Loop instance) that was already invited to the channel."
   },
   {
     "id": "api.command_share.remote_id.help",
@@ -2358,7 +2358,7 @@
   {
     "id": "api.command_share.remote_table_header",
     "translation": "| Secure connection | Site URL | Read only | Invite accepted | Online | Last sync |",
-    "description": "Markdown table header row for the /share-channel status output listing remote Mattermost instances the channel is shared with; keep the pipe separators and column count."
+    "description": "Markdown table header row for the /share-channel status output listing remote Astra Loop instances the channel is shared with; keep the pipe separators and column count."
   },
   {
     "id": "api.command_share.remote_uninvited",
@@ -2403,7 +2403,7 @@
   {
     "id": "api.command_share.uninvite_remote.help",
     "translation": "Uninvites a secure connection from this shared channel",
-    "description": "Autocomplete help for the 'uninvite' subcommand of the /share-channel slash command; 'uninvites' means revokes a remote Mattermost instance's invitation to the channel."
+    "description": "Autocomplete help for the 'uninvite' subcommand of the /share-channel slash command; 'uninvites' means revokes a remote Astra Loop instance's invitation to the channel."
   },
   {
     "id": "api.command_share.uninvite_remote_id.help",
@@ -2477,7 +2477,7 @@
   },
   {
     "id": "api.config.update.elasticsearch.autocomplete_cannot_be_enabled_error",
-    "translation": "Channel autocomplete cannot be enabled as channel index schema is out of date. It is recommended to regenerate your channel index. See the Mattermost changelog for more information",
+    "translation": "Channel autocomplete cannot be enabled as channel index schema is out of date. It is recommended to regenerate your channel index. See the Astra Loop changelog for more information",
     "description": "Admin console error when enabling Elasticsearch channel autocomplete with an outdated search index; 'channel index' is the Elasticsearch index of channels."
   },
   {
@@ -2648,7 +2648,7 @@
   {
     "id": "api.context.remote_id_mismatch.app_error",
     "translation": "Secure connection ID mismatch.",
-    "description": "API error when the remote cluster ID in a request does not match the expected secure connection; 'secure connection' is the shared-channels connection between Mattermost servers."
+    "description": "API error when the remote cluster ID in a request does not match the expected secure connection; 'secure connection' is the shared-channels connection between Astra Loop servers."
   },
   {
     "id": "api.context.remote_id_missing.app_error",
@@ -2857,13 +2857,13 @@
   },
   {
     "id": "api.email_batching.send_batched_email_notification.button",
-    "translation": "Open Mattermost",
-    "description": "Main button label in the batched notification email; opens the Mattermost site."
+    "translation": "Open Astra Loop",
+    "description": "Main button label in the batched notification email; opens the Astra Loop site."
   },
   {
     "id": "api.email_batching.send_batched_email_notification.messageButton",
     "translation": "View this message",
-    "description": "Per-message button label in the batched notification email; opens that specific message in Mattermost."
+    "description": "Per-message button label in the batched notification email; opens that specific message in Astra Loop."
   },
   {
     "id": "api.email_batching.send_batched_email_notification.subTitle",
@@ -3035,8 +3035,8 @@
   },
   {
     "id": "api.file.cloud_upload.app_error",
-    "translation": "Uploading via mmctl to a Cloud instance is not supported. Please check the documentation here: https://docs.mattermost.com/manage/cloud-data-export.html.",
-    "description": "API error when an mmctl import upload targets a Mattermost Cloud instance, which is unsupported; the URL is a documentation link and 'mmctl' is the CLI tool name."
+    "translation": "Uploading via mmctl to a Cloud instance is not supported. Please check the documentation here: #",
+    "description": "API error when an mmctl import upload targets a Astra Loop Cloud instance, which is unsupported; the URL is a documentation link and 'mmctl' is the CLI tool name."
   },
   {
     "id": "api.file.file_exists.app_error",
@@ -3369,11 +3369,6 @@
     "description": "Admin API error when the caller lacks permission for the given background job type; 'manage' means create/cancel."
   },
   {
-    "id": "api.ldap.invalid_test_type.app_error",
-    "translation": "Invalid test type: {{.TestType}}",
-    "description": "API error for admins running an AD/LDAP diagnostic test; {{.TestType}} is the unrecognized test type identifier sent in the request."
-  },
-  {
     "id": "api.ldap.test.reenter_password",
     "translation": "The AD/LDAP connection settings have changed. Please re-enter the bind password to test the connection.",
     "description": "Error shown when testing the AD/LDAP connection after the settings changed, asking the admin to re-enter the bind password because the saved one no longer applies."
@@ -3490,8 +3485,8 @@
   },
   {
     "id": "api.license.request-trial.bad-request.terms-not-accepted",
-    "translation": "You must accept the Mattermost Software Evaluation Agreement and Privacy Policy to request a license.",
-    "description": "API error when a system admin requests a trial license without checking the agreement checkbox; 'Mattermost Software Evaluation Agreement' and 'Privacy Policy' are document titles."
+    "translation": "You must accept the Astra Loop Software Evaluation Agreement and Privacy Policy to request a license.",
+    "description": "API error when a system admin requests a trial license without checking the agreement checkbox; 'Astra Loop Software Evaluation Agreement' and 'Privacy Policy' are document titles."
   },
   {
     "id": "api.license.request-trial.can-start-trial.error",
@@ -3500,23 +3495,23 @@
   },
   {
     "id": "api.license.request-trial.can-start-trial.not-allowed",
-    "translation": "Failed to apply new trial license as your workspace has already applied a trial license. If you would like to extend your trial period please [contact our sales team](https://mattermost.com/contact-us/).",
+    "translation": "Failed to apply new trial license as your workspace has already applied a trial license. If you would like to extend your trial period please [contact our sales team](#).",
     "description": "Admin error when a workspace that already used its trial requests another; contains a markdown link labeled 'contact our sales team' whose URL must stay intact."
   },
   {
     "id": "api.license.request_trial_license.app_error",
-    "translation": "Unable to get a trial license. Please try again or contact support@mattermost.com.",
-    "description": "Error shown to admins when requesting a trial license from Mattermost's servers fails; the support email address should be kept."
+    "translation": "Unable to get a trial license. Please try again or contact support@Astra Loop.com.",
+    "description": "Error shown to admins when requesting a trial license from Astra Loop's servers fails; the support email address should be kept."
   },
   {
     "id": "api.license.request_trial_license.embargoed",
-    "translation": "We were unable to process the request due to limitations for embargoed countries. [Learn more in our documentation](https://mattermost.com/pl/limitations-for-embargoed-countries), or reach out to legal@mattermost.com for questions around export limitations.",
+    "translation": "We were unable to process the request due to limitations for embargoed countries. [Learn more in our documentation](#), or reach out to legal@Astra Loop.com for questions around export limitations.",
     "description": "Error shown to admins when a trial license request is blocked due to trade-embargo restrictions; contains a markdown link that must keep its [text](url) format."
   },
   {
     "id": "api.license.upgrade_needed.app_error",
     "translation": "Feature requires an upgrade to Enterprise Edition.",
-    "description": "API error when a feature requires Enterprise Edition; 'Enterprise Edition' is a Mattermost product tier name."
+    "description": "API error when a feature requires Enterprise Edition; 'Enterprise Edition' is a Astra Loop product tier name."
   },
   {
     "id": "api.license_error",
@@ -3541,7 +3536,7 @@
   {
     "id": "api.no_license",
     "translation": "E10 or E20 license required to use this endpoint.",
-    "description": "API error when an endpoint requires a paid license; 'E10' and 'E20' are legacy Mattermost license tier names."
+    "description": "API error when an endpoint requires a paid license; 'E10' and 'E20' are legacy Astra Loop license tier names."
   },
   {
     "id": "api.oauth.allow_oauth.pkce_required_public.app_error",
@@ -4062,7 +4057,7 @@
   {
     "id": "api.post.reveal_post.disabled.app_error",
     "translation": "Burn-on-read feature is not enabled or requires an Enterprise Advanced license.",
-    "description": "API error when a user tries to reveal a burn-on-read message but the feature is off or unlicensed; 'Enterprise Advanced' is a Mattermost license tier name."
+    "description": "API error when a user tries to reveal a burn-on-read message but the feature is off or unlicensed; 'Enterprise Advanced' is a Astra Loop license tier name."
   },
   {
     "id": "api.post.reveal_post.invalid_request.app_error",
@@ -4192,7 +4187,7 @@
   {
     "id": "api.property.channel_attributes.license.app_error",
     "translation": "Channel attributes require an Enterprise Advanced license.",
-    "description": "API error when managing channel attribute fields (custom fields defined for channels by admins) on a server without the required license. 'Enterprise Advanced' is a Mattermost license tier name; keep it in English."
+    "description": "API error when managing channel attribute fields (custom fields defined for channels by admins) on a server without the required license. 'Enterprise Advanced' is a Astra Loop license tier name; keep it in English."
   },
   {
     "id": "api.property.session_attributes.license.app_error",
@@ -4462,32 +4457,32 @@
   {
     "id": "api.remote_cluster.accept_invitation.expired.app_error",
     "translation": "The invitation has expired. Ask the remote site for a new invitation.",
-    "description": "Error shown to an admin accepting a secure connection (remote Mattermost server) invitation when the remote site reports that the invitation has expired."
+    "description": "Error shown to an admin accepting a secure connection (remote Astra Loop server) invitation when the remote site reports that the invitation has expired."
   },
   {
     "id": "api.remote_cluster.accept_invitation.invalid_response.app_error",
     "translation": "The remote site returned an invalid response.",
-    "description": "Error shown to an admin accepting a secure connection (remote Mattermost server) invitation when the remote site's reply cannot be read, e.g. a proxy returned an HTML page."
+    "description": "Error shown to an admin accepting a secure connection (remote Astra Loop server) invitation when the remote site's reply cannot be read, e.g. a proxy returned an HTML page."
   },
   {
     "id": "api.remote_cluster.accept_invitation.invalid_url.app_error",
     "translation": "The invitation contains an invalid site address: {{.URL}}",
-    "description": "Error shown to an admin accepting a secure connection (remote Mattermost server) invitation when the remote site address in the invitation is malformed and no request can be made. {{.URL}} is the address, with special characters percent-encoded."
+    "description": "Error shown to an admin accepting a secure connection (remote Astra Loop server) invitation when the remote site address in the invitation is malformed and no request can be made. {{.URL}} is the address, with special characters percent-encoded."
   },
   {
     "id": "api.remote_cluster.accept_invitation.rejected.app_error",
     "translation": "The remote site rejected the invitation.",
-    "description": "Error shown to an admin accepting a secure connection (remote Mattermost server) invitation when the remote site refuses to confirm it. The remote's reason is logged, not shown."
+    "description": "Error shown to an admin accepting a secure connection (remote Astra Loop server) invitation when the remote site refuses to confirm it. The remote's reason is logged, not shown."
   },
   {
     "id": "api.remote_cluster.accept_invitation.unreachable.app_error",
     "translation": "Could not reach the remote site at {{.URL}}.",
-    "description": "Error shown to an admin accepting a secure connection (remote Mattermost server) invitation when the remote site cannot be contacted. {{.URL}} is the address that was tried."
+    "description": "Error shown to an admin accepting a secure connection (remote Astra Loop server) invitation when the remote site cannot be contacted. {{.URL}} is the address that was tried."
   },
   {
     "id": "api.remote_cluster.accept_invitation_error",
     "translation": "Could not accept the remote cluster invitation",
-    "description": "API error when accepting an invitation to connect with another Mattermost server (remote cluster) fails."
+    "description": "API error when accepting an invitation to connect with another Astra Loop server (remote cluster) fails."
   },
   {
     "id": "api.remote_cluster.base64_decode_error",
@@ -4497,17 +4492,17 @@
   {
     "id": "api.remote_cluster.cluster_not_deleted",
     "translation": "Remote cluster has not been deleted",
-    "description": "API error when a request to delete a remote cluster (secure connection to another Mattermost server) did not remove it."
+    "description": "API error when a request to delete a remote cluster (secure connection to another Astra Loop server) did not remove it."
   },
   {
     "id": "api.remote_cluster.create_invite_error",
     "translation": "Could not create remote cluster invite",
-    "description": "API error shown to an admin when generating an invite for connecting another Mattermost server (remote cluster / Connected Workspaces) fails."
+    "description": "API error shown to an admin when generating an invite for connecting another Astra Loop server (remote cluster / Connected Workspaces) fails."
   },
   {
     "id": "api.remote_cluster.delete.app_error",
     "translation": "We encountered an error deleting the secure connection.",
-    "description": "API error shown to an admin when deleting a secure connection (a link to a remote Mattermost server) fails."
+    "description": "API error shown to an admin when deleting a secure connection (a link to a remote Astra Loop server) fails."
   },
   {
     "id": "api.remote_cluster.encrypt_invite_error",
@@ -4522,12 +4517,12 @@
   {
     "id": "api.remote_cluster.get.app_error",
     "translation": "We encountered an error retrieving a secure connection.",
-    "description": "API error shown to an admin when fetching a secure connection (remote Mattermost server link) fails."
+    "description": "API error shown to an admin when fetching a secure connection (remote Astra Loop server link) fails."
   },
   {
     "id": "api.remote_cluster.get.not_found",
     "translation": "Remote Cluster not found",
-    "description": "API error shown when the requested remote cluster (connected Mattermost server) does not exist; 'Remote Cluster' is the feature term."
+    "description": "API error shown when the requested remote cluster (connected Astra Loop server) does not exist; 'Remote Cluster' is the feature term."
   },
   {
     "id": "api.remote_cluster.import_not_allowed.app_error",
@@ -4537,7 +4532,7 @@
   {
     "id": "api.remote_cluster.invalid_id.app_error",
     "translation": "Invalid id.",
-    "description": "API error when a remote cluster (shared-channels secure connection between Mattermost servers) record has a malformed ID."
+    "description": "API error when a remote cluster (shared-channels secure connection between Astra Loop servers) record has a malformed ID."
   },
   {
     "id": "api.remote_cluster.invalid_topic.app_error",
@@ -4552,7 +4547,7 @@
   {
     "id": "api.remote_cluster.save.app_error",
     "translation": "We encountered an error saving the secure connection.",
-    "description": "API error shown to an admin when creating/saving a secure connection to a remote Mattermost server fails."
+    "description": "API error shown to an admin when creating/saving a secure connection to a remote Astra Loop server fails."
   },
   {
     "id": "api.remote_cluster.save_not_unique.app_error",
@@ -4567,7 +4562,7 @@
   {
     "id": "api.remote_cluster.update.app_error",
     "translation": "We encountered an error updating the secure connection.",
-    "description": "API error shown to an admin when updating a secure connection (remote Mattermost server link) fails."
+    "description": "API error shown to an admin when updating a secure connection (remote Astra Loop server link) fails."
   },
   {
     "id": "api.remote_cluster.update_not_unique.app_error",
@@ -4641,18 +4636,18 @@
   },
   {
     "id": "api.server.cws.disabled",
-    "translation": "Interactions with the Mattermost Customer Portal have been disabled by the system admin.",
-    "description": "API error when connections to the Mattermost Customer Portal are turned off by the system admin."
+    "translation": "Interactions with the Astra Loop Customer Portal have been disabled by the system admin.",
+    "description": "API error when connections to the Astra Loop Customer Portal are turned off by the system admin."
   },
   {
     "id": "api.server.cws.needs_enterprise_edition",
-    "translation": "Service only available in Mattermost Enterprise edition",
-    "description": "API error when a customer-portal-related endpoint is called on a server that is not Mattermost Enterprise edition; 'Mattermost Enterprise' is a product name."
+    "translation": "Service only available in Astra Loop Enterprise edition",
+    "description": "API error when a customer-portal-related endpoint is called on a server that is not Astra Loop Enterprise edition; 'Astra Loop Enterprise' is a product name."
   },
   {
     "id": "api.server.hosted_signup_unavailable.error",
     "translation": "Portal unavailable for self-hosted signup.",
-    "description": "API error when the Mattermost customer portal cannot be reached during self-hosted license signup; 'Portal' is the customer portal; admin audience."
+    "description": "API error when the Astra Loop customer portal cannot be reached during self-hosted license signup; 'Portal' is the customer portal; admin audience."
   },
   {
     "id": "api.server.license_up_for_renewal.error_sending_email",
@@ -4707,22 +4702,22 @@
   {
     "id": "api.shared_channel.get_shared_channel_remotes_error",
     "translation": "Could not fetch shared channel remotes",
-    "description": "API error when listing the remote servers a shared channel is shared with fails; 'remotes' are connected Mattermost servers."
+    "description": "API error when listing the remote servers a shared channel is shared with fails; 'remotes' are connected Astra Loop servers."
   },
   {
     "id": "api.shared_channel.has_remote_error",
     "translation": "Could not determine if channel is shared with the remote",
-    "description": "API error when the server cannot determine whether a channel is already shared with a specific remote (connected Mattermost server)."
+    "description": "API error when the server cannot determine whether a channel is already shared with a specific remote (connected Astra Loop server)."
   },
   {
     "id": "api.shared_channel.invite_remote_to_channel_error",
     "translation": "Could not invite remote to channel.",
-    "description": "API error when inviting a remote (connected Mattermost server) to participate in a shared channel fails."
+    "description": "API error when inviting a remote (connected Astra Loop server) to participate in a shared channel fails."
   },
   {
     "id": "api.shared_channel.uninvite_remote_to_channel_error",
     "translation": "Could not uninvite remote from channel.",
-    "description": "API error when removing a remote (connected Mattermost server) from a shared channel fails; 'uninvite' means revoking the share."
+    "description": "API error when removing a remote (connected Astra Loop server) from a shared channel fails; 'uninvite' means revoking the share."
   },
   {
     "id": "api.status.user_not_found.app_error",
@@ -4747,7 +4742,7 @@
   {
     "id": "api.system.update_notices.clear_failed",
     "translation": "Clearing old product notices failed",
-    "description": "Internal/log error when purging outdated in-product notices fails; 'product notices' are announcement banners fetched from Mattermost."
+    "description": "Internal/log error when purging outdated in-product notices fails; 'product notices' are announcement banners fetched from Astra Loop."
   },
   {
     "id": "api.system.update_notices.fetch_failed",
@@ -5146,13 +5141,13 @@
   },
   {
     "id": "api.templates.cloud_welcome_email.button",
-    "translation": "Open Mattermost",
-    "description": "Call-to-action button label in the Cloud welcome email that opens the user's new Mattermost workspace."
+    "translation": "Open Astra Loop",
+    "description": "Call-to-action button label in the Cloud welcome email that opens the user's new Astra Loop workspace."
   },
   {
     "id": "api.templates.cloud_welcome_email.download_mm_info",
-    "translation": "Download the Mattermost App",
-    "description": "Section heading in the Cloud welcome email prompting the user to download the Mattermost desktop/mobile apps."
+    "translation": "Download the Astra Loop App",
+    "description": "Section heading in the Cloud welcome email prompting the user to download the Astra Loop desktop/mobile apps."
   },
   {
     "id": "api.templates.cloud_welcome_email.info",
@@ -5162,7 +5157,7 @@
   {
     "id": "api.templates.cloud_welcome_email.info2",
     "translation": "Make sure to save or bookmark your link for future use.",
-    "description": "Body line in the Mattermost Cloud welcome email reminding the new workspace owner to keep their workspace URL."
+    "description": "Body line in the Astra Loop Cloud welcome email reminding the new workspace owner to keep their workspace URL."
   },
   {
     "id": "api.templates.cloud_welcome_email.invite_info",
@@ -5197,7 +5192,7 @@
   {
     "id": "api.templates.cloud_welcome_email.subject",
     "translation": "Congratulations!",
-    "description": "Subject line of the welcome email sent when a new Mattermost Cloud workspace is created."
+    "description": "Subject line of the welcome email sent when a new Astra Loop Cloud workspace is created."
   },
   {
     "id": "api.templates.cloud_welcome_email.subtitle",
@@ -5217,12 +5212,12 @@
   {
     "id": "api.templates.deactivate_body.info",
     "translation": "You deactivated your account on {{ .SiteURL }}.",
-    "description": "Body text of the email confirming the user deactivated their own account; {{ .SiteURL }} is the Mattermost server URL."
+    "description": "Body text of the email confirming the user deactivated their own account; {{ .SiteURL }} is the Astra Loop server URL."
   },
   {
     "id": "api.templates.deactivate_body.title",
     "translation": "Your account has been deactivated at {{ .ServerURL }}",
-    "description": "Heading of the account-deactivation confirmation email; {{ .ServerURL }} is the Mattermost server address."
+    "description": "Heading of the account-deactivation confirmation email; {{ .ServerURL }} is the Astra Loop server address."
   },
   {
     "id": "api.templates.deactivate_body.warning",
@@ -5276,8 +5271,8 @@
   },
   {
     "id": "api.templates.email_footer_v2",
-    "translation": "© 2015 - {{ .CurrentYear }} Mattermost, Inc. 2100 Geng Road, Suite 210, Palo Alto, CA, 94303",
-    "description": "Legal footer at the bottom of Mattermost emails; {{.CurrentYear}} is the current year in the copyright range, and the company address should remain unchanged."
+    "translation": "© 2015 - {{ .CurrentYear }} Astra Loop, Inc. 2100 Geng Road, Suite 210, Palo Alto, CA, 94303",
+    "description": "Legal footer at the bottom of Astra Loop emails; {{.CurrentYear}} is the current year in the copyright range, and the company address should remain unchanged."
   },
   {
     "id": "api.templates.email_info1",
@@ -5292,7 +5287,7 @@
   {
     "id": "api.templates.email_info3",
     "translation": "The {{.SiteName}} Team",
-    "description": "Email footer signature line naming the sender; {{.SiteName}} is the site name (e.g. 'The Mattermost Team')."
+    "description": "Email footer signature line naming the sender; {{.SiteName}} is the site name (e.g. 'The Astra Loop Team')."
   },
   {
     "id": "api.templates.email_organization",
@@ -5311,7 +5306,7 @@
   },
   {
     "id": "api.templates.guest_magic_link_body.footer.info",
-    "translation": "This email was sent to you because someone requested a login link for Mattermost. If you did not request this, you can safely ignore this email.",
+    "translation": "This email was sent to you because someone requested a login link for Astra Loop. If you did not request this, you can safely ignore this email.",
     "description": "Footer paragraph in the guest magic-login-link email reassuring recipients who did not request the link."
   },
   {
@@ -5326,7 +5321,7 @@
   },
   {
     "id": "api.templates.guest_magic_link_body.title",
-    "translation": "Sign in to Mattermost",
+    "translation": "Sign in to Astra Loop",
     "description": "Heading of the email containing a one-time sign-in (magic) link for a guest user."
   },
   {
@@ -5337,11 +5332,11 @@
   {
     "id": "api.templates.invite_body.button",
     "translation": "Join now",
-    "description": "Button label in the team invitation email that accepts the invite and opens Mattermost."
+    "description": "Button label in the team invitation email that accepts the invite and opens Astra Loop."
   },
   {
     "id": "api.templates.invite_body.subTitle",
-    "translation": "Start collaborating with your team on Mattermost",
+    "translation": "Start collaborating with your team on Astra Loop",
     "description": "Subtitle line in the team invitation email, under the '{sender} invited you' heading."
   },
   {
@@ -5356,18 +5351,18 @@
   },
   {
     "id": "api.templates.invite_body_footer.info",
-    "translation": "Mattermost is a flexible, open source messaging platform that enables secure team collaboration.",
-    "description": "Footer paragraph in invitation emails briefly describing what Mattermost is, for recipients unfamiliar with the product."
+    "translation": "Astra Loop is a flexible, open source messaging platform that enables secure team collaboration.",
+    "description": "Footer paragraph in invitation emails briefly describing what Astra Loop is, for recipients unfamiliar with the product."
   },
   {
     "id": "api.templates.invite_body_footer.learn_more",
     "translation": "Learn more",
-    "description": "Link text in the invitation email footer pointing to more information about Mattermost."
+    "description": "Link text in the invitation email footer pointing to more information about Astra Loop."
   },
   {
     "id": "api.templates.invite_body_footer.title",
-    "translation": "What is Mattermost?",
-    "description": "Footer heading in invitation emails, above the short description of Mattermost."
+    "translation": "What is Astra Loop?",
+    "description": "Footer heading in invitation emails, above the short description of Astra Loop."
   },
   {
     "id": "api.templates.invite_body_guest.subTitle",
@@ -5427,7 +5422,7 @@
   {
     "id": "api.templates.ip_filters_changed_footer.contact_support",
     "translation": "Contact support",
-    "description": "Link/button text in the IP-filtering-change email footer for contacting Mattermost support."
+    "description": "Link/button text in the IP-filtering-change email footer for contacting Astra Loop support."
   },
   {
     "id": "api.templates.ip_filters_changed_footer.log_in_to_customer_portal",
@@ -5446,8 +5441,8 @@
   },
   {
     "id": "api.templates.license_need_help.info",
-    "translation": "<a href=\"https://mattermost.com/contact-sales/\">Talk to a Mattermost expert</a> for help with plans and renewal options.",
-    "description": "Help paragraph in license expiry/renewal emails sent to admins; contains an HTML <a> link to Mattermost sales that must be preserved."
+    "translation": "<a href=\"#\">Talk to a Astra Loop expert</a> for help with plans and renewal options.",
+    "description": "Help paragraph in license expiry/renewal emails sent to admins; contains an HTML <a> link to Astra Loop sales that must be preserved."
   },
   {
     "id": "api.templates.license_need_help.title",
@@ -5457,7 +5452,7 @@
   {
     "id": "api.templates.license_up_for_renewal_contact_sales",
     "translation": "Contact sales",
-    "description": "Button label in the license renewal reminder email, linking to Mattermost sales."
+    "description": "Button label in the license renewal reminder email, linking to Astra Loop sales."
   },
   {
     "id": "api.templates.license_up_for_renewal_subject",
@@ -5466,17 +5461,17 @@
   },
   {
     "id": "api.templates.license_up_for_renewal_subtitle",
-    "translation": "Your {{.SkuName}} license for <a href=\"{{.SiteURL}}\">{{.SiteName}}</a> is due to expire in {{.Days}} days. We hope you’re enjoying the secure, mission-critical collaboration that Mattermost enables.",
+    "translation": "Your {{.SkuName}} license for <a href=\"{{.SiteURL}}\">{{.SiteName}}</a> is due to expire in {{.Days}} days. We hope you’re enjoying the secure, mission-critical collaboration that Astra Loop enables.",
     "description": "Body text of the license renewal reminder email; {{.SkuName}} is the license edition, {{.Days}} the days until expiry, and the HTML <a> link wraps the site name."
   },
   {
     "id": "api.templates.license_up_for_renewal_subtitle_two",
     "translation": "Renew soon to ensure your team can keep enjoying these benefits.",
-    "description": "Second subtitle paragraph in the email sent to admins when their Mattermost license is approaching its renewal date."
+    "description": "Second subtitle paragraph in the email sent to admins when their Astra Loop license is approaching its renewal date."
   },
   {
     "id": "api.templates.license_up_for_renewal_title",
-    "translation": "Your Mattermost license is up for renewal",
+    "translation": "Your Astra Loop license is up for renewal",
     "description": "Heading of the license renewal reminder email sent to system admins."
   },
   {
@@ -5521,8 +5516,8 @@
   },
   {
     "id": "api.templates.post_body.button",
-    "translation": "Reply in Mattermost",
-    "description": "Button label in message notification emails; clicking opens the message in Mattermost. 'Reply' is a verb."
+    "translation": "Reply in Astra Loop",
+    "description": "Button label in message notification emails; clicking opens the message in Astra Loop. 'Reply' is a verb."
   },
   {
     "id": "api.templates.questions_footer.info",
@@ -5536,8 +5531,8 @@
   },
   {
     "id": "api.templates.remove_expired_license.body.heading",
-    "translation": "Your Mattermost license has expired",
-    "description": "Heading of the email telling admins that the server's Mattermost license has expired."
+    "translation": "Your Astra Loop license has expired",
+    "description": "Heading of the email telling admins that the server's Astra Loop license has expired."
   },
   {
     "id": "api.templates.remove_expired_license.body.subtitle",
@@ -5546,7 +5541,7 @@
   },
   {
     "id": "api.templates.remove_expired_license.body.subtitle_two",
-    "translation": "Please renew your license now to continue using the full capabilities of Mattermost.",
+    "translation": "Please renew your license now to continue using the full capabilities of Astra Loop.",
     "description": "Body paragraph in the email sent to admins after their expired license is removed, urging renewal."
   },
   {
@@ -5651,7 +5646,7 @@
   },
   {
     "id": "api.templates.verify_body.info",
-    "translation": "This email address was used to create an account with Mattermost.",
+    "translation": "This email address was used to create an account with Astra Loop.",
     "description": "Body line in the email-verification email explaining why the recipient got it."
   },
   {
@@ -5706,7 +5701,7 @@
   },
   {
     "id": "api.templates.welcome_body.info",
-    "translation": "This email address was used to create an account with Mattermost.",
+    "translation": "This email address was used to create an account with Astra Loop.",
     "description": "Body line in the welcome email explaining why the recipient got it (their address was used to create an account)."
   },
   {
@@ -5751,52 +5746,52 @@
   },
   {
     "id": "api.upgrade_to_enterprise.already-done.app_error",
-    "translation": "You have already upgraded to Mattermost Enterprise Edition. Please restart the server to finish the upgrade.",
+    "translation": "You have already upgraded to Astra Loop Enterprise Edition. Please restart the server to finish the upgrade.",
     "description": "API error in the in-product upgrade flow when the Enterprise Edition binary was already downloaded and only a server restart is pending; admin-facing."
   },
   {
     "id": "api.upgrade_to_enterprise.already-enterprise.app_error",
-    "translation": "You cannot upgrade because you are already running Mattermost Enterprise Edition.",
+    "translation": "You cannot upgrade because you are already running Astra Loop Enterprise Edition.",
     "description": "API error when an admin triggers the in-product upgrade but the server is already running Enterprise Edition."
   },
   {
     "id": "api.upgrade_to_enterprise.app_error",
-    "translation": "An upgrade to Mattermost Enterprise Edition is already running.",
+    "translation": "An upgrade to Astra Loop Enterprise Edition is already running.",
     "description": "API error when an admin triggers the in-product Enterprise Edition upgrade while another upgrade is already in progress."
   },
   {
     "id": "api.upgrade_to_enterprise.generic_error.app_error",
-    "translation": "Mattermost was unable to upgrade to Enterprise Edition.",
-    "description": "Generic API error when the in-product upgrade to Mattermost Enterprise Edition fails; admin-facing."
+    "translation": "Astra Loop was unable to upgrade to Enterprise Edition.",
+    "description": "Generic API error when the in-product upgrade to Astra Loop Enterprise Edition fails; admin-facing."
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-permission.app_error",
-    "translation": "Mattermost was unable to upgrade to Enterprise Edition. The Mattermost system user {{.MattermostUsername}} does not have write access to the necessary binary file. A system administrator can update the file permissions by executing the following command on the server where Mattermost is installed:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nAfter changing the file permissions, try to upgrade Mattermost again. When you have upgraded and restarted, remember to restore the original binary file permissions:\n\n```\nchmod -w \"{{.Path}}\"\n```",
-    "description": "Long admin-facing error for the in-product Enterprise upgrade when the server binary is not writable; {{.MattermostUsername}} is the OS account running Mattermost, {{.Path}} is the binary file path, and the fenced blocks contain literal shell commands that must not be translated."
+    "translation": "Astra Loop was unable to upgrade to Enterprise Edition. The Astra Loop system user {{.MattermostUsername}} does not have write access to the necessary binary file. A system administrator can update the file permissions by executing the following command on the server where Astra Loop is installed:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nAfter changing the file permissions, try to upgrade Astra Loop again. When you have upgraded and restarted, remember to restore the original binary file permissions:\n\n```\nchmod -w \"{{.Path}}\"\n```",
+    "description": "Long admin-facing error for the in-product Enterprise upgrade when the server binary is not writable; {{.MattermostUsername}} is the OS account running Astra Loop, {{.Path}} is the binary file path, and the fenced blocks contain literal shell commands that must not be translated."
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user-and-permission.app_error",
-    "translation": "Mattermost was unable to upgrade to Enterprise Edition. The Mattermost system user {{.MattermostUsername}} does not have write access to the necessary binary file. A system administrator can update the file permissions by executing the following command on the server where Mattermost is installed:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nAfter changing the file permissions, try to upgrade Mattermost again. When you have upgraded and restarted, remember to restore the original binary file permissions:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```",
+    "translation": "Astra Loop was unable to upgrade to Enterprise Edition. The Astra Loop system user {{.MattermostUsername}} does not have write access to the necessary binary file. A system administrator can update the file permissions by executing the following command on the server where Astra Loop is installed:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nAfter changing the file permissions, try to upgrade Astra Loop again. When you have upgraded and restarted, remember to restore the original binary file permissions:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```",
     "description": "Long admin-facing error for the in-product Enterprise upgrade when both file owner and permissions block writing the binary; {{.MattermostUsername}} and {{.FileUsername}} are OS account names, {{.Path}} is the binary path, and the fenced shell commands must not be translated."
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user.app_error",
-    "translation": "Mattermost was unable to upgrade to Enterprise Edition. The Mattermost system user {{.MattermostUsername}} does not have write access to the necessary binary file. A system administrator can update the file permissions by executing the following command on the server where Mattermost is installed:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nAfter changing the file permissions, try to upgrade Mattermost again. When you have upgraded and restarted, remember to restore the original binary file permissions:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```",
+    "translation": "Astra Loop was unable to upgrade to Enterprise Edition. The Astra Loop system user {{.MattermostUsername}} does not have write access to the necessary binary file. A system administrator can update the file permissions by executing the following command on the server where Astra Loop is installed:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nAfter changing the file permissions, try to upgrade Astra Loop again. When you have upgraded and restarted, remember to restore the original binary file permissions:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```",
     "description": "Long admin-facing error for the in-product Enterprise upgrade when the binary file is owned by a different OS user; {{.MattermostUsername}} and {{.FileUsername}} are OS account names, {{.Path}} is the binary path, and the fenced shell commands must not be translated."
   },
   {
     "id": "api.upgrade_to_enterprise.system_not_supported.app_error",
-    "translation": "Mattermost was unable to upgrade to Enterprise Edition. This feature will only work on Linux systems with x86-64 architecture.",
+    "translation": "Astra Loop was unable to upgrade to Enterprise Edition. This feature will only work on Linux systems with x86-64 architecture.",
     "description": "API error when the in-product Enterprise Edition upgrade is attempted on an unsupported platform; only Linux x86-64 is supported."
   },
   {
     "id": "api.upgrade_to_enterprise_status.app_error",
-    "translation": "Mattermost was unable to upgrade to Enterprise Edition.",
+    "translation": "Astra Loop was unable to upgrade to Enterprise Edition.",
     "description": "API error reported when checking the status of an in-product Enterprise Edition upgrade shows it failed; admin-facing."
   },
   {
     "id": "api.upgrade_to_enterprise_status.signature.app_error",
-    "translation": "Mattermost was unable to upgrade to Enterprise Edition. The digital signature of the downloaded binary file could not be verified.",
+    "translation": "Astra Loop was unable to upgrade to Enterprise Edition. The digital signature of the downloaded binary file could not be verified.",
     "description": "API error when the digital signature of the downloaded Enterprise Edition binary cannot be verified during the in-product upgrade; admin-facing."
   },
   {
@@ -5812,7 +5807,7 @@
   {
     "id": "api.upload.create.upload_channel_not_shared_with_remote.app_error",
     "translation": "Failed to upload file. Upload channel is not shared with remote.",
-    "description": "API error when a remote Mattermost instance tries to upload a file into a channel that is not shared with it; 'remote' is the other instance."
+    "description": "API error when a remote Astra Loop instance tries to upload a file into a channel that is not shared with it; 'remote' is the other instance."
   },
   {
     "id": "api.upload.create.upload_too_large.app_error",
@@ -5827,7 +5822,7 @@
   {
     "id": "api.upload.invalid_type_for_shared_channel.app_error",
     "translation": "Failed to upload file. Upload channel is not shared with remote.",
-    "description": "API error when a file upload from a remote Mattermost instance has an upload type not allowed for shared channels."
+    "description": "API error when a file upload from a remote Astra Loop instance has an upload type not allowed for shared channels."
   },
   {
     "id": "api.upload.upload_data.invalid_content_length",
@@ -5982,7 +5977,7 @@
   {
     "id": "api.user.create_oauth_user.create.app_error",
     "translation": "Could not create user out of {{.Service}} user object.",
-    "description": "API error when the server cannot build a Mattermost account from the SSO provider's user data; {{.Service}} is the provider name (e.g. GitLab, Google)."
+    "description": "API error when the server cannot build a Astra Loop account from the SSO provider's user data; {{.Service}} is the provider name (e.g. GitLab, Google)."
   },
   {
     "id": "api.user.create_password_token.error",
@@ -6071,7 +6066,7 @@
   },
   {
     "id": "api.user.delete_channel.not_enabled.for_admin.app_error",
-    "translation": "Permanent channel deletion feature is not enabled. ServiceSettings.EnableAPIChannelDeletion must be set to true to use this command. See https://mattermost.com/pl/environment-configuration-settings for more information",
+    "translation": "Permanent channel deletion feature is not enabled. ServiceSettings.EnableAPIChannelDeletion must be set to true to use this command. See # for more information",
     "description": "Admin-facing variant of the permanent channel deletion error; 'ServiceSettings.EnableAPIChannelDeletion' is a literal config setting name and the URL is a documentation link."
   },
   {
@@ -6081,7 +6076,7 @@
   },
   {
     "id": "api.user.delete_team.not_enabled.for_admin.app_error",
-    "translation": "Permanent team deletion feature is not enabled. ServiceSettings.EnableAPITeamDeletion must be set to true to use this command. See https://mattermost.com/pl/environment-configuration-settings for more information.",
+    "translation": "Permanent team deletion feature is not enabled. ServiceSettings.EnableAPITeamDeletion must be set to true to use this command. See # for more information.",
     "description": "API error shown to a system admin when permanent team deletion is disabled; 'ServiceSettings.EnableAPITeamDeletion' is a config setting name and the URL is a documentation link; neither should be translated."
   },
   {
@@ -6091,7 +6086,7 @@
   },
   {
     "id": "api.user.delete_user.not_enabled.for_admin.app_error",
-    "translation": "Permanent user deletion feature is not enabled. ServiceSettings.EnableAPIUserDeletion must be set to true to use this command. See https://mattermost.com/pl/environment-configuration-settings for more information.",
+    "translation": "Permanent user deletion feature is not enabled. ServiceSettings.EnableAPIUserDeletion must be set to true to use this command. See # for more information.",
     "description": "API error shown to a system admin when permanent user deletion is disabled; 'ServiceSettings.EnableAPIUserDeletion' is a config setting name and the URL is a documentation link; neither should be translated."
   },
   {
@@ -6267,7 +6262,7 @@
   {
     "id": "api.user.login.remote_users.login.error",
     "translation": "Login failed because remote users are not allowed to log in.",
-    "description": "Login error when a remote user (an account synchronized from another Mattermost server via shared channels) tries to log in locally."
+    "description": "Login error when a remote user (an account synchronized from another Astra Loop server via shared channels) tries to log in locally."
   },
   {
     "id": "api.user.login.use_auth_service.app_error",
@@ -6277,7 +6272,7 @@
   {
     "id": "api.user.login_by_cws.invalid_token.app_error",
     "translation": "CWS token is not valid",
-    "description": "Login error when the one-time token from the Customer Web Server (Mattermost cloud portal) is invalid; 'CWS' is that portal's name."
+    "description": "Login error when the one-time token from the Customer Web Server (Astra Loop cloud portal) is invalid; 'CWS' is that portal's name."
   },
   {
     "id": "api.user.login_by_intune.account_locked.app_error",
@@ -6317,7 +6312,7 @@
   {
     "id": "api.user.login_cws.license.error",
     "translation": "CWS login is forbidden.",
-    "description": "Login error when a Customer Web Server (CWS) portal login is attempted where it is not permitted; 'CWS' is the Mattermost customer portal."
+    "description": "Login error when a Customer Web Server (CWS) portal login is attempted where it is not permitted; 'CWS' is the Astra Loop customer portal."
   },
   {
     "id": "api.user.login_ldap.not_available.app_error",
@@ -6407,7 +6402,7 @@
   {
     "id": "api.user.reset_password.sso.app_error",
     "translation": "Unable to reset password for SSO accounts.",
-    "description": "API error when a password reset is attempted for an account that signs in via SSO and therefore has no Mattermost password."
+    "description": "API error when a password reset is attempted for an account that signs in via SSO and therefore has no Astra Loop password."
   },
   {
     "id": "api.user.reset_password.token_parse.error",
@@ -6442,7 +6437,7 @@
   {
     "id": "api.user.send_cloud_welcome_email.error",
     "translation": "Failed to send cloud welcome email",
-    "description": "Error when sending the welcome email to a new Mattermost Cloud workspace user fails; admin/log audience."
+    "description": "Error when sending the welcome email to a new Astra Loop Cloud workspace user fails; admin/log audience."
   },
   {
     "id": "api.user.send_deactivate_email_and_forget.failed.error",
@@ -6467,7 +6462,7 @@
   {
     "id": "api.user.send_password_reset.sso.app_error",
     "translation": "Unable to reset password for SSO accounts.",
-    "description": "API error when a password reset is requested for an account that signs in via SSO and has no Mattermost password."
+    "description": "API error when a password reset is requested for an account that signs in via SSO and has no Astra Loop password."
   },
   {
     "id": "api.user.send_sign_in_change_email_and_forget.error",
@@ -6932,7 +6927,7 @@
   {
     "id": "app.admin.test_site_url.failure",
     "translation": "This is not a valid live URL",
-    "description": "API error in the System Console when the Site URL being tested does not respond as a live Mattermost URL; admin-facing."
+    "description": "API error in the System Console when the Site URL being tested does not respond as a live Astra Loop URL; admin-facing."
   },
   {
     "id": "app.agents.get_agents.app_error",
@@ -7001,7 +6996,7 @@
   },
   {
     "id": "app.bot.get_disable_bot_sysadmin_message",
-    "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}{{.UserName}} was deactivated. They managed the following bot accounts which have now been disabled.\n\n{{.BotNames}}{{else}}{{.UserName}} was deactivated. They managed {{.NumBots}} bot accounts which have now been disabled, including the following:\n\n{{.BotNames}}{{end}}You can take ownership of each bot by enabling it at **Integrations > Bot Accounts** and creating new tokens for the bot.\n\nFor more information, see our [documentation](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).{{else}}{{if .printAllBots}}{{.UserName}} was deactivated. They managed the following bot accounts which are still enabled.\n\n{{.BotNames}}\n{{else}}{{.UserName}} was deactivated. They managed {{.NumBots}} bot accounts which are still enabled, including the following:\n\n{{.BotNames}}{{end}}We strongly recommend you to take ownership of each bot by re-enabling it at **Integrations > Bot Accounts** and creating new tokens for the bot.\n\nFor more information, see our [documentation](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).\n\nIf you want bot accounts to disable automatically after owner deactivation, set “Disable bot accounts when owner is deactivated” in **System Console > Integrations > Bot Accounts** to true.{{end}}",
+    "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}{{.UserName}} was deactivated. They managed the following bot accounts which have now been disabled.\n\n{{.BotNames}}{{else}}{{.UserName}} was deactivated. They managed {{.NumBots}} bot accounts which have now been disabled, including the following:\n\n{{.BotNames}}{{end}}You can take ownership of each bot by enabling it at **Integrations > Bot Accounts** and creating new tokens for the bot.\n\nFor more information, see our [documentation](#).{{else}}{{if .printAllBots}}{{.UserName}} was deactivated. They managed the following bot accounts which are still enabled.\n\n{{.BotNames}}\n{{else}}{{.UserName}} was deactivated. They managed {{.NumBots}} bot accounts which are still enabled, including the following:\n\n{{.BotNames}}{{end}}We strongly recommend you to take ownership of each bot by re-enabling it at **Integrations > Bot Accounts** and creating new tokens for the bot.\n\nFor more information, see our [documentation](#).\n\nIf you want bot accounts to disable automatically after owner deactivation, set “Disable bot accounts when owner is deactivated” in **System Console > Integrations > Bot Accounts** to true.{{end}}",
     "description": "Go-templated direct message sent to system admins when a user who owned bot accounts is deactivated; branches on whether bots were auto-disabled ({{if .disableBotsSetting}}) and whether all bots are listed ({{.printAllBots}}); {{.UserName}} is the deactivated owner, {{.BotNames}} the bot list, {{.NumBots}} a count; uses Markdown (bold paths, links); template syntax must be preserved exactly."
   },
   {
@@ -7052,7 +7047,7 @@
   {
     "id": "app.bot.update_bot_active.protected_bot.app_error",
     "translation": "Cannot disable a system-owned bot.",
-    "description": "API error (403) shown to a system admin who tries to deactivate a bot account that Mattermost itself owns and manages (for example a built-in system bot), which is not permitted."
+    "description": "API error (403) shown to a system admin who tries to deactivate a bot account that Astra Loop itself owns and manages (for example a built-in system bot), which is not permitted."
   },
   {
     "id": "app.burn_post.not_burn_on_read.app_error",
@@ -7192,7 +7187,7 @@
   {
     "id": "app.channel.create_channel.spaces_not_enabled.app_error",
     "translation": "The Docs feature is not enabled.",
-    "description": "API error returned when creating a Space channel while the Docs feature is turned off; 'Docs' is the Mattermost feature name."
+    "description": "API error returned when creating a Space channel while the Docs feature is turned off; 'Docs' is the Astra Loop feature name."
   },
   {
     "id": "app.channel.create_direct_channel.internal_error",
@@ -7917,12 +7912,12 @@
   {
     "id": "app.data_spillage.exposure.column.user_id",
     "translation": "User ID",
-    "description": "Column header in the post exposure report CSV holding the user's internal Mattermost ID. Keep it short; \"ID\" is an identifier, not a document."
+    "description": "Column header in the post exposure report CSV holding the user's internal Astra Loop ID. Keep it short; \"ID\" is an identifier, not a document."
   },
   {
     "id": "app.data_spillage.exposure.column.username",
     "translation": "Username",
-    "description": "Column header in the post exposure report CSV holding the user's Mattermost username. Keep it short."
+    "description": "Column header in the post exposure report CSV holding the user's Astra Loop username. Keep it short."
   },
   {
     "id": "app.data_spillage.exposure.column.was_channel_member",
@@ -8647,8 +8642,8 @@
   },
   {
     "id": "app.export.generate_presigned_url.direct_download.app_error",
-    "translation": "Direct download of exports is only available in Mattermost Cloud.",
-    "description": "API error (403) shown to a system admin on a self-hosted server who requests a presigned direct download link for an export; the feature is restricted to Mattermost Cloud."
+    "translation": "Direct download of exports is only available in Astra Loop Cloud.",
+    "description": "API error (403) shown to a system admin on a self-hosted server who requests a presigned direct download link for an export; the feature is restricted to Astra Loop Cloud."
   },
   {
     "id": "app.export.generate_presigned_url.driver.app_error",
@@ -8683,7 +8678,7 @@
   {
     "id": "app.file.cloud.get.app_error",
     "translation": "Cannot fetch the file as it is past the cloud plan's limit.",
-    "description": "Error when a file cannot be fetched because it exceeds the Mattermost Cloud plan's storage limit; end-user audience."
+    "description": "Error when a file cannot be fetched because it exceeds the Astra Loop Cloud plan's storage limit; end-user audience."
   },
   {
     "id": "app.file_info.delete_for_post_ids.app_error",
@@ -8803,7 +8798,7 @@
   {
     "id": "app.group.no_rows",
     "translation": "no matching group found",
-    "description": "Lowercase error detail returned when a user group lookup finds no match; 'group' is a Mattermost user group."
+    "description": "Lowercase error detail returned when a user group lookup finds no match; 'group' is a Astra Loop user group."
   },
   {
     "id": "app.group.uniqueness_error",
@@ -9942,8 +9937,8 @@
   },
   {
     "id": "app.notification.footer.infoLogin",
-    "translation": "Login to Mattermost",
-    "description": "Link/label text in the footer of notification emails inviting the recipient to sign in to the Mattermost server."
+    "translation": "Login to Astra Loop",
+    "description": "Link/label text in the footer of notification emails inviting the recipient to sign in to the Astra Loop server."
   },
   {
     "id": "app.notification.footer.title",
@@ -10103,7 +10098,7 @@
   {
     "id": "app.pap.access_control.channel_shared",
     "translation": "Shared channels cannot have access control policy applied.",
-    "description": "API error when an access control policy is applied to a shared channel (shared with another Mattermost server); admin-facing."
+    "description": "API error when an access control policy is applied to a shared channel (shared with another Astra Loop server); admin-facing."
   },
   {
     "id": "app.pap.access_control.channel_type_not_supported",
@@ -10176,34 +10171,14 @@
     "description": "API error when fetching the access control attributes applied to a channel fails; admin-facing."
   },
   {
-    "id": "app.pap.get_channel_members_to_remove.app_error",
-    "translation": "Could not get channel members to remove.",
-    "description": "API/job error for admins when computing which channel members no longer satisfy an access control policy and must be removed."
-  },
-  {
     "id": "app.pap.get_masked_visual_ast.app_error",
     "translation": "Could not generate masked visual AST from expression.",
     "description": "Internal error when generating the visual (tree) representation of an access control policy expression with hidden values masked fails; 'AST' = abstract syntax tree, admin-facing."
   },
   {
-    "id": "app.pap.get_policies_for_field_ids.app_error",
-    "translation": "Could not get policies for the given field IDs.",
-    "description": "API error for admins when fetching the access control policies that reference given user-attribute fields fails."
-  },
-  {
     "id": "app.pap.get_policy.app_error",
     "translation": "Unable to retrieve the access control policy.",
     "description": "API error shown to system admins when loading a single attribute-based access control policy fails."
-  },
-  {
-    "id": "app.pap.get_policy_attributes.app_error",
-    "translation": "Could not get attributes for policy.",
-    "description": "API error for admins when fetching the user attributes referenced by an access control policy fails; 'policy' is an access control policy."
-  },
-  {
-    "id": "app.pap.get_team_members_to_remove.app_error",
-    "translation": "Could not get team members to remove.",
-    "description": "API/job error for admins when computing which team members no longer satisfy an access control policy and must be removed."
   },
   {
     "id": "app.pap.has_masked_values.app_error",
@@ -10214,21 +10189,6 @@
     "id": "app.pap.hydrate_actions.app_error",
     "translation": "Could not load the action set declared by the channel's access control policy.",
     "description": "Internal error when loading the set of actions defined by a channel's access control policy fails; technical, admin-facing."
-  },
-  {
-    "id": "app.pap.init.app_error",
-    "translation": "Unable to initialize access control service.",
-    "description": "Error returned to admins when the attribute-based access control service fails to start."
-  },
-  {
-    "id": "app.pap.is_ready.app_error",
-    "translation": "Access control service is not ready.",
-    "description": "Error returned to admins calling access control APIs before the access control service has finished initializing."
-  },
-  {
-    "id": "app.pap.mask_expression.app_error",
-    "translation": "Could not mask policy expression.",
-    "description": "API error for admins when the server fails to hide (mask) restricted attribute values inside an access control policy expression."
   },
   {
     "id": "app.pap.masking.ambiguous_sibling.app_error",
@@ -10251,44 +10211,9 @@
     "description": "API error for admins saving an access control policy when the edited expression cannot be recombined with previously masked (hidden) values."
   },
   {
-    "id": "app.pap.missing_attribute.app_error",
-    "translation": "An attribute is missing from the expression.",
-    "description": "API error for admins when an access control policy expression references a user attribute that does not exist."
-  },
-  {
-    "id": "app.pap.normalize_policy.app_error",
-    "translation": "Could not normalize policy expression.",
-    "description": "API error for admins when an access control policy expression cannot be rewritten into its normalized form."
-  },
-  {
-    "id": "app.pap.query_expression.app_error",
-    "translation": "Could not query for expression.",
-    "description": "API error for admins when searching for users matching an access control policy expression fails."
-  },
-  {
-    "id": "app.pap.rehydrate_rank.app_error",
-    "translation": "Could not restore ranked operators in policy expression.",
-    "description": "API error for admins when restoring rank-comparison operators in an access control policy expression fails; technical failure, not user mistake."
-  },
-  {
-    "id": "app.pap.save_policy.app_error",
-    "translation": "Unable to save access control policy.",
-    "description": "Generic API error shown to system admins when saving an attribute-based access control policy fails."
-  },
-  {
     "id": "app.pap.save_policy.forbidden",
     "translation": "You do not have permission to make this change to the policy.",
     "description": "API error when an admin tries to make a change to an access control policy they are not permitted to make."
-  },
-  {
-    "id": "app.pap.save_policy.invalid_value",
-    "translation": "The policy expression contains a value that is not permitted.",
-    "description": "Validation error shown to admins saving an access control policy whose expression uses a disallowed attribute value."
-  },
-  {
-    "id": "app.pap.save_policy.masked_condition_deleted",
-    "translation": "A condition containing masked values was deleted. Please reload the policy and try again.",
-    "description": "Error shown to admins saving an access control policy after removing a rule condition whose values were masked (hidden) from them; asks them to reload and retry."
   },
   {
     "id": "app.pap.save_policy.masked_token_in_expression",
@@ -10296,29 +10221,9 @@
     "description": "API error when a saved access control policy expression still contains an unresolved masked-value placeholder; asks the admin to reload the policy and retry."
   },
   {
-    "id": "app.pap.save_policy.name_exists.app_error",
-    "translation": "A policy with this name already exists. Please choose a different name.",
-    "description": "Validation error when an admin saves an access control policy using a name already taken by another policy."
-  },
-  {
-    "id": "app.pap.save_policy.parent_resource_attributes_team_assigned",
-    "translation": "This access rule uses channel attributes, which teams do not have. Remove the teams assigned to this policy before saving.",
-    "description": "API error (400) shown to a system admin saving a parent access policy that references channel attributes while one or more teams are still assigned to it. Teams have no attributes, so the assignments must be removed first."
-  },
-  {
     "id": "app.pap.save_policy.resolver_error",
     "translation": "Could not initialize attribute resolver for policy save.",
     "description": "Internal error when initializing the attribute resolver component fails while saving an access control policy; technical, admin-facing."
-  },
-  {
-    "id": "app.pap.save_policy.resource_attributes_disabled",
-    "translation": "Access rules cannot use channel attributes on this server. This capability is not enabled.",
-    "description": "API error (400) shown to a system admin saving an access rule that references channel (resource) attributes on a server where that capability is turned off."
-  },
-  {
-    "id": "app.pap.save_policy.rule_name_unique.app_error",
-    "translation": "Permission rule names must be unique within the policy.",
-    "description": "Validation error when an admin saves an access control policy containing two permission rules with the same name."
   },
   {
     "id": "app.pap.save_policy.self_exclusion",
@@ -10326,59 +10231,9 @@
     "description": "API error when saving an access control policy would lock the saving admin out because they do not satisfy the policy's conditions."
   },
   {
-    "id": "app.pap.save_policy.team_resource_attributes",
-    "translation": "This access rule uses channel attributes, which teams do not have. Access rules with channel attributes can only be applied to channels.",
-    "description": "API error (400) shown to a system admin saving a team-scoped access policy whose expression references channel attributes, directly or via an imported parent policy. Explains that such rules apply only to channels."
-  },
-  {
     "id": "app.pap.search_access_control_policies.app_error",
     "translation": "Could not search access control policies.",
     "description": "API error when searching attribute-based access control policies fails; admin-facing."
-  },
-  {
-    "id": "app.pap.simulate.attribute_refresh",
-    "translation": "Failed to refresh attributes for the simulation.",
-    "description": "Error in the access control policy simulator (admin tool for testing policies) when reloading user attribute values fails."
-  },
-  {
-    "id": "app.pap.simulate.channel_required_for_resource",
-    "translation": "A channel is required to simulate a policy that references channel attributes.",
-    "description": "API error (400) shown to a system admin running the access-policy simulation/preview in the System Console when the policy references channel attributes but no channel was selected to simulate against."
-  },
-  {
-    "id": "app.pap.simulate.compile_failed",
-    "translation": "Failed to compile the policy for simulation.",
-    "description": "Error in the access control policy simulator when the policy expression fails to compile."
-  },
-  {
-    "id": "app.pap.simulate.feature_disabled",
-    "translation": "The permission policies feature is currently disabled.",
-    "description": "Error returned when an admin runs the access control policy simulator but the permission policies feature is turned off."
-  },
-  {
-    "id": "app.pap.simulate.invalid_policy",
-    "translation": "The policy is not valid.",
-    "description": "Validation error in the access control policy simulator; the submitted policy failed validation."
-  },
-  {
-    "id": "app.pap.simulate.missing_actions",
-    "translation": "At least one action is required for simulation.",
-    "description": "Validation error in the access control policy simulator when the request lists no actions (permissions) to test."
-  },
-  {
-    "id": "app.pap.simulate.missing_channel_id",
-    "translation": "A channel is required to simulate a channel-scoped policy.",
-    "description": "Validation error in the access control policy simulator when testing a channel-scoped policy without specifying a channel."
-  },
-  {
-    "id": "app.pap.simulate.missing_policy",
-    "translation": "A policy is required for simulation.",
-    "description": "Validation error in the access control policy simulator when no policy was included in the request."
-  },
-  {
-    "id": "app.pap.simulate.missing_users",
-    "translation": "At least one user is required for simulation.",
-    "description": "Validation error in the access control policy simulator when the request lists no users to test the policy against."
   },
   {
     "id": "app.pap.simulate.resolver_error",
@@ -10386,19 +10241,9 @@
     "description": "Internal error when initializing the attribute resolver component fails during access control policy simulation; technical, admin-facing."
   },
   {
-    "id": "app.pap.simulate.too_many_users",
-    "translation": "Too many users requested. Maximum allowed is {{.Max}}.",
-    "description": "Validation error in the access control policy simulator; {{.Max}} is the maximum number of users allowed per simulation request."
-  },
-  {
     "id": "app.pap.simulate.unavailable",
     "translation": "Policy Administration Point is not initialized.",
     "description": "API error when policy simulation is requested but the Policy Administration Point service is not initialized; technical, admin-facing."
-  },
-  {
-    "id": "app.pap.simulate.unsupported_type",
-    "translation": "Policy type \"{{.Type}}\" is not supported by the simulator.",
-    "description": "Error in the access control policy simulator; {{.Type}} is the policy type identifier (e.g. channel, team) that the simulator cannot handle."
   },
   {
     "id": "app.pap.unassign_access_control_policy_from_channels.app_error",
@@ -10414,16 +10259,6 @@
     "id": "app.pap.update_access_control_policies_active.app_error",
     "translation": "Could not update active status of access control policies.",
     "description": "API error when enabling or disabling attribute-based access control policies fails; admin-facing."
-  },
-  {
-    "id": "app.pdp.access_evaluation.app_error",
-    "translation": "Failed to evaluate access control policy.",
-    "description": "Error when the server fails to evaluate an attribute-based access control policy while deciding whether a user may access a resource."
-  },
-  {
-    "id": "app.pdp.access_evaluation.permission_policy.app_error",
-    "translation": "Failed to evaluate permission policy.",
-    "description": "Error when the server fails to evaluate a permission policy while checking a user's access."
   },
   {
     "id": "app.plugin.addon_not_licensed.app_error",
@@ -10703,7 +10538,7 @@
   {
     "id": "app.post.cloud.get.app_error",
     "translation": "Cannot fetch the post as it is past the cloud plan's limit.",
-    "description": "API error on Mattermost Cloud when a post (message) cannot be fetched because it is older than the message history limit of the workspace's Cloud plan."
+    "description": "API error on Astra Loop Cloud when a post (message) cannot be fetched because it is older than the message history limit of the workspace's Cloud plan."
   },
   {
     "id": "app.post.create_post.shared_dm_or_gm.app_error",
@@ -11969,7 +11804,7 @@
   {
     "id": "app.scheme.get_all_page.app_error",
     "translation": "Unable to get page of schemes.",
-    "description": "API error returned when loading a page of permission schemes fails; 'scheme' is the Mattermost permissions scheme feature."
+    "description": "API error returned when loading a page of permission schemes fails; 'scheme' is the Astra Loop permissions scheme feature."
   },
   {
     "id": "app.scheme.permanent_delete_all.app_error",
@@ -13232,174 +13067,9 @@
     "description": "Internal API error when a stored setting cannot be parsed as a number; {{.Value}} is the offending value and 'int64' is a numeric type name."
   },
   {
-    "id": "ent.access_control.job_data_conversion.app_error",
-    "translation": "Failed to extract data from previous job.",
-    "description": "Background job error (access control membership sync) shown in the admin jobs table when data carried over from a previous job cannot be parsed."
-  },
-  {
-    "id": "ent.access_control.sync_job.app_error",
-    "translation": "Failed to run access control sync job.",
-    "description": "Error status for the background job that synchronizes channel/team membership with access control policies; visible to system admins."
-  },
-  {
-    "id": "ent.account_migration.get_all_failed",
-    "translation": "Unable to get users.",
-    "description": "Error output of the CLI/mmctl authentication-migration command when the list of user accounts cannot be fetched."
-  },
-  {
-    "id": "ent.account_migration.get_saml_users_failed",
-    "translation": "Unable to get SAML users.",
-    "description": "Error output of the CLI/mmctl authentication-migration command when SAML-authenticated users cannot be fetched; SAML is the single sign-on protocol name."
-  },
-  {
-    "id": "ent.api.post.send_notifications_and_forget.push_image_only",
-    "translation": " attached a file.",
-    "description": "Mobile push notification body when a message contains only an attachment; appended directly after the sender's name, so the leading space is intentional."
-  },
-  {
-    "id": "ent.autotranslation.add_task.missing_object_id",
-    "translation": "Translation task must include an object ID.",
-    "description": "Internal validation error when queueing a translation task without the ID of the object (e.g. post) to translate."
-  },
-  {
-    "id": "ent.autotranslation.add_task.missing_object_type",
-    "translation": "Translation task must include an object type.",
-    "description": "Internal validation error when queueing a translation task without the type of object (e.g. post) to translate."
-  },
-  {
-    "id": "ent.autotranslation.add_task.nil_task",
-    "translation": "Translation task cannot be null.",
-    "description": "Internal validation error when a null translation task is queued; developer-leaning register."
-  },
-  {
-    "id": "ent.autotranslation.add_task.worker_stopped",
-    "translation": "Translation task cannot be added because the worker has been stopped.",
-    "description": "Error when a translation task is queued after the background translation worker has shut down."
-  },
-  {
-    "id": "ent.autotranslation.create_translation_failed",
-    "translation": "Failed to create translation.",
-    "description": "Error when the automatic message translation feature fails to produce a translation for a post."
-  },
-  {
-    "id": "ent.autotranslation.detect_language.nil_context",
-    "translation": "Context is required for language detection.",
-    "description": "Internal validation error in automatic message translation; 'context' is the programming request context object, not conversational context."
-  },
-  {
-    "id": "ent.autotranslation.detect_language.text_too_large",
-    "translation": "Text exceeds maximum size for language detection.",
-    "description": "Validation error when text sent for language detection exceeds the size limit of the automatic translation feature."
-  },
-  {
-    "id": "ent.autotranslation.detect_remote.error",
-    "translation": "Failed to detect language using translation provider.",
-    "description": "Error from the automatic message translation feature when the external translation provider fails to detect a text's language."
-  },
-  {
-    "id": "ent.autotranslation.extract_content.mask_error",
-    "translation": "Failed to mask content for translation.",
-    "description": "Error when the automatic translation feature fails to mask (replace with placeholder tokens) mentions, links, and code before sending text to the translation provider."
-  },
-  {
-    "id": "ent.autotranslation.extract_post.nil_post",
-    "translation": "Post object cannot be null.",
-    "description": "Internal validation error in automatic message translation when the post object to translate is missing (null)."
-  },
-  {
-    "id": "ent.autotranslation.feature_unavailable",
-    "translation": "Auto-translation is not available. Please contact your system administrator about upgrading your enterprise license.",
-    "description": "Error shown to end users trying to use automatic message translation when the server license does not include it."
-  },
-  {
-    "id": "ent.autotranslation.invalid_input",
-    "translation": "Invalid language code provided.",
-    "description": "Validation error in automatic message translation when a language code parameter is not valid."
-  },
-  {
-    "id": "ent.autotranslation.mask_verification_failed",
-    "translation": "Failed to update translation with new mask values.",
-    "description": "Error when the automatic translation feature cannot update a stored translation with regenerated mask placeholder values."
-  },
-  {
-    "id": "ent.autotranslation.no_translatable_content",
-    "translation": "Content contains no translatable text.",
-    "description": "Error from the automatic message translation feature when a post has no text that can be translated (e.g. only attachments)."
-  },
-  {
-    "id": "ent.autotranslation.provider_not_available",
-    "translation": "Translation provider is not available.",
-    "description": "Error when the configured machine-translation provider service cannot be reached; 'provider' is the external translation service."
-  },
-  {
-    "id": "ent.autotranslation.provider_not_initialized",
-    "translation": "Translation provider is not initialized.",
-    "description": "Error when the machine-translation provider has not been set up yet; 'provider' is the external translation service."
-  },
-  {
-    "id": "ent.autotranslation.store_error",
-    "translation": "Unable to process auto-translation request.",
-    "description": "Generic database error while processing an automatic message translation request."
-  },
-  {
-    "id": "ent.autotranslation.unmask.missing_mask",
-    "translation": "Translation contains unrecognized tokens.",
-    "description": "Error when the translated text returned by the provider contains placeholder tokens the server did not create; 'tokens' are the masking placeholders."
-  },
-  {
-    "id": "ent.autotranslation.unmask.orphan_token",
-    "translation": "Translation contains invalid tokens.",
-    "description": "Error when restoring masked placeholders in a translated message fails because a token is corrupted or unmatched."
-  },
-  {
-    "id": "ent.autotranslation.validate_content.invalid_json",
-    "translation": "Unable to parse JSON content.",
-    "description": "Validation error in automatic message translation when structured content cannot be parsed as JSON."
-  },
-  {
-    "id": "ent.autotranslation.validate_content.invalid_type",
-    "translation": "Unsupported content type for translation.",
-    "description": "Validation error in automatic message translation when the object type (e.g. post) is not one the feature can translate."
-  },
-  {
-    "id": "ent.autotranslation.validate_content.nil_content",
-    "translation": "Content cannot be null.",
-    "description": "Internal validation error in automatic message translation when the content to translate is missing (null); developer-leaning register."
-  },
-  {
-    "id": "ent.autotranslation.validate_content.text_too_large",
-    "translation": "Content exceeds maximum size for translation.",
-    "description": "Validation error when a message exceeds the maximum size the automatic translation feature accepts."
-  },
-  {
-    "id": "ent.autotranslation.validate_id.empty",
-    "translation": "Required ID cannot be empty.",
-    "description": "Validation error in automatic message translation when a required object ID parameter is empty."
-  },
-  {
-    "id": "ent.autotranslation.validate_id.invalid",
-    "translation": "Invalid ID format.",
-    "description": "Validation error in automatic message translation when an object ID parameter is malformed."
-  },
-  {
-    "id": "ent.cluster.config_changed.info",
-    "translation": "Cluster configuration has changed for id={{ .id }}. The cluster may become unstable and a restart is required. To ensure the cluster is configured correctly you should perform a rolling restart immediately.",
-    "description": "Warning logged/surfaced to system admins of a high-availability cluster; {{ .id }} is the ID of the cluster node whose configuration diverged."
-  },
-  {
-    "id": "ent.cluster.json_encode.error",
-    "translation": "Error occurred while marshalling JSON request",
-    "description": "Log/error message for admins when a high-availability cluster message cannot be serialized to JSON; 'marshalling' means serializing."
-  },
-  {
     "id": "ent.cluster.save_config.error",
     "translation": "System Console is set to read-only when High Availability is enabled unless ReadOnlyConfig is disabled in the configuration file.",
     "description": "Error shown to admins trying to change settings from the System Console when the server runs in High Availability mode; 'System Console' is the admin UI and 'ReadOnlyConfig' is a config setting name that should stay untranslated."
-  },
-  {
-    "id": "ent.cluster.timeout.error",
-    "translation": "Timed out waiting for cluster response",
-    "description": "Log/error message for admins when a node in a high-availability cluster does not answer a request in time."
   },
   {
     "id": "ent.compliance.licence_disable.app_error",
@@ -13407,29 +13077,9 @@
     "description": "Error shown to admins using compliance export features without a license that includes them."
   },
   {
-    "id": "ent.compliance.run_failed.error",
-    "translation": "Compliance export failed for job '{{.JobName}}' at '{{.FilePath}}'",
-    "description": "Failure message for a compliance export job, seen by admins; {{.JobName}} is the job's name and {{.FilePath}} is the export file path."
-  },
-  {
     "id": "ent.data_retention.generic.license.error",
     "translation": "Your license does not support Data Retention.",
     "description": "Error shown to admins using the Data Retention feature (automatic deletion of old messages/files) without a supporting license."
-  },
-  {
-    "id": "ent.data_retention.policies.internal_error",
-    "translation": "We encountered an error performing the requested operation.",
-    "description": "Generic server error shown to admins managing data retention policies in the System Console."
-  },
-  {
-    "id": "ent.data_retention.policies.invalid_policy",
-    "translation": "Policy is invalid.",
-    "description": "Validation error shown to admins when a submitted data retention policy fails validation; 'policy' is a data retention policy."
-  },
-  {
-    "id": "ent.data_retention.run_failed.error",
-    "translation": "Data retention job failed.",
-    "description": "Failure status of the background data retention job (automatic deletion of old messages/files); visible to admins in the jobs table."
   },
   {
     "id": "ent.elasticsearch.aggregator_worker.create_index_job.error",
@@ -13524,7 +13174,7 @@
   {
     "id": "ent.elasticsearch.delete_channel.error",
     "translation": "Failed to delete the channel",
-    "description": "Error when removing a deleted channel from the search index fails; 'channel' is a Mattermost channel document in the index."
+    "description": "Error when removing a deleted channel from the search index fails; 'channel' is a Astra Loop channel document in the index."
   },
   {
     "id": "ent.elasticsearch.delete_channel_posts.error",
@@ -13753,7 +13403,7 @@
   },
   {
     "id": "ent.elasticsearch.test_config.license.error",
-    "translation": "Your Mattermost license doesn't support indexed search.",
+    "translation": "Your Astra Loop license doesn't support indexed search.",
     "description": "Admin console error when testing the Elasticsearch/search connection on a license tier that does not include indexed search."
   },
   {
@@ -13767,179 +13417,14 @@
     "description": "Error status for a maintenance job; {{.Backend}} is 'Elasticsearch' or 'OpenSearch'; it failed to update the channel type field on indexed posts."
   },
   {
-    "id": "ent.id_loaded.license_disable.app_error",
-    "translation": "Your license does not support ID Loaded Push Notifications.",
-    "description": "Error when ID-only ('ID Loaded') push notifications are configured without a supporting license; 'ID Loaded Push Notifications' is a feature name; admin audience."
-  },
-  {
-    "id": "ent.intune.login.account_not_found.app_error",
-    "translation": "Your account isn't fully set up yet. Please sign in to Mattermost via the web or desktop app first.",
-    "description": "Error shown on the mobile app sign-in flow via Microsoft Intune when no matching Mattermost account exists yet; end-user audience."
-  },
-  {
-    "id": "ent.intune.login.extract_auth_data.app_error",
-    "translation": "Authentication failed. Please try again or contact your system administrator.",
-    "description": "Error shown to end users when Microsoft Intune sign-in fails while reading identity data from the token."
-  },
-  {
-    "id": "ent.intune.login.not_configured.app_error",
-    "translation": "Microsoft Intune authentication is not configured.",
-    "description": "Error shown when a user attempts Microsoft Intune sign-in but the server has not configured it; 'Intune' is a Microsoft product name."
-  },
-  {
-    "id": "ent.intune.validate_token.invalid_tenant_id.app_error",
-    "translation": "Authentication failed. Invalid configuration.",
-    "description": "Error shown to end users during Microsoft Intune sign-in when the server's tenant configuration is wrong; intentionally vague for security."
-  },
-  {
-    "id": "ent.intune.validate_token.invalid_token.app_error",
-    "translation": "Authentication failed. Please try again.",
-    "description": "Error shown to end users when the Microsoft Intune sign-in token fails validation."
-  },
-  {
-    "id": "ent.intune.validate_token.jwks_init.app_error",
-    "translation": "Authentication service initialization failed. Please contact your system administrator.",
-    "description": "Error shown to end users when the server cannot initialize key retrieval (JWKS) for validating Microsoft Intune sign-in tokens."
-  },
-  {
-    "id": "ent.intune.validate_token.missing_claims.app_error",
-    "translation": "Authentication failed. Required user information is missing.",
-    "description": "Error shown to end users when the Microsoft Intune sign-in token lacks required identity fields (claims)."
-  },
-  {
-    "id": "ent.intune.validate_token.token_expired.app_error",
-    "translation": "Authentication session has expired. Please try signing in again.",
-    "description": "Error shown to end users when their Microsoft Intune sign-in token has expired; invites them to sign in again."
-  },
-  {
-    "id": "ent.jobs.start_synchronize_job.timeout",
-    "translation": "Reached AD/LDAP synchronization job timeout.",
-    "description": "Error when a manually triggered AD/LDAP synchronization job does not finish within the allowed time; admin audience."
-  },
-  {
     "id": "ent.ldap.app_error",
     "translation": "ldap interface was nil.",
     "description": "Internal server error logged/returned when the enterprise LDAP module is not loaded; mostly seen by admins/developers."
   },
   {
-    "id": "ent.ldap.connection.test_failed",
-    "translation": "LDAP connection test failed. Server: {{.Server}}:{{.Port}}, ConnectionSecurity: {{.ConnectionType}}, PrivateKeyFilename: {{.PrivateKeyFilename}}, PublicCertificateFilename: {{.PublicCertFilename}}, BindUsername: {{.BindUsername}}. Error: {{.Error}}",
-    "description": "Result message of the AD/LDAP connection test in the System Console; placeholders hold the configured server host, port, security type, certificate file names, bind username, and the underlying error."
-  },
-  {
-    "id": "ent.ldap.create_fail",
-    "translation": "Unable to create LDAP user.",
-    "description": "Error when the server fails to create a Mattermost account for an AD/LDAP user (e.g. during first login or sync)."
-  },
-  {
     "id": "ent.ldap.disabled.app_error",
     "translation": "AD/LDAP disabled or license does not support AD/LDAP.",
     "description": "API error shown to admins when an AD/LDAP operation is attempted but AD/LDAP is disabled or unlicensed."
-  },
-  {
-    "id": "ent.ldap.do_login.bind_admin_user.app_error",
-    "translation": "Unable to bind to AD/LDAP server. Check BindUsername and BindPassword.",
-    "description": "AD/LDAP sign-in error for admins; 'bind', 'BindUsername', and 'BindPassword' are LDAP terms/setting names and should stay recognizable."
-  },
-  {
-    "id": "ent.ldap.do_login.certificate.app_error",
-    "translation": "Error loading LDAP TLS Certificate file.",
-    "description": "Error when the TLS certificate file configured for AD/LDAP connections cannot be loaded; admin audience."
-  },
-  {
-    "id": "ent.ldap.do_login.invalid_id",
-    "translation": "Invalid AD/LDAP Id",
-    "description": "Error during AD/LDAP sign-in when the user's directory ID attribute value is invalid; 'Id' is the LDAP ID attribute."
-  },
-  {
-    "id": "ent.ldap.do_login.invalid_password.app_error",
-    "translation": "Invalid Password.",
-    "description": "Error shown on the login page when an AD/LDAP user enters a wrong password."
-  },
-  {
-    "id": "ent.ldap.do_login.key.app_error",
-    "translation": "Error loading LDAP TLS Key file.",
-    "description": "Error when the TLS private key file configured for AD/LDAP connections cannot be loaded; admin audience."
-  },
-  {
-    "id": "ent.ldap.do_login.licence_disable.app_error",
-    "translation": "AD/LDAP functionality disabled by current license. Please contact your system administrator about upgrading your enterprise license.",
-    "description": "Error shown when AD/LDAP sign-in is attempted but the server license does not include AD/LDAP authentication."
-  },
-  {
-    "id": "ent.ldap.do_login.matched_to_many_users.app_error",
-    "translation": "Username given matches multiple users.",
-    "description": "Error during AD/LDAP sign-in when the entered username matches more than one directory entry."
-  },
-  {
-    "id": "ent.ldap.do_login.search_ldap_server.app_error",
-    "translation": "Failed to search AD/LDAP server.",
-    "description": "Error during AD/LDAP sign-in when the search query against the directory server fails."
-  },
-  {
-    "id": "ent.ldap.do_login.unable_to_connect.app_error",
-    "translation": "Unable to connect to AD/LDAP server.",
-    "description": "Error shown on the login page when the Mattermost server cannot reach the AD/LDAP directory server."
-  },
-  {
-    "id": "ent.ldap.do_login.user_filtered.app_error",
-    "translation": "Your AD/LDAP account does not have permission to use this Mattermost server. Please ask your System Administrator to check the AD/LDAP user filter.",
-    "description": "Error shown to an end user whose AD/LDAP account is excluded by the configured user filter; 'user filter' is an LDAP setting name."
-  },
-  {
-    "id": "ent.ldap.do_login.user_not_registered.app_error",
-    "translation": "User not registered on AD/LDAP server.",
-    "description": "Error shown on the login page when the entered username does not exist on the AD/LDAP directory server."
-  },
-  {
-    "id": "ent.ldap.do_login.x509.app_error",
-    "translation": "Error creating key pair",
-    "description": "Error when building the TLS certificate/key pair for the AD/LDAP connection fails; 'key pair' is the cryptographic certificate pair."
-  },
-  {
-    "id": "ent.ldap.get_user_by_auth.app_error",
-    "translation": "Failed to get user.",
-    "description": "Error when looking up a Mattermost user by their AD/LDAP authentication data fails."
-  },
-  {
-    "id": "ent.ldap.no.users.checkcertificate",
-    "translation": "No LDAP users found, check your user filter and certificates.",
-    "description": "AD/LDAP test result shown to admins when the user search returns nobody; 'user filter' is an LDAP configuration setting."
-  },
-  {
-    "id": "ent.ldap.save_user.email_exists.ldap_app_error",
-    "translation": "This account does not use AD/LDAP authentication. Please sign in using email and password.",
-    "description": "Error shown on the login page when someone tries AD/LDAP sign-in but the account with that email uses email/password authentication instead."
-  },
-  {
-    "id": "ent.ldap.save_user.username_exists.ldap_app_error",
-    "translation": "An account with that username already exists. Please contact your Administrator.",
-    "description": "Error during AD/LDAP sign-in when the username from the directory is already taken by a different Mattermost account; shown to end users."
-  },
-  {
-    "id": "ent.ldap.syncronize.get_all.app_error",
-    "translation": "Unable to get all users using AD/LDAP.",
-    "description": "Error status of the AD/LDAP synchronization job when fetching all users from the directory fails; admin audience."
-  },
-  {
-    "id": "ent.ldap.syncronize.get_all_groups.app_error",
-    "translation": "error retrieving groups.",
-    "description": "Lowercase error detail from the AD/LDAP sync job when retrieving all directory groups fails."
-  },
-  {
-    "id": "ent.ldap.syncronize.populate_syncables",
-    "translation": "error populating syncables",
-    "description": "Lowercase error detail from the AD/LDAP sync job; 'syncables' are the teams and channels linked to LDAP groups for automatic membership."
-  },
-  {
-    "id": "ent.ldap.syncronize.search_failure.app_error",
-    "translation": "Failed to search users in AD/LDAP. Test if the Mattermost server can connect to your AD/LDAP server and try again.",
-    "description": "Error status of the AD/LDAP synchronization job when the directory search fails; advises admins to test connectivity."
-  },
-  {
-    "id": "ent.ldap.syncronize.search_failure_size_exceeded.app_error",
-    "translation": "Size Limit Exceeded. Try increasing your Maximum page size setting. Check out https://docs.mattermost.com/onboard/ad-ldap.html#i-see-the-log-error-ldap-result-code-4-size-limit-exceeded for more details.",
-    "description": "AD/LDAP sync job error for admins; 'Maximum page size' is a System Console setting name and the URL is a documentation link that must stay intact."
   },
   {
     "id": "ent.ldap.validate_admin_filter.app_error",
@@ -13962,36 +13447,6 @@
     "description": "Config validation error shown to system admins when the AD/LDAP Guest Filter setting is not a valid LDAP search filter."
   },
   {
-    "id": "ent.ldap_groups.group_search_error",
-    "translation": "error retrieving ldap group",
-    "description": "Lowercase error detail when fetching a single LDAP group from the directory fails; admin/log audience."
-  },
-  {
-    "id": "ent.ldap_groups.groups_search_error",
-    "translation": "error retrieving ldap groups",
-    "description": "Lowercase error detail when fetching the list of LDAP groups from the directory fails; admin/log audience."
-  },
-  {
-    "id": "ent.ldap_groups.invalid_ldap_id",
-    "translation": "Invalid AD/LDAP id",
-    "description": "Lowercase error detail when an AD/LDAP group or user identifier is malformed; admin/log audience."
-  },
-  {
-    "id": "ent.ldap_groups.members_of_group_error",
-    "translation": "error retrieving members of group",
-    "description": "Lowercase error detail when fetching the member list of an LDAP group fails; admin/log audience."
-  },
-  {
-    "id": "ent.ldap_groups.no_rows",
-    "translation": "no groups found with matching uid",
-    "description": "Lowercase error detail when no LDAP group matches the given unique identifier (uid); admin/log audience."
-  },
-  {
-    "id": "ent.ldap_groups.reachable_groups_error",
-    "translation": "error retrieving groups for user",
-    "description": "Lowercase error detail when fetching the LDAP groups a user belongs to fails; admin/log audience."
-  },
-  {
     "id": "ent.ldap_id_migrate.app_error",
     "translation": "unable to migrate.",
     "description": "API error shown to admins when the LDAP ID-attribute migration operation fails."
@@ -14005,281 +13460,6 @@
     "id": "ent.message_export.actiance_export.calculate_channel_exports.channel_message",
     "translation": "Exporting channel information for {{.NumChannels}} channels.",
     "description": "Progress status of the compliance message export job shown to admins; {{.NumChannels}} is the number of channels being exported."
-  },
-  {
-    "id": "ent.message_export.calculate_channel_exports.app_error",
-    "translation": "Failed to calculate channel export data.",
-    "description": "Error status of the compliance message export job when computing per-channel export data fails; admin audience."
-  },
-  {
-    "id": "ent.message_export.job_data_conversion.app_error",
-    "translation": "Failed to convert a value from the job's data field.",
-    "description": "Error status of the compliance message export job when a stored job parameter cannot be parsed; admin audience."
-  },
-  {
-    "id": "ent.message_export.run_export.app_error",
-    "translation": "Failed to select message export data.",
-    "description": "Error status of the compliance message export job when querying the messages to export fails; 'select' is a database query."
-  },
-  {
-    "id": "ent.migration.migratetoldap.duplicate_field",
-    "translation": "Unable to migrate AD/LDAP users with specified field. Duplicate entry detected. Please remove all duplicates and try again.",
-    "description": "Error from the migrate-to-LDAP admin command when two users share the same value in the chosen LDAP match field; audience is system admins."
-  },
-  {
-    "id": "ent.migration.migratetoldap.user_not_found",
-    "translation": "Unable to find user on AD/LDAP server: ",
-    "description": "Error from the migrate-to-LDAP admin command; the user's identifier is appended directly after the trailing colon and space, so keep them."
-  },
-  {
-    "id": "ent.migration.migratetosaml.email_already_used_by_other_user",
-    "translation": "Email already used by another SAML user.",
-    "description": "Error from the migrate-to-SAML admin command when a mapped email is already claimed by a different SAML user."
-  },
-  {
-    "id": "ent.migration.migratetosaml.user_not_found_in_users_mapping_file",
-    "translation": "User not found in the users file.",
-    "description": "Error from the migrate-to-SAML admin command; the 'users file' is the JSON mapping file the admin supplies."
-  },
-  {
-    "id": "ent.migration.migratetosaml.username_already_used_by_other_user",
-    "translation": "Username already used by another Mattermost user.",
-    "description": "Error from the migrate-to-SAML admin command when a mapped username is already taken by another Mattermost account."
-  },
-  {
-    "id": "ent.outgoing_oauth_connections.authenticate.app_error",
-    "translation": "There was an error while authenticating the outgoing oauth connection: {{ .Error }}",
-    "description": "Admin API error when validating an outgoing OAuth connection's credentials fails; {{ .Error }} holds the underlying error text."
-  },
-  {
-    "id": "ent.outgoing_oauth_connections.connection_matching_audience_exists.app_error",
-    "translation": "There is already an outgoing oauth connection for the provided audience.",
-    "description": "Admin API error; 'audience' is the target URL an outgoing OAuth connection applies to, and only one connection may exist per audience."
-  },
-  {
-    "id": "ent.outgoing_oauth_connections.connection_matching_audience_exists.not_found",
-    "translation": "There is no outgoing oauth connection for the provided audience.",
-    "description": "Admin API error when no outgoing OAuth connection is configured for the requested audience (target URL)."
-  },
-  {
-    "id": "ent.outgoing_oauth_connections.delete_connection.app_error",
-    "translation": "There was an error while deleting the outgoing oauth connection.",
-    "description": "Admin API error when deleting an outgoing OAuth connection (server-to-server OAuth credential) fails."
-  },
-  {
-    "id": "ent.outgoing_oauth_connections.feature_disabled",
-    "translation": "Outgoing OAuth connections are not available on this server.",
-    "description": "Error shown to admins when the outgoing OAuth connections feature is disabled or unavailable on the server."
-  },
-  {
-    "id": "ent.outgoing_oauth_connections.get_connection.app_error",
-    "translation": "There was an error retrieving the outgoing oauth connection.",
-    "description": "Admin API error when loading a single outgoing OAuth connection fails."
-  },
-  {
-    "id": "ent.outgoing_oauth_connections.get_connection.not_found.app_error",
-    "translation": "The outgoing oauth connection was not found.",
-    "description": "Admin API error when the requested outgoing OAuth connection does not exist."
-  },
-  {
-    "id": "ent.outgoing_oauth_connections.get_connection_for_audience.app_error",
-    "translation": "There was an error retrieving the outgoing oauth connection for the audience.",
-    "description": "Admin API error when looking up the outgoing OAuth connection for a target URL (audience) fails."
-  },
-  {
-    "id": "ent.outgoing_oauth_connections.get_connection_for_audience.not_found.app_error",
-    "translation": "The outgoing oauth connection for the provided audience was not found.",
-    "description": "Admin API error when no outgoing OAuth connection matches the given target URL (audience)."
-  },
-  {
-    "id": "ent.outgoing_oauth_connections.get_connections.app_error",
-    "translation": "There was an error retrieving the outgoing oauth connections.",
-    "description": "Admin API error when listing all outgoing OAuth connections fails."
-  },
-  {
-    "id": "ent.outgoing_oauth_connections.license_disable.app_error",
-    "translation": "Your license does not support outgoing oauth connections.",
-    "description": "Error shown to admins using outgoing OAuth connections without a supporting license."
-  },
-  {
-    "id": "ent.outgoing_oauth_connections.save_connection.app_error",
-    "translation": "There was an error saving the outgoing oauth connection: {{ .Error }}",
-    "description": "Admin API error when creating an outgoing OAuth connection fails; {{ .Error }} holds the underlying error text."
-  },
-  {
-    "id": "ent.outgoing_oauth_connections.save_connection.audience_duplicated",
-    "translation": "There is already an outgoing oauth connection for the provided audience: {{ .Audience }}",
-    "description": "Admin API error on create; {{ .Audience }} is the target URL already claimed by another outgoing OAuth connection."
-  },
-  {
-    "id": "ent.outgoing_oauth_connections.save_connection.audience_invalid",
-    "translation": "The provided audience is invalid: {{ .Error }}",
-    "description": "Admin API validation error on create; the audience is the connection's target URL and {{ .Error }} holds the validation failure detail."
-  },
-  {
-    "id": "ent.outgoing_oauth_connections.update_connection.app_error",
-    "translation": "There was an error updating the outgoing oauth connection: {{ .Error }}",
-    "description": "Admin API error when updating an outgoing OAuth connection fails; {{ .Error }} holds the underlying error text."
-  },
-  {
-    "id": "ent.outgoing_oauth_connections.update_connection.audience_duplicated",
-    "translation": "There is already an outgoing oauth connection for the provided audience: {{ .Audience }}",
-    "description": "Admin API error on update; {{ .Audience }} is the target URL already claimed by another outgoing OAuth connection."
-  },
-  {
-    "id": "ent.outgoing_oauth_connections.update_connection.audience_invalid",
-    "translation": "The provided audience is invalid: {{ .Error }}",
-    "description": "Admin API validation error on update; the audience is the connection's target URL and {{ .Error }} holds the validation failure detail."
-  },
-  {
-    "id": "ent.push_proxy.delete.app_error",
-    "translation": "Failed to delete push proxy auth token.",
-    "description": "Server error when deleting the stored authentication token for the push notification proxy fails; admin/log audience."
-  },
-  {
-    "id": "ent.push_proxy.generate.bad_status.app_error",
-    "translation": "Failed to get auth token from push proxy server.",
-    "description": "Server error when the push notification proxy responds with a failure status while issuing an authentication token; admin/log audience."
-  },
-  {
-    "id": "ent.push_proxy.generate.create_request.app_error",
-    "translation": "Failed to create HTTP request for push proxy auth.",
-    "description": "Server error when building the HTTP request to authenticate with the push notification proxy fails; admin/log audience."
-  },
-  {
-    "id": "ent.push_proxy.generate.empty_token.app_error",
-    "translation": "Push proxy returned empty auth token.",
-    "description": "Server error when the push notification proxy returns a blank authentication token; admin/log audience."
-  },
-  {
-    "id": "ent.push_proxy.generate.encrypt.app_error",
-    "translation": "Failed to encrypt payload for push proxy auth.",
-    "description": "Server error when encrypting the payload sent to the push notification proxy for authentication fails; admin/log audience."
-  },
-  {
-    "id": "ent.push_proxy.generate.http_request.app_error",
-    "translation": "Failed to send HTTP request to push proxy.",
-    "description": "Server error when the HTTP call to the push notification proxy fails; admin/log audience."
-  },
-  {
-    "id": "ent.push_proxy.generate.marshal.app_error",
-    "translation": "Failed to marshal payload for push proxy auth.",
-    "description": "Server error when serializing the authentication payload for the push notification proxy fails; 'marshal' means serialize to JSON."
-  },
-  {
-    "id": "ent.push_proxy.generate.marshal_request.app_error",
-    "translation": "Failed to marshal request body for push proxy auth.",
-    "description": "Server error when serializing the request body for push notification proxy authentication fails; admin/log audience."
-  },
-  {
-    "id": "ent.push_proxy.generate.no_key.app_error",
-    "translation": "No encryption key available for push proxy auth.",
-    "description": "Server error when no encryption key exists for authenticating with the push notification proxy; admin/log audience."
-  },
-  {
-    "id": "ent.push_proxy.generate.parse_response.app_error",
-    "translation": "Failed to parse response from push proxy auth endpoint.",
-    "description": "Server error when the response from the push notification proxy's authentication endpoint cannot be parsed; admin/log audience."
-  },
-  {
-    "id": "ent.push_proxy.generate.save_system.app_error",
-    "translation": "Failed to save auth token.",
-    "description": "Server error when persisting the push notification proxy authentication token to the database fails; admin/log audience."
-  },
-  {
-    "id": "ent.push_proxy.worker.interface_nil.app_error",
-    "translation": "Push proxy interface is nil.",
-    "description": "Internal error in the push proxy background worker when its interface is uninitialized (nil); developer/log audience."
-  },
-  {
-    "id": "ent.saml.attribute.app_error",
-    "translation": "SAML login was unsuccessful because one of the attributes is incorrect. Please contact your System Administrator.",
-    "description": "Error shown to end users when SAML single sign-on fails due to a misconfigured attribute mapping."
-  },
-  {
-    "id": "ent.saml.build_request.app_error",
-    "translation": "An error occurred while initiating the request to the Identity Provider. Please contact your System Administrator.",
-    "description": "Error shown to end users when the server fails to build the SAML sign-on request; 'Identity Provider' is a SAML term."
-  },
-  {
-    "id": "ent.saml.configure.certificate_parse_error.app_error",
-    "translation": "SAML could not load Identity Provider Public Certificate successfully, please contact your system administrator.",
-    "description": "SAML configuration error when the Identity Provider public certificate cannot be parsed; shown to users during login and to admins."
-  },
-  {
-    "id": "ent.saml.configure.encryption_not_enabled.app_error",
-    "translation": "SAML login was unsuccessful because encryption is not enabled. Please contact your System Administrator.",
-    "description": "Error shown when SAML login is attempted while response encryption is required but not enabled on the server."
-  },
-  {
-    "id": "ent.saml.configure.load_private_key.app_error",
-    "translation": "SAML login was unsuccessful because the Service Provider Private Key was not found. Please contact your System Administrator.",
-    "description": "SAML login error when the Service Provider private key file is missing; 'Service Provider' is a SAML term for the Mattermost side."
-  },
-  {
-    "id": "ent.saml.configure.not_encrypted_response.app_error",
-    "translation": "SAML login was unsuccessful as the Identity Provider response is not encrypted. Please contact your System Administrator.",
-    "description": "SAML login error when the Identity Provider sent an unencrypted response but encryption is required."
-  },
-  {
-    "id": "ent.saml.do_login.empty_response.app_error",
-    "translation": "We received an empty response from the Identity Provider.",
-    "description": "SAML login error shown to end users when the Identity Provider's response body is empty."
-  },
-  {
-    "id": "ent.saml.do_login.invalid_signature.app_error",
-    "translation": "We received an invalid signature in the response from the Identity Provider. Please contact your System Administrator.",
-    "description": "SAML login error shown to end users when the cryptographic signature on the Identity Provider response fails verification."
-  },
-  {
-    "id": "ent.saml.do_login.invalid_time.app_error",
-    "translation": "We received an invalid time in the response from the Identity Provider. Please contact your System Administrator.",
-    "description": "SAML login error shown to end users when the timestamp in the Identity Provider response is outside the allowed window."
-  },
-  {
-    "id": "ent.saml.do_login.parse.app_error",
-    "translation": "An error occurred while parsing the response from the Identity Provider. Please contact your System Administrator.",
-    "description": "SAML login error shown to end users when the Identity Provider response cannot be parsed."
-  },
-  {
-    "id": "ent.saml.license_disable.app_error",
-    "translation": "Your license does not support SAML authentication.",
-    "description": "Error when SAML single sign-on is used without a license that includes it; admin audience."
-  },
-  {
-    "id": "ent.saml.login.ldap_user_missing",
-    "translation": "No user registered on AD/LDAP server that matches the SAML user.",
-    "description": "SAML login error when the account cannot be linked because no AD/LDAP directory user matches the SAML identity."
-  },
-  {
-    "id": "ent.saml.metadata.app_error",
-    "translation": "An error occurred while building Service Provider Metadata.",
-    "description": "Error when generating the SAML Service Provider metadata XML fails; 'Service Provider Metadata' is a SAML term; admin audience."
-  },
-  {
-    "id": "ent.saml.save_user.email_exists.saml_app_error",
-    "translation": "This account does not use SAML authentication. Please sign in using email and password.",
-    "description": "Error shown on the login page when someone tries SAML sign-in but the account with that email uses email/password authentication instead."
-  },
-  {
-    "id": "ent.saml.save_user.username_exists.saml_app_error",
-    "translation": "An account with that username already exists. Please contact your Administrator.",
-    "description": "Error during SAML sign-in when the username from the Identity Provider is already taken by a different Mattermost account."
-  },
-  {
-    "id": "ent.saml.service_disable.app_error",
-    "translation": "SAML 2.0 is not configured or supported on this server.",
-    "description": "Error shown when SAML login is attempted but SAML 2.0 is not configured on the server; 'SAML 2.0' is a protocol name."
-  },
-  {
-    "id": "ent.saml.update_cpa.empty_attribute_statement",
-    "translation": "SAML assertion attribute statement is invalid",
-    "description": "Error detail when a SAML assertion lacks the attribute statement needed to update custom profile attributes; admin/log audience."
-  },
-  {
-    "id": "ent.user.complete_switch_with_oauth.blank_email.app_error",
-    "translation": "Unable to complete SAML login with an empty email address.",
-    "description": "Error when a user switches their sign-in method to SAML but the identity provides no email address."
   },
   {
     "id": "error",
@@ -14358,12 +13538,12 @@
   },
   {
     "id": "health.rule.bind_privileged_port.message",
-    "translation": "ServiceSettings.ListenAddress binds port {{.port}}, which is below 1024. On Linux, a Mattermost server that does not run as root can bind this port only through the CAP_NET_BIND_SERVICE file capability on its binary. A package upgrade replaces the binary and clears that capability, so the server can fail to start after the next upgrade with \"bind: permission denied\". The configuration cannot show how the capability is granted, so this warning stays even after you grant it through the systemd unit.",
+    "translation": "ServiceSettings.ListenAddress binds port {{.port}}, which is below 1024. On Linux, a Astra Loop server that does not run as root can bind this port only through the CAP_NET_BIND_SERVICE file capability on its binary. A package upgrade replaces the binary and clears that capability, so the server can fail to start after the next upgrade with \"bind: permission denied\". The configuration cannot show how the capability is granted, so this warning stays even after you grant it through the systemd unit.",
     "description": "Health dashboard finding detail when the server listens on a privileged port (below 1024); {{.port}} is the port number. 'ServiceSettings.ListenAddress' is a config setting path, 'CAP_NET_BIND_SERVICE' is a Linux capability name and 'bind: permission denied' is a literal error message; do not translate them."
   },
   {
     "id": "health.rule.bind_privileged_port.remediation",
-    "translation": "Add AmbientCapabilities=CAP_NET_BIND_SERVICE to the Mattermost systemd unit so the capability survives upgrades, or re-run setcap CAP_NET_BIND_SERVICE=+eip /opt/mattermost/bin/mattermost after every upgrade. Alternatively, put a reverse proxy in front of Mattermost and bind Mattermost to a high port such as 8065.",
+    "translation": "Add AmbientCapabilities=CAP_NET_BIND_SERVICE to the Astra Loop systemd unit so the capability survives upgrades, or re-run setcap CAP_NET_BIND_SERVICE=+eip /opt/Astra Loop/bin/Astra Loop after every upgrade. Alternatively, put a reverse proxy in front of Astra Loop and bind Astra Loop to a high port such as 8065.",
     "description": "Health dashboard fix-it step for a server that listens on a privileged port; 'AmbientCapabilities=CAP_NET_BIND_SERVICE' is a systemd setting and the setcap command is a literal shell command; do not translate them."
   },
   {
@@ -14389,7 +13569,7 @@
   {
     "id": "health.rule.cluster_config_writable.message",
     "translation": "The configuration is stored in a file on each node and can be changed in the System Console. A change is saved on one node and pushed to the others on a best-effort basis; a node that misses the push keeps its own file, so the nodes' configurations can drift apart.",
-    "description": "Health dashboard finding detail when a high availability cluster uses file-based configuration that the System Console can change; 'System Console' is the Mattermost admin UI."
+    "description": "Health dashboard finding detail when a high availability cluster uses file-based configuration that the System Console can change; 'System Console' is the Astra Loop admin UI."
   },
   {
     "id": "health.rule.cluster_config_writable.remediation",
@@ -14418,7 +13598,7 @@
   },
   {
     "id": "health.rule.cluster_lru_cache.message",
-    "translation": "With {{.users}} registered users on HA, the default in-memory LRU cache means each node maintains its own copy and uses gossip for invalidation. Mattermost recommends Redis at 100,000 users and above to reduce cache-invalidation traffic at this scale.",
+    "translation": "With {{.users}} registered users on HA, the default in-memory LRU cache means each node maintains its own copy and uses gossip for invalidation. Astra Loop recommends Redis at 100,000 users and above to reduce cache-invalidation traffic at this scale.",
     "description": "Health dashboard finding detail when a large high availability cluster uses the in-memory cache; {{.users}} is the registered user count, 'LRU' and 'Redis' are cache backend names and should not be translated, and 'gossip' is the protocol cluster nodes use to talk to each other."
   },
   {
@@ -14449,7 +13629,7 @@
   {
     "id": "health.rule.cluster_version_skew.message",
     "translation": "Nodes in the cluster report these versions: {{.versions}}.",
-    "description": "Health dashboard finding detail when cluster nodes run different Mattermost versions; {{.versions}} is a comma-separated list of the versions."
+    "description": "Health dashboard finding detail when cluster nodes run different Astra Loop versions; {{.versions}} is a comma-separated list of the versions."
   },
   {
     "id": "health.rule.cluster_version_skew.message.no_majority",
@@ -14459,7 +13639,7 @@
   {
     "id": "health.rule.cluster_version_skew.message.node",
     "translation": "This node runs {{.version}}, while most nodes run {{.majority}}.",
-    "description": "Health dashboard finding detail for one cluster node that runs a different Mattermost version; {{.version}} is the node's version and {{.majority}} is the version most nodes run."
+    "description": "Health dashboard finding detail for one cluster node that runs a different Astra Loop version; {{.version}} is the node's version and {{.majority}} is the version most nodes run."
   },
   {
     "id": "health.rule.cluster_version_skew.remediation",
@@ -14468,8 +13648,8 @@
   },
   {
     "id": "health.rule.cluster_version_skew.title",
-    "translation": "Multiple Mattermost versions detected in the cluster",
-    "description": "Health dashboard finding title when cluster nodes run different Mattermost versions."
+    "translation": "Multiple Astra Loop versions detected in the cluster",
+    "description": "Health dashboard finding title when cluster nodes run different Astra Loop versions."
   },
   {
     "id": "health.rule.compliance_no_dir.message",
@@ -14578,7 +13758,7 @@
   },
   {
     "id": "health.rule.db_postgres_unsupported.message",
-    "translation": "PostgreSQL {{.version}} is below the minimum supported version. Mattermost requires PostgreSQL {{.minimum}} or later.",
+    "translation": "PostgreSQL {{.version}} is below the minimum supported version. Astra Loop requires PostgreSQL {{.minimum}} or later.",
     "description": "Health dashboard finding detail when the database runs an unsupported PostgreSQL version; {{.version}} is the reported server version and {{.minimum}} is the minimum major version. 'PostgreSQL' is a product name and should not be translated."
   },
   {
@@ -14589,7 +13769,7 @@
   {
     "id": "health.rule.db_postgres_unsupported.title",
     "translation": "PostgreSQL version is below the minimum supported",
-    "description": "Health dashboard finding title when the database runs a PostgreSQL version older than Mattermost supports. 'PostgreSQL' is a product name and should not be translated."
+    "description": "Health dashboard finding title when the database runs a PostgreSQL version older than Astra Loop supports. 'PostgreSQL' is a product name and should not be translated."
   },
   {
     "id": "health.rule.db_query_timeout_high.message",
@@ -14638,7 +13818,7 @@
   },
   {
     "id": "health.rule.env_unsupported_os.message",
-    "translation": "The server runs on {{.os}}. Mattermost supports Linux for production; other operating systems are suitable for development only.",
+    "translation": "The server runs on {{.os}}. Astra Loop supports Linux for production; other operating systems are suitable for development only.",
     "description": "Health dashboard finding detail when the server does not run on Linux; {{.os}} is the operating system name reported by Go, such as windows or darwin."
   },
   {
@@ -14649,7 +13829,7 @@
   {
     "id": "health.rule.env_unsupported_os.title",
     "translation": "Server is not running on Linux",
-    "description": "Health dashboard finding title when the Mattermost server runs on an operating system other than Linux."
+    "description": "Health dashboard finding title when the Astra Loop server runs on an operating system other than Linux."
   },
   {
     "id": "health.rule.es_live_batch_sync.message",
@@ -14689,7 +13869,7 @@
   {
     "id": "health.rule.es_localhost_url.remediation",
     "translation": "Set ConnectionURL to a hostname or service DNS name that every app node can reach.",
-    "description": "Health dashboard fix-it step for a loopback search engine URL in a cluster; 'ConnectionURL' is a config setting name and 'app node' is a Mattermost application server."
+    "description": "Health dashboard fix-it step for a loopback search engine URL in a cluster; 'ConnectionURL' is a config setting name and 'app node' is a Astra Loop application server."
   },
   {
     "id": "health.rule.es_localhost_url.title",
@@ -14753,7 +13933,7 @@
   },
   {
     "id": "health.rule.es_version_unsupported.message.too_new",
-    "translation": "{{.backend}} {{.version}} is newer than the supported major versions ({{.min}} to {{.max}}). Upgrade Mattermost to a release that supports it, or move the search cluster back to a supported version.",
+    "translation": "{{.backend}} {{.version}} is newer than the supported major versions ({{.min}} to {{.max}}). Upgrade Astra Loop to a release that supports it, or move the search cluster back to a supported version.",
     "description": "Health dashboard finding detail when the search engine major version is above the supported range; {{.backend}} is elasticsearch or opensearch, {{.version}} the reported version, {{.min}} and {{.max}} the supported major versions."
   },
   {
@@ -14773,7 +13953,7 @@
   },
   {
     "id": "health.rule.es_version_unsupported.remediation",
-    "translation": "Run a major version of the search cluster that this Mattermost version supports.",
+    "translation": "Run a major version of the search cluster that this Astra Loop version supports.",
     "description": "Health dashboard fix-it step for an Elasticsearch or OpenSearch version that is older or newer than the supported range."
   },
   {
@@ -14803,7 +13983,7 @@
   },
   {
     "id": "health.rule.filestore_local_in_cluster.remediation",
-    "translation": "On every app node, run findmnt with the FileSettings.Directory path. A relative path resolves against the Mattermost working directory, usually /opt/mattermost. Every node must show the same remote source, and the Mattermost user must be able to read and write there. If the directory is not a shared mount, move it to one or switch FileSettings.DriverName to amazons3.",
+    "translation": "On every app node, run findmnt with the FileSettings.Directory path. A relative path resolves against the Astra Loop working directory, usually /opt/Astra Loop. Every node must show the same remote source, and the Astra Loop user must be able to read and write there. If the directory is not a shared mount, move it to one or switch FileSettings.DriverName to amazons3.",
     "description": "Health dashboard fix-it step asking the admin to confirm that the file storage directory is a shared mount on every node; 'findmnt' is a Linux command, '/opt/mattermost' is a path and 'amazons3' is a setting value; do not translate them."
   },
   {
@@ -14848,7 +14028,7 @@
   },
   {
     "id": "health.rule.filestore_unreachable.remediation",
-    "translation": "Check the file storage settings, then use Test Connection in System Console > Environment > File Storage. For local storage, check that FileSettings.Directory exists and the Mattermost user can write to it. For Amazon S3, check the bucket, endpoint and credentials.",
+    "translation": "Check the file storage settings, then use Test Connection in System Console > Environment > File Storage. For local storage, check that FileSettings.Directory exists and the Astra Loop user can write to it. For Amazon S3, check the bucket, endpoint and credentials.",
     "description": "Health dashboard fix-it step for a failed file storage connection test; 'Test Connection' and 'System Console > Environment > File Storage' name System Console elements; 'FileSettings.Directory' is a config setting path and should not be translated."
   },
   {
@@ -14908,7 +14088,7 @@
   },
   {
     "id": "health.rule.ldap_id_is_email.message",
-    "translation": "IdAttribute is {{.attribute}}. Mattermost links each account to its directory entry by this attribute, so when a user's email changes (marriage, rebrand, department move) the link breaks and the user can no longer reach their existing account.",
+    "translation": "IdAttribute is {{.attribute}}. Astra Loop links each account to its directory entry by this attribute, so when a user's email changes (marriage, rebrand, department move) the link breaks and the user can no longer reach their existing account.",
     "description": "Health dashboard finding detail when the AD/LDAP ID attribute is an email attribute. {{.attribute}} is the configured attribute name. 'IdAttribute', 'objectGUID', 'entryUUID' and the command 'mmctl ldap idmigrate' are config or product names and should not be translated."
   },
   {
@@ -14958,7 +14138,7 @@
   },
   {
     "id": "health.rule.ldap_probe_failed.remediation",
-    "translation": "Check the error details, then confirm LdapServer, LdapPort, ConnectionSecurity and the bind credentials, and that the Mattermost servers can reach the LDAP server. Use Test Connection on the AD/LDAP page to check again.",
+    "translation": "Check the error details, then confirm LdapServer, LdapPort, ConnectionSecurity and the bind credentials, and that the Astra Loop servers can reach the LDAP server. Use Test Connection on the AD/LDAP page to check again.",
     "description": "Health dashboard fix-it step when the AD/LDAP connection test run by the server failed. 'LdapServer', 'LdapPort', 'ConnectionSecurity' and the button label 'Test Connection' are config or product names and should not be translated."
   },
   {
@@ -14983,12 +14163,12 @@
   },
   {
     "id": "health.rule.ldap_recommended_at_scale.message",
-    "translation": "{{.users}} active user accounts are managed manually. Mattermost recommends single sign-on once a workspace has more than 100 users: manual account management at this scale leads to stale accounts, onboarding lag, and offboarding drift, each of which is a security and licensing risk.",
+    "translation": "{{.users}} active user accounts are managed manually. Astra Loop recommends single sign-on once a workspace has more than 100 users: manual account management at this scale leads to stale accounts, onboarding lag, and offboarding drift, each of which is a security and licensing risk.",
     "description": "Health dashboard finding detail when a workspace with more than 100 users uses no single sign-on provider (AD/LDAP, SAML, GitLab, Google, Office 365 or OpenID Connect). {{.users}} is the number of active user accounts. 'AD/LDAP', 'SAML' and 'OpenID Connect' are config or product names and should not be translated."
   },
   {
     "id": "health.rule.ldap_recommended_at_scale.remediation",
-    "translation": "Connect Mattermost to your identity provider: AD/LDAP if you run a directory, otherwise SAML or OpenID Connect.",
+    "translation": "Connect Astra Loop to your identity provider: AD/LDAP if you run a directory, otherwise SAML or OpenID Connect.",
     "description": "Health dashboard fix-it step when a workspace with more than 100 users uses no single sign-on provider (AD/LDAP, SAML, GitLab, Google, Office 365 or OpenID Connect). 'AD/LDAP', 'SAML' and 'OpenID Connect' are config or product names and should not be translated."
   },
   {
@@ -14998,12 +14178,12 @@
   },
   {
     "id": "health.rule.ldap_skip_cert.message",
-    "translation": "Mattermost does not verify the LDAP server's TLS certificate, so connections to the directory are open to man-in-the-middle attacks. This is acceptable only for development and testing.",
+    "translation": "Astra Loop does not verify the LDAP server's TLS certificate, so connections to the directory are open to man-in-the-middle attacks. This is acceptable only for development and testing.",
     "description": "Health dashboard finding detail when AD/LDAP certificate verification is turned off. 'SkipCertificateVerification' is a config name and should not be translated."
   },
   {
     "id": "health.rule.ldap_skip_cert.remediation",
-    "translation": "Install the LDAP server's CA chain on the Mattermost servers and set SkipCertificateVerification to false.",
+    "translation": "Install the LDAP server's CA chain on the Astra Loop servers and set SkipCertificateVerification to false.",
     "description": "Health dashboard fix-it step when AD/LDAP certificate verification is turned off. 'SkipCertificateVerification' is a config name and should not be translated."
   },
   {
@@ -15103,7 +14283,7 @@
   },
   {
     "id": "health.rule.log_file_off.message",
-    "translation": "LogSettings.EnableFile is false, so the server writes no log file. Support Packets then contain no server logs, even if an external collector captures stdout or journald, and troubleshooting with Mattermost Support takes longer.",
+    "translation": "LogSettings.EnableFile is false, so the server writes no log file. Support Packets then contain no server logs, even if an external collector captures stdout or journald, and troubleshooting with Astra Loop Support takes longer.",
     "description": "Health dashboard finding detail when file logging is turned off; 'LogSettings.EnableFile' is a config setting path, 'stdout' and 'journald' are log destinations, and a 'sidecar' is a helper container; do not translate them."
   },
   {
@@ -15119,17 +14299,17 @@
   {
     "id": "health.rule.max_notifications_per_channel.message",
     "translation": "TeamSettings.MaxNotificationsPerChannel is {{.limit}}, so @channel, @all and @here still work in channels with thousands of members. A single channel-wide mention there fans out thousands of notifications at once, which causes latency spikes.",
-    "description": "Health dashboard finding detail when the per-channel notification limit is above 5000; {{.limit}} is the configured limit, 'TeamSettings.MaxNotificationsPerChannel' is the config setting path and '@channel', '@all' and '@here' are Mattermost mentions, none should be translated."
+    "description": "Health dashboard finding detail when the per-channel notification limit is above 5000; {{.limit}} is the configured limit, 'TeamSettings.MaxNotificationsPerChannel' is the config setting path and '@channel', '@all' and '@here' are Astra Loop mentions, none should be translated."
   },
   {
     "id": "health.rule.max_notifications_per_channel.remediation",
     "translation": "Lower TeamSettings.MaxNotificationsPerChannel to 5000 or less (the default is 1000). @channel, @all and @here are disabled once a channel reaches this many members, so check with the teams that use them in large channels first.",
-    "description": "Health dashboard fix-it step for a high per-channel notification limit; 'TeamSettings.MaxNotificationsPerChannel' is the config setting path and '@channel', '@all' and '@here' are Mattermost mentions, none should be translated."
+    "description": "Health dashboard fix-it step for a high per-channel notification limit; 'TeamSettings.MaxNotificationsPerChannel' is the config setting path and '@channel', '@all' and '@here' are Astra Loop mentions, none should be translated."
   },
   {
     "id": "health.rule.max_notifications_per_channel.title",
     "translation": "Channel-wide mentions allowed in very large channels",
-    "description": "Health dashboard finding title when the per-channel notification limit is above 5000, so @channel, @all and @here work in channels with thousands of members; '@channel', '@all' and '@here' are Mattermost mentions and should not be translated."
+    "description": "Health dashboard finding title when the per-channel notification limit is above 5000, so @channel, @all and @here work in channels with thousands of members; '@channel', '@all' and '@here' are Astra Loop mentions and should not be translated."
   },
   {
     "id": "health.rule.metrics_off.message",
@@ -15153,7 +14333,7 @@
   },
   {
     "id": "health.rule.node_fd_exhaustion.remediation",
-    "translation": "Raise the open file limit: set LimitNOFILE in the Mattermost systemd unit, or raise the nofile ulimit of the container, then restart the server.",
+    "translation": "Raise the open file limit: set LimitNOFILE in the Astra Loop systemd unit, or raise the nofile ulimit of the container, then restart the server.",
     "description": "Health dashboard fix-it step for a node close to its open file limit; 'LimitNOFILE' is a systemd setting and 'nofile' is a ulimit name; do not translate them."
   },
   {
@@ -15219,7 +14399,7 @@
   {
     "id": "health.rule.push_bad_scheme.remediation",
     "translation": "Prefix PushNotificationServer with https:// and verify reachability from the app node.",
-    "description": "Health dashboard fix-it step for a push notification server URL that does not use https://; 'PushNotificationServer' is a config setting name and 'app node' is the Mattermost application server."
+    "description": "Health dashboard fix-it step for a push notification server URL that does not use https://; 'PushNotificationServer' is a config setting name and 'app node' is the Astra Loop application server."
   },
   {
     "id": "health.rule.push_bad_scheme.title",
@@ -15233,8 +14413,8 @@
   },
   {
     "id": "health.rule.push_empty_url.remediation",
-    "translation": "Point PushNotificationServer to https://push.mattermost.com or a self-hosted push proxy.",
-    "description": "Health dashboard fix-it step for a blank push notification server URL; https://push.mattermost.com is Mattermost's hosted push service. 'PushNotificationServer' is a config setting name and should not be translated."
+    "translation": "Point PushNotificationServer to # or a self-hosted push proxy.",
+    "description": "Health dashboard fix-it step for a blank push notification server URL; # is Astra Loop's hosted push service. 'PushNotificationServer' is a config setting name and should not be translated."
   },
   {
     "id": "health.rule.push_empty_url.title",
@@ -15258,27 +14438,27 @@
   },
   {
     "id": "health.rule.push_test_proxy.message",
-    "translation": "push-test.mattermost.com is the Mattermost test push proxy. It has no SLA, limited throughput, and is not intended for production use. Mobile push delivery will be unreliable for anything beyond small-scale testing.",
-    "description": "Health dashboard finding detail when the push notification server is push-test.mattermost.com, Mattermost's test push proxy that is not meant for production; 'SLA' means service level agreement."
+    "translation": "push-test.Astra Loop.com is the Astra Loop test push proxy. It has no SLA, limited throughput, and is not intended for production use. Mobile push delivery will be unreliable for anything beyond small-scale testing.",
+    "description": "Health dashboard finding detail when the push notification server is push-test.Astra Loop.com, Astra Loop's test push proxy that is not meant for production; 'SLA' means service level agreement."
   },
   {
     "id": "health.rule.push_test_proxy.remediation",
-    "translation": "Switch to https://push.mattermost.com (the production Hosted Push Notification Service included with Enterprise) or to a self-hosted push proxy.",
-    "description": "Health dashboard fix-it step for a server using the test push proxy; 'Hosted Push Notification Service' is a Mattermost product name."
+    "translation": "Switch to # (the production Hosted Push Notification Service included with Enterprise) or to a self-hosted push proxy.",
+    "description": "Health dashboard fix-it step for a server using the test push proxy; 'Hosted Push Notification Service' is a Astra Loop product name."
   },
   {
     "id": "health.rule.push_test_proxy.title",
-    "translation": "PushNotificationServer points at push-test.mattermost.com",
-    "description": "Health dashboard finding title when the push notification server is Mattermost's test push proxy; 'PushNotificationServer' is a config setting name and should not be translated."
+    "translation": "PushNotificationServer points at push-test.Astra Loop.com",
+    "description": "Health dashboard finding title when the push notification server is Astra Loop's test push proxy; 'PushNotificationServer' is a config setting name and should not be translated."
   },
   {
     "id": "health.rule.ratelimit_off_large.message",
-    "translation": "RateLimitSettings.Enable is false with {{.users}} registered users. Rate limiting protects the server against request floods and abusive or misbehaving clients; with this many users plus webhooks and bot integrations, a single misconfigured client can saturate the API. Mattermost documents its built-in rate limiter as intended for smaller deployments (up to a few hundred users), so at larger scale request throttling is often better handled at a load balancer or API gateway.",
+    "translation": "RateLimitSettings.Enable is false with {{.users}} registered users. Rate limiting protects the server against request floods and abusive or misbehaving clients; with this many users plus webhooks and bot integrations, a single misconfigured client can saturate the API. Astra Loop documents its built-in rate limiter as intended for smaller deployments (up to a few hundred users), so at larger scale request throttling is often better handled at a load balancer or API gateway.",
     "description": "Health dashboard finding detail when API rate limiting is off on a large instance; {{.users}} is the registered user count, and 'RateLimitSettings.Enable' is the config setting path and should not be translated."
   },
   {
     "id": "health.rule.ratelimit_off_large.remediation",
-    "translation": "Make sure request throttling suited to this scale is in place, either Mattermost's built-in rate limiting (System Console > Environment > Rate Limiting) or at your load balancer or gateway.",
+    "translation": "Make sure request throttling suited to this scale is in place, either Astra Loop's built-in rate limiting (System Console > Environment > Rate Limiting) or at your load balancer or gateway.",
     "description": "Health dashboard fix-it step for disabled rate limiting on a large instance; 'System Console > Environment > Rate Limiting' is the admin UI path."
   },
   {
@@ -15333,12 +14513,12 @@
   },
   {
     "id": "health.rule.saml_id_is_email.message",
-    "translation": "Mattermost keys SAML accounts by email address, either because IdAttribute is empty or because it names an email attribute. When a user's email changes at the IdP, the link to their existing account breaks.",
+    "translation": "Astra Loop keys SAML accounts by email address, either because IdAttribute is empty or because it names an email attribute. When a user's email changes at the IdP, the link to their existing account breaks.",
     "description": "Health dashboard finding detail when the SAML ID attribute is empty or an email attribute. 'IdAttribute', 'SamlSettings.IdAttribute' and 'objectGUID' are config or product names and should not be translated."
   },
   {
     "id": "health.rule.saml_id_is_email.remediation",
-    "translation": "Configure the IdP to send a stable identifier (such as objectGUID or an immutable ID), then set SamlSettings.IdAttribute to that attribute's name. Existing accounts move to the new identifier on their own: at each user's next sign-in, Mattermost finds the account by email and stores the new ID.",
+    "translation": "Configure the IdP to send a stable identifier (such as objectGUID or an immutable ID), then set SamlSettings.IdAttribute to that attribute's name. Existing accounts move to the new identifier on their own: at each user's next sign-in, Astra Loop finds the account by email and stores the new ID.",
     "description": "Health dashboard fix-it step when the SAML ID attribute is empty or an email attribute. 'IdAttribute', 'SamlSettings.IdAttribute' and 'objectGUID' are config or product names and should not be translated."
   },
   {
@@ -15348,7 +14528,7 @@
   },
   {
     "id": "health.rule.saml_id_mutable.message",
-    "translation": "IdAttribute is {{.attribute}}. Usernames, uids and user principal names are often recycled across employees, and when that happens the second person inherits the first person's Mattermost account.",
+    "translation": "IdAttribute is {{.attribute}}. Usernames, uids and user principal names are often recycled across employees, and when that happens the second person inherits the first person's Astra Loop account.",
     "description": "Health dashboard finding detail when the SAML ID attribute is a username, uid or user principal name that the identity provider can reassign. {{.attribute}} is the configured attribute name. 'IdAttribute', 'objectGUID' and 'Microsoft Entra ID' are config or product names and should not be translated."
   },
   {
@@ -15393,7 +14573,7 @@
   },
   {
     "id": "health.rule.saml_verify_off.message",
-    "translation": "Mattermost accepts SAML responses without verifying your IdP's signature, so it cannot tell a genuine authentication response from a forged one.",
+    "translation": "Astra Loop accepts SAML responses without verifying your IdP's signature, so it cannot tell a genuine authentication response from a forged one.",
     "description": "Health dashboard finding detail when SAML signature verification is turned off. 'SamlSettings.Verify' and 'AssertionConsumerServiceURL' are config or product names and should not be translated."
   },
   {
@@ -15533,7 +14713,7 @@
   },
   {
     "id": "health.rule.site_url_http.remediation",
-    "translation": "Serve Mattermost over HTTPS and update SiteURL to the https:// address.",
+    "translation": "Serve Astra Loop over HTTPS and update SiteURL to the https:// address.",
     "description": "Health dashboard fix-it step for a Site URL that uses http://; 'SiteURL' is a config setting name and should not be translated."
   },
   {
@@ -15548,7 +14728,7 @@
   },
   {
     "id": "health.rule.smtp_unreachable.remediation",
-    "translation": "Email notifications, invitations and password reset emails may not be delivered. Check the SMTP server, port, connection security and credentials in the System Console, confirm the Mattermost server can reach the SMTP host, then use Test Connection to verify.",
+    "translation": "Email notifications, invitations and password reset emails may not be delivered. Check the SMTP server, port, connection security and credentials in the System Console, confirm the Astra Loop server can reach the SMTP host, then use Test Connection to verify.",
     "description": "Health dashboard fix-it step when the SMTP connection test failed; 'Test Connection' is the name of the button on the SMTP page of the System Console."
   },
   {
@@ -15559,12 +14739,12 @@
   {
     "id": "health.rule.version.unknown.latest",
     "translation": "Latest release unknown: it could not be fetched, or the packet does not record it.",
-    "description": "Health dashboard reason shown when a version check could not run because the latest Mattermost release could not be fetched from GitHub or is not recorded in the Support Packet being evaluated, so the check's status is unknown."
+    "description": "Health dashboard reason shown when a version check could not run because the latest Astra Loop release could not be fetched from GitHub or is not recorded in the Support Packet being evaluated, so the check's status is unknown."
   },
   {
     "id": "health.rule.version.unknown.line",
     "translation": "This version is not in this build's release table. To evaluate a Support Packet from a newer server, use a newer mmctl.",
-    "description": "Health dashboard reason shown when a version check could not run because the server version is newer than the release lifecycle table compiled into this build, so the check's status is unknown. 'mmctl' is the Mattermost command line tool and should not be translated."
+    "description": "Health dashboard reason shown when a version check could not run because the server version is newer than the release lifecycle table compiled into this build, so the check's status is unknown. 'mmctl' is the Astra Loop command line tool and should not be translated."
   },
   {
     "id": "health.rule.version.unknown.version",
@@ -15579,12 +14759,12 @@
   {
     "id": "health.rule.version_behind.remediation",
     "translation": "Plan an upgrade to the latest release before support for this release line ends, or move to an Extended Support Release for a slower upgrade cadence.",
-    "description": "Health dashboard fix-it step for a server two or more releases behind the latest release; 'Extended Support Release' is a Mattermost release type."
+    "description": "Health dashboard fix-it step for a server two or more releases behind the latest release; 'Extended Support Release' is a Astra Loop release type."
   },
   {
     "id": "health.rule.version_behind.title",
     "translation": "Several releases behind the latest release",
-    "description": "Health dashboard finding title when the server is two or more releases behind the latest Mattermost release."
+    "description": "Health dashboard finding title when the server is two or more releases behind the latest Astra Loop release."
   },
   {
     "id": "health.rule.version_behind_one.message",
@@ -15599,57 +14779,57 @@
   {
     "id": "health.rule.version_behind_one.title",
     "translation": "A newer release is available",
-    "description": "Health dashboard finding title when the server is one release behind the latest Mattermost release."
+    "description": "Health dashboard finding title when the server is one release behind the latest Astra Loop release."
   },
   {
     "id": "health.rule.version_eol.message",
-    "translation": "Running Mattermost {{.version}}. Support for this release line ended on {{.eol_date}}. No security patches ship for this release line.",
-    "description": "Health dashboard finding detail when the server's Extended Support Release is past end-of-life and no newer Extended Support Release is still supported; {{.version}} is the running version and {{.eol_date}} the day support for its release line ended (YYYY-MM-DD). 'Extended Support Release' is a Mattermost release type."
+    "translation": "Running Astra Loop {{.version}}. Support for this release line ended on {{.eol_date}}. No security patches ship for this release line.",
+    "description": "Health dashboard finding detail when the server's Extended Support Release is past end-of-life and no newer Extended Support Release is still supported; {{.version}} is the running version and {{.eol_date}} the day support for its release line ended (YYYY-MM-DD). 'Extended Support Release' is a Astra Loop release type."
   },
   {
     "id": "health.rule.version_eol.message.below_floor",
-    "translation": "Running Mattermost {{.version}}, an older release line that is no longer supported. No security patches ship for this release line.",
+    "translation": "Running Astra Loop {{.version}}, an older release line that is no longer supported. No security patches ship for this release line.",
     "description": "Health dashboard finding detail when the server runs a release line older than every line in this build's release table, all of which had reached end-of-life; {{.version}} is the running version."
   },
   {
     "id": "health.rule.version_eol.message.below_floor_target",
-    "translation": "Running Mattermost {{.version}}, an older release line that is no longer supported. No security patches ship for this release line. The newest supported Extended Support Release is {{.target}}.",
-    "description": "Health dashboard finding detail when the server runs a release line older than every line in this build's release table; {{.version}} is the running version and {{.target}} the newest Extended Support Release still supported. 'Extended Support Release' is a Mattermost release type."
+    "translation": "Running Astra Loop {{.version}}, an older release line that is no longer supported. No security patches ship for this release line. The newest supported Extended Support Release is {{.target}}.",
+    "description": "Health dashboard finding detail when the server runs a release line older than every line in this build's release table; {{.version}} is the running version and {{.target}} the newest Extended Support Release still supported. 'Extended Support Release' is a Astra Loop release type."
   },
   {
     "id": "health.rule.version_eol.message.latest",
-    "translation": "Running Mattermost {{.version}}. Support for this release line ended on {{.eol_date}}. No security patches ship for this release line. Upgrade to the latest release.",
+    "translation": "Running Astra Loop {{.version}}. Support for this release line ended on {{.eol_date}}. No security patches ship for this release line. Upgrade to the latest release.",
     "description": "Health dashboard finding detail when the server runs a regular (non-Extended Support) release that is past end-of-life; {{.version}} is the running version and {{.eol_date}} the day support for its release line ended (YYYY-MM-DD)."
   },
   {
     "id": "health.rule.version_eol.message.target",
-    "translation": "Running Mattermost {{.version}}. Support for this release line ended on {{.eol_date}}. No security patches ship for this release line. The newest supported Extended Support Release is {{.target}}.",
-    "description": "Health dashboard finding detail when the server's Extended Support Release is past end-of-life; {{.version}} is the running version, {{.eol_date}} the day support for its release line ended (YYYY-MM-DD), and {{.target}} the newest Extended Support Release still supported. 'Extended Support Release' is a Mattermost release type."
+    "translation": "Running Astra Loop {{.version}}. Support for this release line ended on {{.eol_date}}. No security patches ship for this release line. The newest supported Extended Support Release is {{.target}}.",
+    "description": "Health dashboard finding detail when the server's Extended Support Release is past end-of-life; {{.version}} is the running version, {{.eol_date}} the day support for its release line ended (YYYY-MM-DD), and {{.target}} the newest Extended Support Release still supported. 'Extended Support Release' is a Astra Loop release type."
   },
   {
     "id": "health.rule.version_eol.remediation",
-    "translation": "Plan a staged upgrade to a supported Extended Support Release or the latest release. Supported versions are listed at https://docs.mattermost.com/product-overview/mattermost-server-releases.html.",
-    "description": "Health dashboard fix-it step for a server past end-of-life; the URL is the Mattermost server releases page. 'Extended Support Release' is a Mattermost release type."
+    "translation": "Plan a staged upgrade to a supported Extended Support Release or the latest release. Supported versions are listed at #",
+    "description": "Health dashboard fix-it step for a server past end-of-life; the URL is the Astra Loop server releases page. 'Extended Support Release' is a Astra Loop release type."
   },
   {
     "id": "health.rule.version_eol.title",
-    "translation": "Mattermost version is past end-of-life",
+    "translation": "Astra Loop version is past end-of-life",
     "description": "Health dashboard finding title when the server's release line no longer receives security patches."
   },
   {
     "id": "health.rule.version_esr_near_eol.message",
     "translation": "Running {{.version}} on Extended Support Release {{.esr}}. Plan an upgrade before {{.eol_date}} to keep receiving security patches.",
-    "description": "Health dashboard finding detail when the server's Extended Support Release reaches end-of-life within 90 days; {{.version}} is the running version, {{.esr}} the release line, and {{.eol_date}} its end-of-life date (YYYY-MM-DD). 'Extended Support Release' is a Mattermost release type."
+    "description": "Health dashboard finding detail when the server's Extended Support Release reaches end-of-life within 90 days; {{.version}} is the running version, {{.esr}} the release line, and {{.eol_date}} its end-of-life date (YYYY-MM-DD). 'Extended Support Release' is a Astra Loop release type."
   },
   {
     "id": "health.rule.version_esr_near_eol.remediation",
     "translation": "Schedule an upgrade to the latest release or to the next Extended Support Release.",
-    "description": "Health dashboard fix-it step for an Extended Support Release nearing end-of-life. 'Extended Support Release' is a Mattermost release type."
+    "description": "Health dashboard fix-it step for an Extended Support Release nearing end-of-life. 'Extended Support Release' is a Astra Loop release type."
   },
   {
     "id": "health.rule.version_esr_near_eol.title",
     "translation": "Extended Support Release is nearing end-of-life",
-    "description": "Health dashboard finding title when the server's Extended Support Release reaches end-of-life within 90 days. 'Extended Support Release' is a Mattermost release type."
+    "description": "Health dashboard finding title when the server's Extended Support Release reaches end-of-life within 90 days. 'Extended Support Release' is a Astra Loop release type."
   },
   {
     "id": "humanize.list_join",
@@ -15743,8 +14923,8 @@
   },
   {
     "id": "mattermost.bulletin.subject",
-    "translation": "Mattermost Security Bulletin",
-    "description": "Subject line of the security bulletin email Mattermost sends to system administrators; 'Mattermost' is the product name."
+    "translation": "Astra Loop Security Bulletin",
+    "description": "Subject line of the security bulletin email Astra Loop sends to system administrators; 'Astra Loop' is the product name."
   },
   {
     "id": "mfa.activate.app_error",
@@ -16683,7 +15863,7 @@
   },
   {
     "id": "model.config.is_valid.atmos_camo_image_proxy_removed.app_error",
-    "translation": "The 'atmos/camo' image proxy type was removed in Mattermost v12.0. Set ImageProxySettings.ImageProxyType to 'local', or set ImageProxySettings.Enable to false to disable the image proxy.",
+    "translation": "The 'atmos/camo' image proxy type was removed in Astra Loop v12.0. Set ImageProxySettings.ImageProxyType to 'local', or set ImageProxySettings.Enable to false to disable the image proxy.",
     "description": "Configuration validation error shown to a system admin (and logged at startup) when the config still selects the removed 'atmos/camo' image proxy. The setting names, the value 'local', and 'false' are literal identifiers and must not be translated."
   },
   {
@@ -18229,7 +17409,7 @@
   {
     "id": "model.outgoing_hook.is_valid.team_id.app_error",
     "translation": "Invalid team ID.",
-    "description": "API error when an outgoing webhook's team ID is malformed; 'team' is a Mattermost workspace team."
+    "description": "API error when an outgoing webhook's team ID is malformed; 'team' is a Astra Loop workspace team."
   },
   {
     "id": "model.outgoing_hook.is_valid.token.app_error",
@@ -18554,17 +17734,17 @@
   {
     "id": "model.remote_cluster_invite.is_valid.remote_id.app_error",
     "translation": "Invalid remote id.",
-    "description": "API error when an invitation to connect two Mattermost servers (shared channels) contains a malformed remote server ID."
+    "description": "API error when an invitation to connect two Astra Loop servers (shared channels) contains a malformed remote server ID."
   },
   {
     "id": "model.remote_cluster_invite.is_valid.site_url.app_error",
     "translation": "Invalid site url.",
-    "description": "API error when an invitation to connect two Mattermost servers contains an invalid site URL for the inviting server."
+    "description": "API error when an invitation to connect two Astra Loop servers contains an invalid site URL for the inviting server."
   },
   {
     "id": "model.remote_cluster_invite.is_valid.token.app_error",
     "translation": "Invalid token.",
-    "description": "API error when an invitation to connect two Mattermost servers contains a malformed authentication token."
+    "description": "API error when an invitation to connect two Astra Loop servers contains a malformed authentication token."
   },
   {
     "id": "model.reporting_base_options.is_valid.bad_date_range",
@@ -19229,12 +18409,12 @@
   {
     "id": "model.websocket_client.connect_fail.app_error",
     "translation": "Unable to connect to the WebSocket server.",
-    "description": "Error from the Go WebSocket client library when it cannot establish a connection to the Mattermost WebSocket endpoint; audience is developers/CLI users."
+    "description": "Error from the Go WebSocket client library when it cannot establish a connection to the Astra Loop WebSocket endpoint; audience is developers/CLI users."
   },
   {
     "id": "oauth.gitlab.tos.error",
-    "translation": "GitLab's Terms of Service have updated. Please go to {{.URL}} to accept them and then try logging into Mattermost again.",
-    "description": "Login error for GitLab SSO users who must accept GitLab's updated Terms of Service; {{.URL}} is the GitLab ToS page link. Keep 'GitLab' and 'Mattermost' as product names."
+    "translation": "GitLab's Terms of Service have updated. Please go to {{.URL}} to accept them and then try logging into Astra Loop again.",
+    "description": "Login error for GitLab SSO users who must accept GitLab's updated Terms of Service; {{.URL}} is the GitLab ToS page link. Keep 'GitLab' and 'Astra Loop' as product names."
   },
   {
     "id": "plugin.api.get_users_in_channel",
@@ -19299,22 +18479,22 @@
   {
     "id": "shared_channel.system_message.no_longer_shared",
     "translation": "This channel is no longer shared with {{.WorkspaceName}}.",
-    "description": "System message posted in a channel when sharing with a remote Mattermost instance ends; {{.WorkspaceName}} is the remote instance's display name."
+    "description": "System message posted in a channel when sharing with a remote Astra Loop instance ends; {{.WorkspaceName}} is the remote instance's display name."
   },
   {
     "id": "shared_channel.system_message.no_longer_shared_unknown",
     "translation": "This channel is no longer shared with another workspace.",
-    "description": "System message posted in a channel when it stops being shared with another Mattermost server and the remote workspace's name is unknown; 'workspace' is the other server."
+    "description": "System message posted in a channel when it stops being shared with another Astra Loop server and the remote workspace's name is unknown; 'workspace' is the other server."
   },
   {
     "id": "shared_channel.system_message.now_shared",
     "translation": "This channel is now shared with {{.WorkspaceName}}.",
-    "description": "System message posted in a channel when it starts being shared with a remote Mattermost instance; {{.WorkspaceName}} is the remote instance's display name."
+    "description": "System message posted in a channel when it starts being shared with a remote Astra Loop instance; {{.WorkspaceName}} is the remote instance's display name."
   },
   {
     "id": "sharedchannel.cannot_deliver_post",
     "translation": "One or more posts could not be delivered to remote site {{.Remote}} because it is offline. The post(s) will be delivered when the site is online.",
-    "description": "Ephemeral notice in a shared channel when messages cannot be synced to a remote site; {{.Remote}} is the remote Mattermost instance's name; 'posts' are messages."
+    "description": "Ephemeral notice in a shared channel when messages cannot be synced to a remote site; {{.Remote}} is the remote Astra Loop instance's name; 'posts' are messages."
   },
   {
     "id": "sharedchannel.permalink.not_found",
@@ -19459,11 +18639,11 @@
   {
     "id": "web.error.unsupported_browser.download",
     "translation": "Download the App",
-    "description": "Button label on the 'unsupported browser' page for downloading the Mattermost desktop app; 'App' refers to the desktop application."
+    "description": "Button label on the 'unsupported browser' page for downloading the Astra Loop desktop app; 'App' refers to the desktop application."
   },
   {
     "id": "web.error.unsupported_browser.download_app_or_upgrade_browser",
-    "translation": "Download the Mattermost app or use a supported browser for a better experience.",
+    "translation": "Download the Astra Loop app or use a supported browser for a better experience.",
     "description": "Subtitle text on the full-page 'unsupported browser' screen suggesting alternatives; end-user facing, shown before login."
   },
   {
@@ -19518,13 +18698,13 @@
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support",
-    "translation": "This browser is no longer supported by Mattermost",
-    "description": "Main heading of the full-page error shown when someone opens Mattermost in an outdated/unsupported web browser."
+    "translation": "This browser is no longer supported by Astra Loop",
+    "description": "Main heading of the full-page error shown when someone opens Astra Loop in an outdated/unsupported web browser."
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support_version",
-    "translation": "This version of your browser is no longer supported by Mattermost",
-    "description": "Headline on the full-page error shown when someone opens Mattermost in an outdated browser version."
+    "translation": "This version of your browser is no longer supported by Astra Loop",
+    "description": "Headline on the full-page error shown when someone opens Astra Loop in an outdated browser version."
   },
   {
     "id": "web.error.unsupported_browser.open_system_browser.edge",
@@ -19544,7 +18724,7 @@
   {
     "id": "web.error.unsupported_desktop_app.assistance",
     "translation": "Contact your system administrator if you need further assistance.",
-    "description": "Closing line on the full-page error shown when the user's Mattermost desktop app version is too old."
+    "description": "Closing line on the full-page error shown when the user's Astra Loop desktop app version is too old."
   },
   {
     "id": "web.error.unsupported_desktop_app.download_button",
@@ -19579,7 +18759,7 @@
   {
     "id": "web.error.unsupported_desktop_app.title",
     "translation": "Update Required",
-    "description": "Heading of the full-page error shown when the Mattermost desktop app version is below the server's minimum; 'update' refers to updating the app."
+    "description": "Heading of the full-page error shown when the Astra Loop desktop app version is below the server's minimum; 'update' refers to updating the app."
   },
   {
     "id": "web.get_access_token.internal_saving.app_error",
