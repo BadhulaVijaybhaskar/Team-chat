@@ -5925,7 +5925,7 @@
   },
   "admin.gitlab.EnableMarkdownDesc": {
     "defaultMessage": "1. Log in to your GitLab account and go to Profile Settings -> Applications.\n2. Enter Redirect URIs \"<loginUrlChunk>your-Astra Loop-url</loginUrlChunk>\" (example: http://localhost:8065/login/gitlab/complete) and \"<signupUrlChunk>your-Astra Loop-url</signupUrlChunk>\".\n3. Then use \"Application Secret Key\" and \"Application ID\" fields from GitLab to complete the options below.\n4. Complete the Endpoint URLs below.",
-    "description": "Numbered step-by-step setup instructions shown under the GitLab option on the OAuth/OpenID admin page; loginUrlChunk and signupUrlChunk tags are replaced with URL templates at runtime, so keep the your-mattermost-url text inside them."
+    "description": "Numbered step-by-step setup instructions shown under the GitLab option on the OAuth/OpenID admin page; loginUrlChunk and signupUrlChunk tags are replaced with URL templates at runtime, so keep the your-server-url text inside them."
   },
   "admin.gitlab.siteUrl": {
     "defaultMessage": "GitLab Site URL:",
@@ -7964,7 +7964,7 @@
     "description": "Setting label for a text field on the File Storage admin page; the Azure Blob Storage container name. Ends with a colon."
   },
   "admin.image.azureEndpointDescription": {
-    "defaultMessage": "Full Blob service URL, including scheme and storage account. Astra Loop does not modify this URL, so the storage account must already be embedded in the hostname (vhost-style, e.g. \"https://acmemattermost.blob.core.chinacloudapi.cn/\") or in the path (path-style, e.g. \"http://localhost:10000/devstoreaccount1/\"). Shared-key auth signs against the host this URL points at, so make sure it actually serves the storage account named above.",
+    "defaultMessage": "Full Blob service URL, including scheme and storage account. Astra Loop does not modify this URL, so the storage account must already be embedded in the hostname (vhost-style, e.g. \"https://acmeastraloop.blob.core.chinacloudapi.cn/\") or in the path (path-style, e.g. \"http://localhost:10000/devstoreaccount1/\"). Shared-key auth signs against the host this URL points at, so make sure it actually serves the storage account named above.",
     "description": "Admin console help text under the Custom Azure Endpoint field; vhost-style and path-style are URL addressing styles and the quoted URLs are literal examples."
   },
   "admin.image.azureEndpointExample": {
@@ -8012,7 +8012,7 @@
     "description": "Admin console help text under the Azure Storage Account field on the File Storage page."
   },
   "admin.image.azureStorageAccountExample": {
-    "defaultMessage": "E.g.: \"mattermoststorage\"",
+    "defaultMessage": "E.g.: \"astrastorage\"",
     "description": "Placeholder text inside the Azure Storage Account field showing an example account name."
   },
   "admin.image.azureStorageAccountTitle": {
@@ -8741,7 +8741,7 @@
   },
   "admin.ldap.idAttrDesc": {
     "defaultMessage": "The attribute in the AD/LDAP server used as a unique identifier in Astra Loop. If you need to change this field after users have already logged in, use the <link>Astra Loop ldap idmigrate</link> CLI tool.",
-    "description": "Admin console help text for the ID Attribute field; <link></link> wraps the CLI command name 'mattermost ldap idmigrate', which should not be translated."
+    "description": "Admin console help text for the ID Attribute field; <link></link> wraps the CLI command name 'ldap idmigrate', which should not be translated."
   },
   "admin.ldap.idAttrDescHover": {
     "defaultMessage": "It should be an AD/LDAP attribute with a value that does not change such as uid for LDAP or objectGUID for Active Directory. If a user's ID Attribute changes, it will create a new Astra Loop account unassociated with their old one.",
@@ -9701,7 +9701,7 @@
   },
   "admin.log.fileDescription": {
     "defaultMessage": "Typically set to true in production. When true, logged events are written to the Astra Loop.log file in the directory specified in the File Log Directory field. The logs are rotated at 100 MB and archived to a file in the same directory, and given a name with a datestamp and serial number. For example, Astra Loop.2017-03-31.001. Changing this setting requires a server restart before taking effect.",
-    "description": "Admin console help text under the Output logs to file toggle; mattermost.log and the datestamped filename are literal examples."
+    "description": "Admin console help text under the Output logs to file toggle; server.log and the datestamped filename are literal examples."
   },
   "admin.log.fileJsonTitle": {
     "defaultMessage": "Output file logs as JSON:",
@@ -13745,7 +13745,7 @@
   },
   "admin.saml.assertionConsumerServiceURLEx": {
     "defaultMessage": "E.g.: \"<urlChunk>your-Astra Loop-url</urlChunk>\"",
-    "description": "Placeholder text for the SAML Service Provider Login URL input; <urlChunk> wraps text inserted into an example URL like https://<your-mattermost-url>/login/sso/saml."
+    "description": "Placeholder text for the SAML Service Provider Login URL input; <urlChunk> wraps text inserted into an example URL like https://<your-server-url>/login/sso/saml."
   },
   "admin.saml.assertionConsumerServiceURLPopulatedDesc": {
     "defaultMessage": "This field is also known as the Assertion Consumer Service URL.",
@@ -14049,7 +14049,7 @@
   },
   "admin.saml.serviceProviderIdentifierEx": {
     "defaultMessage": "E.g.: \"<urlChunk>your-Astra Loop-url</urlChunk>\"",
-    "description": "Placeholder text for the SAML Service Provider Identifier input; <urlChunk> wraps text inserted into an example URL like https://<your-mattermost-url>/login/sso/saml."
+    "description": "Placeholder text for the SAML Service Provider Identifier input; <urlChunk> wraps text inserted into an example URL like https://<your-server-url>/login/sso/saml."
   },
   "admin.saml.serviceProviderIdentifierTitle": {
     "defaultMessage": "Service Provider Identifier:",
@@ -17893,7 +17893,7 @@
   },
   "air_gapped_modal.description": {
     "defaultMessage": "To start your trial, please visit {link} and request a trial key.",
-    "description": "Body of the modal shown to admins on servers without internet access; {link} is the URL mattermost.com/trial rendered as a link."
+    "description": "Body of the modal shown to admins on servers without internet access; {link} is the URL example.com/trial rendered as a link."
   },
   "air_gapped_modal.title": {
     "defaultMessage": "Request a trial key",
@@ -22381,7 +22381,7 @@
   },
   "delete_success_modal.button_text": {
     "defaultMessage": "Go to Astra Loop.com",
-    "description": "Primary button on the workspace-deleted modal; navigates to the mattermost.com website; keep the domain as-is."
+    "description": "Primary button on the workspace-deleted modal; navigates to the product website; keep the domain as-is."
   },
   "deleteChannelModal.canViewArchivedChannelsWarning": {
     "defaultMessage": "This will archive the channel from the team. Channel contents will still be accessible by channel members.",

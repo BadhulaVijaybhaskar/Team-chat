@@ -420,7 +420,9 @@ if (DEV) {
 } else {
     // Production mode configuration
     config.mode = 'production';
-    config.devtool = 'source-map';
+    // Do not emit source maps in production — they expose upstream package
+    // paths (e.g. mattermost-redux) in browser DevTools.
+    config.devtool = false;
 
     // Optimize SVGs from src/ at module-build time so vendor SVG fonts (e.g. font-awesome)
     // are never passed to svgo. Vendor SVGs get content-hashed names at emit time, making

@@ -212,12 +212,12 @@ fullEmoji.forEach((emoji) => {
 
 // add built-in custom emojis
 fullEmoji.push({
-    id: 'mattermost',
-    name: 'mattermost',
+    id: 'astra_loop',
+    name: 'astra_loop',
     unified: '',
-    image: 'mattermost.png',
-    short_name: 'mattermost',
-    short_names: ['mattermost'],
+    image: 'astra_loop.png',
+    short_name: 'astra_loop',
+    short_names: ['astra_loop'],
     category: 'custom',
 });
 
