@@ -194,19 +194,6 @@ export default function AboutBuildModal(props: Props) {
         </ExternalLink>
     ) : null;
 
-    const ossLicences = (
-        <ExternalLink
-            id='ossLicencesLink'
-            location='about_build_modal'
-            href='/static/oss/oss.html'
-        >
-            <FormattedMessage
-                id='about.openSourceLicences'
-                defaultMessage='Open-source licences'
-            />
-        </ExternalLink>
-    );
-
     const getServerVersionString = () => {
         const version = config.BuildNumber === 'dev' ? config.BuildNumber : config.Version;
         const fipsSuffix = config.IsFipsEnabled === 'true' ? ' (FIPS)' : '';
@@ -379,9 +366,9 @@ export default function AboutBuildModal(props: Props) {
                             />
                         </div>
                         <div className='about-modal__links'>
-                            {ossLicences}
-                            {termsOfService && <>{' - '}{termsOfService}</>}
-                            {privacyPolicy && <>{' - '}{privacyPolicy}</>}
+                            {termsOfService}
+                            {termsOfService && privacyPolicy && <>{' - '}</>}
+                            {privacyPolicy}
                         </div>
                     </div>
                 </div>

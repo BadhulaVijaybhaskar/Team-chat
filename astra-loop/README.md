@@ -21,3 +21,7 @@ Open http://localhost:8065 — drop-in replacement for `mattermost-team-edition`
 ## Open-source licences
 
 User-facing attribution lives only at `/static/oss/oss.html` (“Astra Loop includes open-source software”), linking to `LICENSE.txt` and `NOTICE.txt`.
+
+## Licensing
+
+See [`LICENSE_NOTES.md`](../LICENSE_NOTES.md). In-app attribution: `/static/oss/oss.html`.
