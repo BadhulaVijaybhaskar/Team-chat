@@ -5,8 +5,19 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT"
 
+# Prefer repo-pinned toolchains when present (Cloud Agent / local nvm).
+export NVM_DIR="${NVM_DIR:-$HOME/.nvm}"
+if [[ -s "$NVM_DIR/nvm.sh" ]]; then
+  # shellcheck disable=SC1090
+  . "$NVM_DIR/nvm.sh"
+  nvm use --silent "$(cat "$ROOT/.nvmrc" 2>/dev/null || echo 24.11.1)" >/dev/null 2>&1 || nvm use --silent 24.11.1 >/dev/null 2>&1 || true
+fi
 export PATH="${GO_BIN_DIR:-/usr/local/go-1.26.10/bin}:${PATH}"
 export BUILD_ENTERPRISE=false
+# Always write server binaries into server/bin (avoid inherited GOBIN pointing elsewhere).
+export GOBIN="${GOBIN:-$ROOT/server/bin}"
+mkdir -p "$GOBIN"
+unset GOPATH
 
 IMAGE_TAG="${IMAGE_TAG:-astra-loop:dev}"
 SKIP_PACKAGE="${SKIP_PACKAGE:-0}"
