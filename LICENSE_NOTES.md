@@ -42,3 +42,9 @@ Compiled binaries produced from this tree also follow the upstream compiled-lice
 ## Decision: written offer instead of a public repo link
 
 Product surfaces intentionally omit GitHub / repository / fork / build-hash pointers so the deployment does not advertise upstream project names or source locations in UI chrome. AGPL §13 is satisfied by the written offer on the Legal notices page plus an operational process at **support@astraconnect.io** that can provide corresponding source on request. Operators must not remove that offer or the support contact without replacing it with another compliant §13 mechanism.
+
+## No git / repo links in product surfaces
+
+Login, signup, Legal notices, emails, manifests, service workers, page source, and production source maps must not expose `github.com` (or other VCS host) links to the product repository or fork. Production webpack builds strip licence-banner comments that would otherwise ship `github.com` URLs into `/static/` (see `webapp/channels/webpack.config.js` Terser settings). Canonical licence texts remain only in repo / `/static/oss/` `LICENSE.txt` and `NOTICE.txt`.
+
+Response headers that cannot be safely changed in application code (notably `X-Version-Id`, which embeds a build hash) are listed for edge stripping in [`DEPLOY_NOTES.md`](DEPLOY_NOTES.md) under **Headers to strip at nginx**.

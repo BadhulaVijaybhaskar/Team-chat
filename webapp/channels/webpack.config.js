@@ -12,6 +12,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ImageMinimizerPlugin = require('image-minimizer-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const MonacoWebpackPlugin = require('monaco-editor-webpack-plugin');
+const TerserPlugin = require('terser-webpack-plugin');
 const webpack = require('webpack');
 const {ModuleFederationPlugin} = require('webpack').container;
 const WebpackPwaManifest = require('webpack-pwa-manifest');
@@ -448,10 +449,21 @@ if (DEV) {
     // Optimize images in production builds.
     // GIFs are excluded from sharp: animated GIFs (e.g. Customize-Your-Experience.gif)
     // lose frames or grow in size when re-encoded by sharp.
+    //
+    // Use an explicit TerserPlugin so licence-banner comments (often containing
+    // github.com URLs) are neither kept in the minified JS nor extracted to
+    // companion *.js.LICENSE.txt files that would be served under /static/.
     config.optimization = {
         ...config.optimization,
         minimizer: [
-            '...',
+            new TerserPlugin({
+                extractComments: false,
+                terserOptions: {
+                    format: {
+                        comments: false,
+                    },
+                },
+            }),
             new ImageMinimizerPlugin({
                 minimizer: {
                     implementation: ImageMinimizerPlugin.sharpMinify,
