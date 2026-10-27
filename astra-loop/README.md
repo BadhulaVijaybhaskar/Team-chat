@@ -20,6 +20,6 @@ Open http://localhost:8065 — drop-in replacement for `mattermost-team-edition`
 
 ## Legal notices
 
-After sign-in, Help → **Legal notices** (or the About dialog) opens `/static/oss/oss.html`. That page holds the Apache NOTICE, AGPLv3 notice, and AGPL §13 corresponding-source offer. Pre-sign-in surfaces (login, signup, footer, error pages, emails) do not show licence or upstream project names.
+After sign-in, Help → **Legal notices** (or the About dialog) opens `/static/oss/oss.html`. That page holds the Apache NOTICE, AGPLv3 notice, and a written corresponding-source offer (`support@astraconnect.io`). Pre-sign-in surfaces do not show licence or upstream project names.
 
 See [`LICENSE_NOTES.md`](../LICENSE_NOTES.md).

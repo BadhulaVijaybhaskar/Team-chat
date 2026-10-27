@@ -79,13 +79,10 @@ describe('components/AboutBuildModal', () => {
         expect(screen.getByTestId('aboutModalVersionInfo')).toHaveTextContent('Build Number: 123456');
         expect(screen.getByText('Astra Loop Entry')).toBeInTheDocument();
         expect(screen.getByText('Modern communication from behind your firewall.')).toBeInTheDocument();
-        expect(screen.getByRole('link', {name: 'mattermost.com'})).toHaveAttribute('href', 'https://mattermost.com/?utm_source=mattermost&utm_medium=in-product&utm_content=about_build_modal&uid=&sid=&edition=enterprise&server_version=3.6.0');
-        expect(screen.getByText('EE Build Hash: 0123456789abcdef', {exact: false})).toBeInTheDocument();
+        expect(screen.getByRole('link', {name: 'Legal notices'})).toHaveAttribute('href', '/static/oss/oss.html');
+        expect(screen.queryByText('Build Hash:', {exact: false})).not.toBeInTheDocument();
+        expect(screen.queryByText('EE Build Hash:', {exact: false})).not.toBeInTheDocument();
         expect(screen.queryByText('Hostname: mock.localhost', {exact: false})).toBeInTheDocument();
-
-        expect(screen.getByRole('link', {name: 'server'})).toHaveAttribute('href', 'https://github.com/mattermost/mattermost-server/blob/master/NOTICE.txt');
-        expect(screen.getByRole('link', {name: 'desktop'})).toHaveAttribute('href', 'https://github.com/mattermost/desktop/blob/master/NOTICE.txt');
-        expect(screen.getByRole('link', {name: 'mobile'})).toHaveAttribute('href', 'https://github.com/mattermost/mattermost-mobile/blob/master/NOTICE.txt');
     });
 
     test('should match snapshot for team edition', () => {
@@ -101,13 +98,10 @@ describe('components/AboutBuildModal', () => {
         expect(screen.getByTestId('aboutModalVersionInfo')).toHaveTextContent('Build Number: 123456');
         expect(screen.getByText('Astra Loop Team Edition')).toBeInTheDocument();
         expect(screen.getByText('All your team communication in one place, instantly searchable and accessible anywhere.')).toBeInTheDocument();
-        expect(screen.getByRole('link', {name: 'mattermost.com/community/'})).toHaveAttribute('href', 'https://mattermost.com/community/?utm_source=mattermost&utm_medium=in-product&utm_content=about_build_modal&uid=&sid=&edition=team&server_version=3.6.0');
-        expect(screen.queryByText('EE Build Hash: 0123456789abcdef')).not.toBeInTheDocument();
+        expect(screen.getByRole('link', {name: 'Legal notices'})).toHaveAttribute('href', '/static/oss/oss.html');
+        expect(screen.queryByText('Build Hash:', {exact: false})).not.toBeInTheDocument();
+        expect(screen.queryByText('EE Build Hash:', {exact: false})).not.toBeInTheDocument();
         expect(screen.queryByText('Hostname: disconnected', {exact: false})).toBeInTheDocument();
-
-        expect(screen.getByRole('link', {name: 'server'})).toHaveAttribute('href', 'https://github.com/mattermost/mattermost-server/blob/master/NOTICE.txt');
-        expect(screen.getByRole('link', {name: 'desktop'})).toHaveAttribute('href', 'https://github.com/mattermost/desktop/blob/master/NOTICE.txt');
-        expect(screen.getByRole('link', {name: 'mobile'})).toHaveAttribute('href', 'https://github.com/mattermost/mattermost-mobile/blob/master/NOTICE.txt');
     });
 
     test('should match snapshot for cloud edition', () => {
@@ -128,10 +122,10 @@ describe('components/AboutBuildModal', () => {
         expect(screen.getByText('Astra Loop Cloud')).toBeInTheDocument();
         expect(screen.getByText('High-trust messaging for the enterprise')).toBeInTheDocument();
         expect(screen.getByTestId('aboutModalVersion')).toHaveTextContent('Astra Loop Version: 3.6.0');
-        expect(screen.getByText('0123456789abcdef', {exact: false})).toBeInTheDocument();
-        expect(screen.getByRole('link', {name: 'server'})).toHaveAttribute('href', 'https://github.com/mattermost/mattermost-server/blob/master/NOTICE.txt');
-        expect(screen.getByRole('link', {name: 'desktop'})).toHaveAttribute('href', 'https://github.com/mattermost/desktop/blob/master/NOTICE.txt');
-        expect(screen.getByRole('link', {name: 'mobile'})).toHaveAttribute('href', 'https://github.com/mattermost/mattermost-mobile/blob/master/NOTICE.txt');
+        expect(screen.getByRole('link', {name: 'Legal notices'})).toHaveAttribute('href', '/static/oss/oss.html');
+        expect(screen.queryByText('Build Hash:', {exact: false})).not.toBeInTheDocument();
+        expect(screen.queryByText('EE Build Hash:', {exact: false})).not.toBeInTheDocument();
+        expect(screen.queryByText('0123456789abcdef', {exact: false})).not.toBeInTheDocument();
     });
 
     test('should show n/a if this is a dev build', () => {
@@ -151,13 +145,10 @@ describe('components/AboutBuildModal', () => {
         expect(screen.getByTestId('aboutModalVersionInfo')).toHaveTextContent('Build Number: n/a');
         expect(screen.getByText('Astra Loop Team Edition')).toBeInTheDocument();
         expect(screen.getByText('All your team communication in one place, instantly searchable and accessible anywhere.')).toBeInTheDocument();
-        expect(screen.getByRole('link', {name: 'mattermost.com/community/'})).toHaveAttribute('href', 'https://mattermost.com/community/?utm_source=mattermost&utm_medium=in-product&utm_content=about_build_modal&uid=&sid=&edition=team&server_version=dev');
-        expect(screen.queryByText('EE Build Hash: 0123456789abcdef')).not.toBeInTheDocument();
+        expect(screen.getByRole('link', {name: 'Legal notices'})).toHaveAttribute('href', '/static/oss/oss.html');
+        expect(screen.queryByText('Build Hash:', {exact: false})).not.toBeInTheDocument();
+        expect(screen.queryByText('EE Build Hash:', {exact: false})).not.toBeInTheDocument();
         expect(screen.queryByText('Hostname: server did not provide hostname', {exact: false})).toBeInTheDocument();
-
-        expect(screen.getByRole('link', {name: 'server'})).toHaveAttribute('href', 'https://github.com/mattermost/mattermost-server/blob/master/NOTICE.txt');
-        expect(screen.getByRole('link', {name: 'desktop'})).toHaveAttribute('href', 'https://github.com/mattermost/desktop/blob/master/NOTICE.txt');
-        expect(screen.getByRole('link', {name: 'mobile'})).toHaveAttribute('href', 'https://github.com/mattermost/mattermost-mobile/blob/master/NOTICE.txt');
     });
 
     test('should call onExited callback when the modal is hidden', async () => {

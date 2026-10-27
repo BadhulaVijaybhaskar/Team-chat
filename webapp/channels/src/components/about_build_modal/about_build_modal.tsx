@@ -381,31 +381,6 @@ export default function AboutBuildModal(props: Props) {
                         />
                     </p>
                 </div>
-                <div className='about-modal__hash'>
-                    <p>
-                        <FormattedMessage
-                            id='about.hash'
-                            defaultMessage='Build Hash:'
-                        />
-                        <Nbsp/>
-                        {config.BuildHash}
-                        <br/>
-                        <FormattedMessage
-                            id='about.hashee'
-                            defaultMessage='EE Build Hash:'
-                        />
-                        <Nbsp/>
-                        {config.BuildHashEnterprise}
-                    </p>
-                    <p>
-                        <FormattedMessage
-                            id='about.date'
-                            defaultMessage='Build Date:'
-                        />
-                        <Nbsp/>
-                        {config.BuildDate}
-                    </p>
-                </div>
             </Modal.Body>
         </Modal>
     );
