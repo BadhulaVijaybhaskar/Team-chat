@@ -118,7 +118,7 @@ const EnterpriseEditionLeftPanel = ({
                 <div className='EnterpriseEditionLeftPanel__Header'>
                     <div>
                         <div className='EnterpriseEditionLeftPanel__Title'>
-                            {`Mattermost ${getSkuDisplayName(unsanitizedLicense.SkuShortName, unsanitizedLicense.IsGovSku === 'true')}`}
+                            {`Astra Loop ${getSkuDisplayName(unsanitizedLicense.SkuShortName, unsanitizedLicense.IsGovSku === 'true')}`}
                         </div>
                     </div>
                     {viewPlansButton}
@@ -202,7 +202,7 @@ const EnterpriseEditionLeftPanel = ({
             <div className='EnterpriseEditionLeftPanel__Header'>
                 <div>
                     <div className='EnterpriseEditionLeftPanel__Title'>
-                        {`Mattermost ${skuName}`}
+                        {`Astra Loop ${skuName}`}
                         {isTrialLicense && (
                             <Tag
                                 text={formatMessage({
@@ -256,7 +256,7 @@ const EnterpriseEditionLeftPanel = ({
                 {/* This notice should not be translated */}
                 {upgradedFromTE ? <>
                     <p>
-                        {'When using Mattermost Enterprise Edition, the software is offered under a commercial license. See '}
+                        {'When using Astra Loop Enterprise Edition, the software is offered under a commercial license. See '}
                         <a
                             role='button'
                             onClick={openEELicenseModal}
@@ -387,7 +387,7 @@ const renderLicenseContent = (
 ) => {
     // Note: DO NOT LOCALISE THESE STRINGS. Legally we can not since the license is in English.
 
-    const sku = license.SkuShortName ? <>{`Mattermost ${toTitleCase(skuName)}${isTrialLicense ? ' License Trial' : ''}`}</> : null;
+    const sku = license.SkuShortName ? <>{`Astra Loop ${toTitleCase(skuName)}${isTrialLicense ? ' License Trial' : ''}`}</> : null;
 
     const users = <FormattedNumber value={parseInt(license.Users, 10)}/>;
     const activeUsers = <FormattedNumber value={statsActiveUsers}/>;
